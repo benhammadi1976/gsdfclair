@@ -1,0 +1,1725 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">GSDF CLAIR - التسيير العقاري، الحلول الرقمية والخدمات الميدانية</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta id="meta-description" name="description" content="GSDF CLAIR شركة مغربية متخصصة في التسيير العقاري، الحلول الرقمية، والخدمات الميدانية والرقمية، تقدم منظومة متكاملة تجمع بين الإدارة، الميدان، الرقمنة والتواصل.">
+    <meta name="keywords" content="GSDF CLAIR, التسيير العقاري, الملكية المشتركة, وكيل الاتحاد / السانديك, الحلول الرقمية, الخدمات الميدانية, النظافة, الحراسة, الصيانة, IQAMATI">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="GSDF CLAIR - المنصة الرسمية">
+    <meta property="og:description" content="شركة مغربية متخصصة في التسيير العقاري، الحلول الرقمية، والخدمات الميدانية والرقمية.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/gsdf-clair-logo.png">
+<link rel="icon" type="image/png" href="assets/gsdf-clair-logo.png">
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "GSDF CLAIR",
+      "description": "شركة مغربية متخصصة في التسيير العقاري، الحلول الرقمية، والخدمات الميدانية والرقمية. نقدم منظومة مهنية متكاملة لتسيير أوضح وخدمات أسرع.",
+      "logo": "assets/gsdf-clair-logo.png",
+      "telephone": "+212 680 170 327",
+      "email": "contact@gsdfclair.ma",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "CHEZ DOMICILCOM, RUE DAKAR IMM N 5 APT N 1 OCEAN",
+        "addressLocality": "RABAT",
+        "addressCountry": "MA"
+      }
+    }
+    </script>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Tajawal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tifinagh:wght@400;500;700&family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Tajawal', 'Noto Sans Tifinagh', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Fallback font for English/French if needed, though Tajawal supports Latin well */
+        html[lang="en"] body, html[lang="fr"] body {
+            font-family: 'Tajawal', 'Noto Sans Tifinagh', sans-serif; 
+        }
+        html[lang="am"] body {
+            font-family: 'Noto Sans Tifinagh', 'Tajawal', sans-serif;
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at 80% 20%, #1e40af 0%, #1e3a8a 100%);
+        }
+        .tab-transition {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen selection:bg-amber-500 selection:text-white overflow-x-hidden">
+
+    <!-- Header Navigation -->
+    <header class="border-b border-slate-200/80 bg-white/95 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Logo area -->
+            <div class="flex items-center gap-3">
+                <img src="assets/gsdf-clair-logo.png" alt="GSDF CLAIR Logo" class="h-10 w-auto object-contain" onerror="this.onerror=null; this.outerHTML='<div class=\'w-10 h-10 rounded-lg bg-gradient-to-tr from-amber-400 to-amber-600 flex items-center justify-center shadow-lg shadow-amber-500/20\'><span class=\'font-bold text-white\'>G</span></div>';">
+                <div>
+                    <span class="text-xl font-black tracking-wider text-slate-900">GSDF <span class="text-amber-500">CLAIR</span></span>
+                    <span class="block text-[9px] text-slate-500 tracking-widest uppercase -mt-1 font-bold" data-i18n="header.logo_desc">Syndic • Digital • Services</span>
+                </div>
+            </div>
+
+            <!-- Desktop Nav Menu -->
+            <nav class="hidden lg:flex items-center gap-5 xl:gap-7 text-sm font-semibold">
+                <a href="#hero" class="text-slate-600 hover:text-blue-600 transition-colors" data-i18n="nav.home">الرئيسية</a>
+                <a href="#about-us" class="text-slate-600 hover:text-blue-600 transition-colors" data-i18n="nav.about">من نحن</a>
+                <a href="#services-explorer" class="text-slate-600 hover:text-blue-600 transition-colors" data-i18n="nav.pillars">أقطاب الشركة</a>
+                <a href="#digital-platforms" class="text-slate-600 hover:text-blue-600 transition-colors" data-i18n="nav.platforms">المنصات الرقمية</a>
+                <a href="#methodology" class="text-slate-600 hover:text-blue-600 transition-colors" data-i18n="nav.method">منهجيتنا</a>
+                <a href="#target-audience" class="text-slate-600 hover:text-blue-600 transition-colors" data-i18n="nav.target">لمن نقدم خدماتنا</a>
+                <a href="#legal-info" class="text-slate-600 hover:text-blue-600 transition-colors" onclick="openModal('legal')" data-i18n="nav.legal">المعلومات القانونية</a>
+            </nav>
+
+            <!-- CTA Buttons & Language Toggle -->
+            <div class="flex items-center gap-3">
+                <!-- Desktop Language Switcher -->
+                <div class="hidden lg:flex items-center gap-2 text-xs font-bold text-slate-400 border-e border-slate-200 pe-3 me-1">
+                    <button onclick="changeLanguage('ar')" class="lang-btn hover:text-amber-500 transition-colors text-amber-500" data-lang="ar">AR</button>
+                    <span>|</span>
+                    <button onclick="changeLanguage('am')" class="lang-btn hover:text-amber-500 transition-colors" data-lang="am">AM</button>
+                    <span>|</span>
+                    <button onclick="changeLanguage('fr')" class="lang-btn hover:text-amber-500 transition-colors" data-lang="fr">FR</button>
+                    <span>|</span>
+                    <button onclick="changeLanguage('en')" class="lang-btn hover:text-amber-500 transition-colors" data-lang="en">EN</button>
+                </div>
+
+                <button onclick="openModal('contact')" class="hidden sm:inline-flex items-center px-5 py-2.5 text-xs font-bold text-white bg-emerald-600 hover:bg-emerald-500 rounded-full shadow-md shadow-emerald-600/20 transition-all transform hover:-translate-y-0.5" data-i18n="nav.contact_btn">
+                    اتصل بنا
+                </button>
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="lg:hidden p-2 text-slate-600 hover:text-slate-900 focus:outline-none bg-slate-100 rounded-lg">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Nav Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden absolute top-20 start-0 w-full bg-white border-b border-slate-200 shadow-xl overflow-hidden transition-all z-40">
+            <nav class="flex flex-col font-bold text-sm">
+                <!-- Mobile Language Switcher -->
+                <div class="flex items-center justify-center gap-2 sm:gap-4 py-4 bg-slate-50 border-b border-slate-100 text-xs">
+                    <button onclick="changeLanguage('ar'); toggleMobileMenu()" class="lang-btn hover:text-amber-500 text-amber-500" data-lang="ar">العربية (AR)</button>
+                    <span class="text-slate-300">|</span>
+                    <button onclick="changeLanguage('am'); toggleMobileMenu()" class="lang-btn hover:text-amber-500 text-slate-400" data-lang="am">ⵜⴰⵎⴰⵣⵉⵖⵜ (AM)</button>
+                    <span class="text-slate-300">|</span>
+                    <button onclick="changeLanguage('fr'); toggleMobileMenu()" class="lang-btn hover:text-amber-500 text-slate-400" data-lang="fr">Français (FR)</button>
+                    <span class="text-slate-300">|</span>
+                    <button onclick="changeLanguage('en'); toggleMobileMenu()" class="lang-btn hover:text-amber-500 text-slate-400" data-lang="en">English (EN)</button>
+                </div>
+
+                <a href="#hero" onclick="toggleMobileMenu()" class="px-6 py-4 border-b border-slate-100 text-slate-700 hover:bg-slate-50 hover:text-amber-500" data-i18n="nav.home">الرئيسية</a>
+                <a href="#about-us" onclick="toggleMobileMenu()" class="px-6 py-4 border-b border-slate-100 text-slate-700 hover:bg-slate-50 hover:text-amber-500" data-i18n="nav.about">من نحن</a>
+                <a href="#services-explorer" onclick="toggleMobileMenu()" class="px-6 py-4 border-b border-slate-100 text-slate-700 hover:bg-slate-50 hover:text-amber-500" data-i18n="nav.pillars">أقطاب الشركة</a>
+                <a href="#digital-platforms" onclick="toggleMobileMenu()" class="px-6 py-4 border-b border-slate-100 text-slate-700 hover:bg-slate-50 hover:text-amber-500" data-i18n="nav.platforms">المنصات الرقمية</a>
+                <a href="#methodology" onclick="toggleMobileMenu()" class="px-6 py-4 border-b border-slate-100 text-slate-700 hover:bg-slate-50 hover:text-amber-500" data-i18n="nav.method">منهجيتنا</a>
+                <a href="#target-audience" onclick="toggleMobileMenu()" class="px-6 py-4 border-b border-slate-100 text-slate-700 hover:bg-slate-50 hover:text-amber-500" data-i18n="nav.target">لمن نقدم خدماتنا</a>
+                <button onclick="openModal('legal'); toggleMobileMenu()" class="px-6 py-4 border-b border-slate-100 text-slate-700 text-start hover:bg-slate-50 hover:text-amber-500" data-i18n="nav.legal">المعلومات القانونية</button>
+                <button onclick="openModal('contact'); toggleMobileMenu()" class="px-6 py-4 text-emerald-600 text-start hover:bg-emerald-50" data-i18n="nav.contact_btn">اتصل بنا</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-gradient relative py-20 lg:py-32 overflow-hidden border-b border-slate-200">
+        <!-- Glowing Ambient Dots -->
+        <div class="absolute top-1/4 end-1/4 w-96 h-96 bg-blue-500/15 rounded-full blur-[120px] pointer-events-none"></div>
+        <div class="absolute bottom-1/4 start-1/4 w-96 h-96 bg-amber-400/10 rounded-full blur-[150px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Hero Text -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-start">
+                    <img src="assets/gsdf-clair-logo.png" alt="GSDF CLAIR" class="h-16 md:h-20 mx-auto lg:mx-0 lg:ms-0 object-contain drop-shadow-lg" onerror="this.style.display='none'">
+                    
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/20 text-xs text-white">
+                        <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+                        <span class="font-medium" data-i18n="hero.badge">مجموعة خدمات متكاملة</span>
+                    </div>
+
+                    <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-200 leading-tight">
+                        GSDF CLAIR
+                    </h1>
+                    
+                    <h2 class="text-xl sm:text-2xl font-bold text-white leading-relaxed" data-i18n="hero.subtitle">
+                        شركة مغربية للتسيير العقاري، الحلول الرقمية، والخدمات الميدانية والرقمية
+                    </h2>
+
+                    <p class="text-base sm:text-lg text-slate-100 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light" data-i18n="hero.desc">
+                        نقدم منظومة مهنية متكاملة تجمع بين التسيير العقاري، الخبرة الميدانية، الحلول الرقمية، وصناعة المحتوى، من أجل تسيير أوضح، خدمات أسرع، وتواصل أكثر شفافية مع الملاك، الزبناء، والمهنيين.
+                    </p>
+
+                    <div class="flex flex-wrap justify-center lg:justify-start gap-3 pt-4">
+                        <a href="#services-explorer" class="px-6 py-3.5 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold rounded-xl shadow-lg shadow-amber-500/20 transition-all transform hover:-translate-y-1" data-i18n="hero.btn_pillars">
+                            تصفح أقطاب الشركة
+                        </a>
+                        <button onclick="openModalWithService('val_p1_syndic')" class="px-6 py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl shadow-lg shadow-emerald-600/20 transition-all transform hover:-translate-y-1 flex items-center gap-2">
+                            <span data-i18n="hero.btn_syndic">طلب عرض تسيير إقامة</span>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                        </button>
+                        <button onclick="openModal('contact')" class="px-6 py-3.5 bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold rounded-xl transition-all transform hover:-translate-y-1" data-i18n="hero.btn_general">
+                            طلب خدمة عامة
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Interactive Hero Graphic -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-[360px] sm:max-w-[400px] aspect-square rounded-3xl bg-gradient-to-tr from-white to-white/40 p-1 border border-white/40 shadow-2xl overflow-hidden backdrop-blur-sm">
+                        <!-- Simulated App Interface showing 3 sections -->
+                        <div class="w-full h-full bg-white rounded-[22px] p-6 flex flex-col justify-between shadow-inner">
+                            <div class="flex justify-between items-center border-b border-slate-100 pb-4">
+                                <div class="flex items-center gap-2">
+                                    <div class="w-3 h-3 rounded-full bg-red-400"></div>
+                                    <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
+                                    <div class="w-3 h-3 rounded-full bg-green-400"></div>
+                                </div>
+                                <span class="text-[10px] text-slate-500 bg-slate-100 px-2 py-1 rounded font-bold" data-i18n="hero.widget_title">منظومة GSDF CLAIR</span>
+                            </div>
+
+                            <div class="space-y-4 my-6 flex-1 flex flex-col justify-center">
+                                <!-- Box 1 -->
+                                <div onclick="switchTab('realestate'); window.location.href='#services-explorer';" class="cursor-pointer flex items-center justify-between p-3 rounded-xl bg-amber-500/5 border border-amber-500/20 hover:bg-amber-500/10 transition-all">
+                                    <div class="flex items-center gap-3">
+                                        <div class="p-2 rounded-lg bg-amber-500/10 text-amber-600">
+                                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                                        </div>
+                                        <div class="text-start">
+                                            <p class="text-xs font-bold text-slate-900" data-i18n="hero.w_p1_t">1. التسيير العقاري</p>
+                                            <p class="text-[9px] text-slate-500" data-i18n="hero.w_p1_d">الملكية المشتركة والوساطة الذكية</p>
+                                        </div>
+                                    </div>
+                                    <svg class="w-4 h-4 text-amber-500 ltr:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                                </div>
+                                <!-- Box 2 -->
+                                <div onclick="switchTab('digital'); window.location.href='#services-explorer';" class="cursor-pointer flex items-center justify-between p-3 rounded-xl bg-blue-500/5 border border-blue-500/20 hover:bg-blue-500/10 transition-all">
+                                    <div class="flex items-center gap-3">
+                                        <div class="p-2 rounded-lg bg-blue-500/10 text-blue-600">
+                                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                                        </div>
+                                        <div class="text-start">
+                                            <p class="text-xs font-bold text-slate-900" data-i18n="hero.w_p2_t">2. الحلول الرقمية</p>
+                                            <p class="text-[9px] text-slate-500" data-i18n="hero.w_p2_d">التطوير البرمجي وصناعة المحتوى</p>
+                                        </div>
+                                    </div>
+                                    <svg class="w-4 h-4 text-blue-500 ltr:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                                </div>
+                                <!-- Box 3 -->
+                                <div onclick="switchTab('services'); window.location.href='#services-explorer';" class="cursor-pointer flex items-center justify-between p-3 rounded-xl bg-emerald-500/5 border border-emerald-500/20 hover:bg-emerald-500/10 transition-all">
+                                    <div class="flex items-center gap-3">
+                                        <div class="p-2 rounded-lg bg-emerald-500/10 text-emerald-600">
+                                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                        </div>
+                                        <div class="text-start">
+                                            <p class="text-xs font-bold text-slate-900" data-i18n="hero.w_p3_t">3. الخدمات الميدانية والرقمية</p>
+                                            <p class="text-[9px] text-slate-500" data-i18n="hero.w_p3_d">ميدانياً وعبر الوسائط الرقمية</p>
+                                        </div>
+                                    </div>
+                                    <svg class="w-4 h-4 text-emerald-500 ltr:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-us" class="py-20 bg-white border-b border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+            <span class="text-xs font-extrabold text-amber-600 uppercase tracking-widest bg-amber-500/10 px-3 py-1 rounded-full" data-i18n="about.badge">من نحن</span>
+            <h2 class="text-3xl sm:text-4xl font-black text-slate-900" data-i18n="about.title">من هي GSDF CLAIR؟</h2>
+            <div class="w-20 h-1 bg-amber-500 mx-auto rounded-full"></div>
+            <p class="text-slate-600 leading-relaxed text-base sm:text-lg text-justify sm:text-center mt-6" data-i18n="about.desc">
+                GSDF CLAIR شركة مغربية تعتمد على نموذج متكامل في تقديم الخدمات، يقوم على ثلاثة أقطاب مترابطة: التسيير العقاري، الحلول الرقمية، والخدمات الميدانية والرقمية. لا تشتغل الشركة بمنطق الخدمة المعزولة فقط، بل بمنهجية تجمع بين الإدارة، الميدان، الرقمنة، والتواصل، لتقديم حلول عملية للإقامات، الملاك، العقارات، الزبناء، والمهنيين.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Explorer Section (الأقطاب الثلاثة) -->
+    <section id="services-explorer" class="py-24 bg-slate-50 relative border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-xs font-extrabold text-amber-600 uppercase tracking-widest bg-amber-500/10 px-3 py-1 rounded-full" data-i18n="pillars.badge">المنظومة الخدمية الشاملة</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-slate-900" data-i18n="pillars.title">الأقطاب الثلاثة لشركة GSDF CLAIR</h2>
+                <div class="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
+                <p class="text-slate-600 text-sm sm:text-base leading-relaxed" data-i18n="pillars.desc">
+                    تنفرد <strong>GSDF CLAIR</strong> بتقديم نموذج متكامل متميز يتيح إدارة استثنائية ورقمنة مرنة وحياة إقامية يسيرة عبر 3 محاور أساسية فقط.
+                </p>
+            </div>
+
+            <!-- Tab Switchers -->
+            <div class="flex flex-wrap justify-center gap-2 sm:gap-4 mb-12 p-1.5 bg-white rounded-2xl max-w-3xl mx-auto border border-slate-200 shadow-sm">
+                <button onclick="switchTab('realestate')" id="tab-btn-realestate" class="flex-1 min-w-[150px] py-3.5 px-6 rounded-xl text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2.5 bg-amber-500 text-slate-950 shadow-md">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                    <span data-i18n="pillars.tab1">التسيير العقاري</span>
+                </button>
+                <button onclick="switchTab('digital')" id="tab-btn-digital" class="flex-1 min-w-[150px] py-3.5 px-6 rounded-xl text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2.5 text-slate-600 hover:text-slate-900 hover:bg-slate-100">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    <span data-i18n="pillars.tab2">الحلول الرقمية</span>
+                </button>
+                <button onclick="switchTab('services')" id="tab-btn-services" class="flex-1 min-w-[150px] py-3.5 px-6 rounded-xl text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2.5 text-slate-600 hover:text-slate-900 hover:bg-slate-100">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    <span data-i18n="pillars.tab3">الخدمات الميدانية والرقمية</span>
+                </button>
+            </div>
+
+            <!-- Tab Contents Container -->
+            <div class="mt-8 bg-white border border-slate-200 rounded-3xl p-6 sm:p-10 shadow-lg relative overflow-hidden">
+                <div class="absolute -top-24 -start-24 w-80 h-80 bg-blue-500/5 rounded-full blur-3xl pointer-events-none"></div>
+
+                <!-- TAB 1: Real Estate -->
+                <div id="tab-content-realestate" class="space-y-8 tab-transition">
+                    <div class="flex flex-col lg:flex-row justify-between lg:items-center gap-6 border-b border-slate-200 pb-6">
+                        <div>
+                            <span class="text-xs font-bold text-amber-600 uppercase tracking-widest" data-i18n="pillars.p1.badge">1. التسيير العقاري</span>
+                            <h3 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-1" data-i18n="pillars.p1.title">Gestion Immobilière</h3>
+                            <p class="text-slate-600 text-sm sm:text-base mt-2" data-i18n="pillars.p1.desc">نهتم بتسيير العقارات والممتلكات وفق مقاربة احترافية تجمع بين الإدارة، المتابعة، والتثمين العقاري المتطور.</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <!-- Subsection 1.1 -->
+                        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-amber-500/30 transition-all shadow-sm">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="w-8 h-8 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-600 font-bold text-sm">1.1</span>
+                                <h4 class="text-lg font-bold text-slate-900" data-i18n="pillars.p1.sub1_t">تسيير الملكية العقارية / وكيل الاتحاد</h4>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-4" data-i18n="pillars.p1.sub1_d">خدمات متخصصة ومصممة بدقة لإدارة وتسيير العقارات والإقامات السكنية والتجارية لضمان سلامتها وقيمتها السوقية:</p>
+                            <ul class="space-y-3">
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-amber-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p1.s1_l1">تسيير الملكية المشتركة والإقامات السكنية المتكاملة والمغلقة.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-amber-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p1.s1_l2">تولي مهام وكيل الاتحاد / السانديك وتدبير وإصلاح الأجزاء والمرافق المشتركة.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-amber-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p1.s1_l3">التتبع الإداري والمالي والتقني الشامل بكل وضوح وشفافية.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-amber-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p1.s1_l4">أعمال التحصيل الممنهج والتتبع المحاسبي المستمر وإعداد تقارير دورية.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-amber-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p1.s1_l5">مواكبة وتيسير عقد الاجتماعات العامة وتأمين قنوات التواصل الدائم مع الملاك.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Subsection 1.2 -->
+                        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-amber-500/30 transition-all shadow-sm">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="w-8 h-8 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-600 font-bold text-sm">1.2</span>
+                                <h4 class="text-lg font-bold text-slate-900" data-i18n="pillars.p1.sub2_t">الوكالة العقارية والوساطة الذكية</h4>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-4" data-i18n="pillars.p1.sub2_d">نقدم حلول مواكبة ووساطة عقارية شاملة لضمان بيع، كراء وتثمين الأصول بسلاسة تامة وبأفضل الأسعار:</p>
+                            <ul class="space-y-3">
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-amber-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p1.s2_l1">الوساطة في بيع وشراء العقارات السكنية، التجارية، والصناعية بجدية واحترافية.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-amber-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p1.s2_l2">تدبير كراء الوحدات السكنية والتجارية وضمان صياغة عقود قوية ومحكمة.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-amber-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p1.s2_l3">تثمين وتسويق مبتكر ومدروس ومبني على الواقع للممتلكات العقارية لرفع كفاءتها.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-amber-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p1.s2_l4">البحث المنهجي واقتناص أفضل الفرص الاستثمارية العقارية التي تحقق أعلى العوائد.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 2: Digital Solutions -->
+                <div id="tab-content-digital" class="space-y-8 tab-transition hidden">
+                    <div class="flex flex-col lg:flex-row justify-between lg:items-center gap-6 border-b border-slate-200 pb-6">
+                        <div>
+                            <span class="text-xs font-bold text-blue-600 uppercase tracking-widest" data-i18n="pillars.p2.badge">2. الحلول الرقمية</span>
+                            <h3 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-1" data-i18n="pillars.p2.title">Solutions Digitales</h3>
+                            <p class="text-slate-600 text-sm sm:text-base mt-2" data-i18n="pillars.p2.desc">نعمل على تطوير حلول تقنية برمجية وإعلامية مبتكرة تعزز التحول الرقمي للأفراد والمهنيين والمجمعات الحديثة.</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <!-- Subsection 2.1 -->
+                        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-blue-500/30 transition-all shadow-sm">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-600 font-bold text-sm">2.1</span>
+                                <h4 class="text-lg font-bold text-slate-900" data-i18n="pillars.p2.sub1_t">التطوير البرمجي والخدمات الرقمية</h4>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-4" data-i18n="pillars.p2.sub1_d">نصمم ونبني برمجيات سريعة وحلول رقمية تضع مجمعك أو أعمالك في طليعة العصر الرقمي الحديث:</p>
+                            <ul class="space-y-3">
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-blue-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p2.s1_l1">تصميم وتطوير المنصات وتطبيقات الهواتف الذكية المخصصة.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-blue-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p2.s1_l2">تطوير منصات تسيير وكيل الاتحاد / السانديك الحديثة التي ترتقي بإدارة الإقامات.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-blue-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p2.s1_l3">حلول أتمتة وتسيير ذكي للإقامات تتيح أداء وتتبع المعاملات عبر الهواتف.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-blue-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p2.s1_l4">الرقمنة السريعة وإدارة وتأمين وحماية البيانات والخدمات السحابية.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Subsection 2.2 -->
+                        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-blue-500/30 transition-all shadow-sm">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-600 font-bold text-sm">2.2</span>
+                                <h4 class="text-lg font-bold text-slate-900" data-i18n="pillars.p2.sub2_t">صناعة المحتوى الرقمي والتوعوي</h4>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-4" data-i18n="pillars.p2.sub2_d">نعمل على إنتاج محتوى إبداعي يهدف إلى تثقيف الساكنة وترسيخ التزامهم السلوكي والمالي:</p>
+                            <ul class="space-y-3">
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-blue-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p2.s2_l1">تصميم المحتوى البصري الفاخر والمنشورات التوعوية التفاعلية الخاصة بالإقامات.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-blue-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p2.s2_l2">إنتاج فيديوهات تثقيفية ووسائط مرئية تشرح القوانين وحقوق الساكنة.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-blue-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p2.s2_l3">إدارة وتأمين التفاعل بصفحات التواصل الاجتماعي والمجموعات الرقمية السكنية.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-blue-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p2.s2_l4">إعداد وهندسة حملات توعية عامة وإشهارية واستهداف مدروس للمهتمين.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 3: Services -->
+                <div id="tab-content-services" class="space-y-8 tab-transition hidden">
+                    <div class="flex flex-col lg:flex-row justify-between lg:items-center gap-6 border-b border-slate-200 pb-6">
+                        <div>
+                            <span class="text-xs font-bold text-emerald-600 uppercase tracking-widest" data-i18n="pillars.p3.badge">3. الخدمات الميدانية والرقمية</span>
+                            <h3 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-1" data-i18n="pillars.p3.title">Services de Terrain & Digitaux</h3>
+                            <p class="text-slate-600 text-sm sm:text-base mt-2" data-i18n="pillars.p3.desc">نقدم تكاملًا فريداً من نوعه بين السواعد الميدانية على الأرض وأحدث التطبيقات لتوفير بيئة عيش وعمل مريحة وسلسة.</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <!-- Subsection 3.1 -->
+                        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-emerald-500/30 transition-all shadow-sm">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="w-8 h-8 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-600 font-bold text-sm">3.1</span>
+                                <h4 class="text-lg font-bold text-slate-900" data-i18n="pillars.p3.sub1_t">خدمات عبر مستخدمين ميدانيين</h4>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-4" data-i18n="pillars.p3.sub1_d">نحن لا نوكل المهام فقط، بل نتابعها ميدانياً بدقة عبر كوادر مهنية مدربة ومجهزة بالكامل:</p>
+                            <ul class="space-y-3">
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p3.s1_l1">خدمات حراسة احترافية منظمة وأعمال نظافة دورية تطال الأركان بانتظام.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p3.s1_l2">تدخلات تقنية وصيانة سريعة وفورية (الكهرباء، السباكة، أنظمة الضخ والمصاعد).</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p3.s1_l3">تنسيق أعمال البستنة الدورية وتهيئة المساحات الخضراء والمسابح بانتظام.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p3.s1_l4">مراقبين ميدانيين لتتبع جودة الخدمات والتحقق من التزام العمال بالمعايير.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Subsection 3.2 -->
+                        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-emerald-500/30 transition-all shadow-sm">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="w-8 h-8 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-600 font-bold text-sm">3.2</span>
+                                <h4 class="text-lg font-bold text-slate-900" data-i18n="pillars.p3.sub2_t">خدمات عبر الوسائط الرقمية</h4>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-4" data-i18n="pillars.p3.sub2_d">نوفر حلول تواصل واستشارة متطورة تسهل الوصول للخدمة دون عناء مغادرة منزلك أو مكتبك:</p>
+                            <ul class="space-y-3">
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p3.s2_l1">تقديم وحجز وتتبع طلبات الصيانة بشكل كامل عبر الهواتف والأنظمة السحابية بنجاح.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p3.s2_l2">الربط الرقمي الفوري والذكي بين السكان وأفضل مزودي وصناع الخدمات المنزلية المعتمدين.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p3.s2_l3">مواكبة رقمية وإرشاد وتوجيه قانوني وفني عن بعد عبر موظفين مدربين.</span>
+                                </li>
+                                <li class="flex items-start gap-2 text-xs text-slate-600">
+                                    <svg class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                    <span data-i18n="pillars.p3.s2_l4">توفير أحدث قنوات وحلول التدبير الذاتي والتراسل الفوري لإعلان قرارات الإقامة.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Digital Platforms Section -->
+    <section id="digital-platforms" class="py-20 bg-slate-100 border-b border-slate-200 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-xs font-extrabold text-blue-600 uppercase tracking-widest bg-blue-500/10 px-3 py-1 rounded-full" data-i18n="platforms.badge">الدعم التكنولوجي</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-4" data-i18n="platforms.title">منصاتنا الرقمية</h2>
+                <div class="w-16 h-1 bg-blue-500 mx-auto rounded-full mt-4"></div>
+                <p class="text-slate-600 text-sm sm:text-base mt-4 max-w-2xl mx-auto" data-i18n="platforms.desc">
+                    منصات رقمية متطورة تابعة لشركة GSDF CLAIR، تم تصميمها لتدعم أقطابنا الثلاثة وتسهل التفاعل مع محيطنا المهني.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-lg hover:-translate-y-1 transition-transform duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-amber-400 to-amber-600 flex items-center justify-center text-white mb-6 shadow-md">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-black text-slate-900 mb-3 tracking-wide">IQAMATI<span class="text-amber-500">.COM</span></h3>
+                        <p class="text-slate-600 leading-relaxed text-sm mb-6" data-i18n="platforms.iqamati_com">
+                            منصة عقارية وخدماتية تابعة لشركة GSDF CLAIR.<br>
+                            تخدم بشكل أساسي البيع، الكراء، الخدمات، العارضين العقاريين، المهنيين، وتستقبل مختلف طلبات الزوار.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <a href="https://iqamati.com" target="_blank" class="px-5 py-2.5 bg-amber-500 hover:bg-amber-400 text-slate-900 font-bold text-xs rounded-xl transition-all shadow-md" data-i18n="platforms.visit_com">
+                            زيارة IQAMATI.COM
+                        </a>
+                        <button onclick="openModal('contact')" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200 font-bold text-xs rounded-xl transition-all" data-i18n="platforms.learn_more">
+                            تعرف أكثر
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-lg hover:-translate-y-1 transition-transform duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-blue-500 to-blue-700 flex items-center justify-center text-white mb-6 shadow-md">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-black text-slate-900 mb-3 tracking-wide">IQAMATI<span class="text-blue-600">.MA</span></h3>
+                        <p class="text-slate-600 leading-relaxed text-sm mb-6" data-i18n="platforms.iqamati_ma">
+                            منصة خاصة بالملكية المشتركة وتسيير الإقامات.<br>
+                            تخدم وكيل الاتحاد، اتحاد الملاك، إدارة المحاسبة، عمليات التصويت، تلقي الشكايات والتبليغ، والتواصل المستمر مع الملاك.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <a href="https://iqamati.ma" target="_blank" class="px-5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs rounded-xl transition-all shadow-md" data-i18n="platforms.visit_ma">
+                            اكتشف IQAMATI.MA
+                        </a>
+                        <button onclick="openModal('contact')" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200 font-bold text-xs rounded-xl transition-all" data-i18n="platforms.request_offer">
+                            طلب عرض
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section id="methodology" class="py-20 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-xs font-extrabold text-emerald-600 uppercase tracking-widest bg-emerald-500/10 px-3 py-1 rounded-full" data-i18n="method.badge">نظامنا</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-4" data-i18n="method.title">منهجية GSDF CLAIR في العمل</h2>
+                <div class="w-16 h-1 bg-emerald-500 mx-auto rounded-full mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Step 1 -->
+                <div class="flex flex-col items-center text-center p-6 bg-slate-50 rounded-2xl border border-slate-100">
+                    <div class="w-12 h-12 rounded-full bg-slate-200 text-slate-600 font-black text-xl flex items-center justify-center mb-4">1</div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2" data-i18n="method.s1_t">الاستماع وفهم الحاجة</h4>
+                    <p class="text-xs text-slate-500" data-i18n="method.s1_d">نبدأ بالاستماع الدقيق لاحتياجات الإقامة أو الشركة لضمان توافق الخدمات مع المتطلبات.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="flex flex-col items-center text-center p-6 bg-slate-50 rounded-2xl border border-slate-100">
+                    <div class="w-12 h-12 rounded-full bg-slate-200 text-slate-600 font-black text-xl flex items-center justify-center mb-4">2</div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2" data-i18n="method.s2_t">تشخيص الوضعية</h4>
+                    <p class="text-xs text-slate-500" data-i18n="method.s2_d">تقييم ميداني وقانوني ومالي للوضع الحالي للعقار أو المنشأة وتحديد نقاط التدخل.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="flex flex-col items-center text-center p-6 bg-slate-50 rounded-2xl border border-slate-100">
+                    <div class="w-12 h-12 rounded-full bg-slate-200 text-slate-600 font-black text-xl flex items-center justify-center mb-4">3</div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2" data-i18n="method.s3_t">اقتراح خطة عمل</h4>
+                    <p class="text-xs text-slate-500" data-i18n="method.s3_d">صياغة مسار عمل واضح وتحديد المهام بدقة مع ميزانية شفافة للتدخلات المطلوبة.</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="flex flex-col items-center text-center p-6 bg-slate-50 rounded-2xl border border-slate-100">
+                    <div class="w-12 h-12 rounded-full bg-slate-200 text-slate-600 font-black text-xl flex items-center justify-center mb-4">4</div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2" data-i18n="method.s4_t">تنظيم المتدخلين</h4>
+                    <p class="text-xs text-slate-500" data-i18n="method.s4_d">توزيع المهام على الفرق الميدانية وتفعيل الوسائط الرقمية الخاصة بكل المتدخلين.</p>
+                </div>
+                <!-- Step 5 -->
+                <div class="flex flex-col items-center text-center p-6 bg-slate-50 rounded-2xl border border-slate-100">
+                    <div class="w-12 h-12 rounded-full bg-slate-200 text-slate-600 font-black text-xl flex items-center justify-center mb-4">5</div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2" data-i18n="method.s5_t">التتبع الميداني والرقمي</h4>
+                    <p class="text-xs text-slate-500" data-i18n="method.s5_d">الإشراف الفعلي على التنفيذ مع استخدام المنصات الرقمية لضمان سرعة الاستجابة والجودة.</p>
+                </div>
+                <!-- Step 6 -->
+                <div class="flex flex-col items-center text-center p-6 bg-slate-50 rounded-2xl border border-slate-100">
+                    <div class="w-12 h-12 rounded-full bg-amber-500 text-slate-950 font-black text-xl flex items-center justify-center mb-4 shadow-md">6</div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2" data-i18n="method.s6_t">التقارير والتحسين المستمر</h4>
+                    <p class="text-xs text-slate-500" data-i18n="method.s6_d">إصدار تقارير دورية وتقييم مستمر للأداء لضمان الاستدامة وتطوير جودة الخدمات.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience -->
+    <section id="target-audience" class="py-20 bg-slate-50 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-black text-slate-900" data-i18n="target.title">لمن نقدم خدماتنا؟</h2>
+                <div class="w-16 h-1 bg-amber-500 mx-auto rounded-full mt-4"></div>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-4">
+                <div class="bg-white border border-slate-200 px-6 py-4 rounded-xl shadow-sm font-bold text-sm text-slate-700 hover:border-amber-500 transition-colors" data-i18n="target.t1">اتحاد الملاك المشتركين</div>
+                <div class="bg-white border border-slate-200 px-6 py-4 rounded-xl shadow-sm font-bold text-sm text-slate-700 hover:border-amber-500 transition-colors" data-i18n="target.t2">الإقامات السكنية</div>
+                <div class="bg-white border border-slate-200 px-6 py-4 rounded-xl shadow-sm font-bold text-sm text-slate-700 hover:border-amber-500 transition-colors" data-i18n="target.t3">ملاك العقارات</div>
+                <div class="bg-white border border-slate-200 px-6 py-4 rounded-xl shadow-sm font-bold text-sm text-slate-700 hover:border-amber-500 transition-colors" data-i18n="target.t4">الشركات والمكاتب</div>
+                <div class="bg-white border border-slate-200 px-6 py-4 rounded-xl shadow-sm font-bold text-sm text-slate-700 hover:border-amber-500 transition-colors" data-i18n="target.t5">العارضون العقاريون</div>
+                <div class="bg-white border border-slate-200 px-6 py-4 rounded-xl shadow-sm font-bold text-sm text-slate-700 hover:border-amber-500 transition-colors" data-i18n="target.t6">المهنيون ومقدمو الخدمات</div>
+                <div class="bg-white border border-slate-200 px-6 py-4 rounded-xl shadow-sm font-bold text-sm text-slate-700 hover:border-amber-500 transition-colors" data-i18n="target.t7">الزبناء الباحثون عن عقار أو خدمة</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategic Vision & Metrics Section -->
+    <section id="strategic-vision" class="py-24 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                
+                <div class="space-y-6">
+                    <span class="text-xs font-bold text-amber-600 bg-amber-500/10 px-3 py-1 rounded-full uppercase tracking-widest" data-i18n="vision.badge">قيم الشركة</span>
+                    <h3 class="text-3xl sm:text-4xl font-black text-slate-900 leading-tight" data-i18n="vision.title">صورة متكاملة تليق بتطلعات المستقبل</h3>
+                    <p class="text-slate-600 leading-relaxed font-light text-base text-justify" data-i18n="vision.desc">
+                        هذا التقسيم الهيكلي المتطور يمنح <span class="text-amber-600 font-bold">GSDF CLAIR</span> الريادة كمجموعة خدمات مدمجة، تتجاوز المفهوم الكلاسيكي لشركات الإدارة البسيطة، لنقدم رؤية مهنية تنعكس إيجاباً على كل المتعاملين معنا.
+                    </p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
+                        <div class="flex gap-3">
+                            <div class="w-10 h-10 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-600 shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-slate-900 mb-1" data-i18n="vision.v1_t">المتابعة الميدانية والمهنية</h4>
+                                <p class="text-xs text-slate-500" data-i18n="vision.v1_d">مواكبة ميدانية مستمرة لضمان انسيابية الحياة اليومية.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-3">
+                            <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-600 shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-slate-900 mb-1" data-i18n="vision.v2_t">سرعة التحول الرقمي</h4>
+                                <p class="text-xs text-slate-500" data-i18n="vision.v2_d">حلول أتمتة برمجية ذكية وتطبيقات مريحة ومطورة بالكامل.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-3">
+                            <div class="w-10 h-10 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-600 shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08-.402-2.599-1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-slate-900 mb-1" data-i18n="vision.v3_t">الشفافية وحوكمة الميزانيات</h4>
+                                <p class="text-xs text-slate-500" data-i18n="vision.v3_d">تقارير تتبع إداري ومالي واضحة، تتيح مراقبة الإنفاق بشفافية.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-3">
+                            <div class="w-10 h-10 rounded-lg bg-slate-100 flex items-center justify-center text-slate-600 shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-slate-900 mb-1" data-i18n="vision.v4_t">الإنتاج المعرفي</h4>
+                                <p class="text-xs text-slate-500" data-i18n="vision.v4_d">مواد ونشرات توعوية لتثقيف الساكنة وتشجيع الالتزام المالي.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Live Metrics Display (Qualitative) -->
+                <div class="relative bg-slate-50 border border-slate-200 p-8 rounded-3xl overflow-hidden shadow-lg">
+                    <div class="absolute -top-10 -start-10 w-40 h-40 bg-blue-500/5 rounded-full blur-3xl"></div>
+                    <h4 class="text-xl font-bold text-slate-900 mb-6" data-i18n="metrics.title">مؤشرات الأداء والجودة</h4>
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between text-xs font-bold mb-2">
+                                <span class="text-slate-700" data-i18n="metrics.m1_l">معدل الالتزام المالي وتحصيل الاشتراكات</span>
+                                <span class="text-amber-600" data-i18n="metrics.m1_r">تتبع دوري ومتابعة منتظمة</span>
+                            </div>
+                            <div class="w-full bg-slate-200 h-2.5 rounded-full overflow-hidden">
+                                <div class="bg-amber-500 h-full rounded-full w-full"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-xs font-bold mb-2">
+                                <span class="text-slate-700" data-i18n="metrics.m2_l">معالجة الطلبات التقنية والتدخل الميداني</span>
+                                <span class="text-emerald-600" data-i18n="metrics.m2_r">تدخلات منظمة وفعالة</span>
+                            </div>
+                            <div class="w-full bg-slate-200 h-2.5 rounded-full overflow-hidden">
+                                <div class="bg-emerald-600 h-full rounded-full w-full"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-xs font-bold mb-2">
+                                <span class="text-slate-700" data-i18n="metrics.m3_l">أرشيف السندات والبيانات والتقارير المالية</span>
+                                <span class="text-blue-600" data-i18n="metrics.m3_r">تقارير واضحة وأرشفة رقمية آمنة</span>
+                            </div>
+                            <div class="w-full bg-slate-200 h-2.5 rounded-full overflow-hidden">
+                                <div class="bg-blue-600 h-full rounded-full w-full"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 pt-6 border-t border-slate-200 text-center">
+                        <p class="text-xs text-slate-500 italic" data-i18n="metrics.footer">نحرص على التقييم والتحسين المستمر لضمان الاستمرارية والتميز.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Estimation / Helper Tool Section -->
+    <section id="interactive-tool" class="py-20 bg-slate-50 border-b border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white border border-slate-200 p-8 sm:p-12 rounded-3xl shadow-lg relative overflow-hidden">
+                <div class="absolute top-0 end-0 w-32 h-32 bg-amber-500/5 rounded-full blur-3xl pointer-events-none"></div>
+
+                <div class="text-center mb-8">
+                    <span class="text-xs font-bold text-amber-600 bg-amber-500/10 px-3 py-1 rounded-full" data-i18n="tool.badge">مستشار الاحتياجات الذكي</span>
+                    <h3 class="text-2xl sm:text-3xl font-black text-slate-900 mt-3" data-i18n="tool.title">خصص خطتك المتكاملة مع GSDF CLAIR</h3>
+                    <p class="text-slate-500 text-sm mt-2" data-i18n="tool.desc">حدد الأقطاب التي تود الاستفادة منها وسيقوم مستشارنا الذكي باقتراح خطة مخصصة.</p>
+                </div>
+
+                <!-- Custom Interactive Selectors -->
+                <div class="space-y-6">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-3" data-i18n="tool.label1">حدد الأقطاب الرئيسية المطلوبة:</label>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                            <button id="btn-input-1" onclick="toggleSelection('realestate')" class="p-4 rounded-xl border border-slate-200 bg-slate-50 text-start hover:border-amber-500/50 transition-all focus:outline-none shadow-sm">
+                                <span class="block text-sm font-bold text-slate-900 mb-1" data-i18n="tool.btn1_t">1. التسيير العقاري</span>
+                                <span class="text-[10px] text-slate-500" data-i18n="tool.btn1_d">الملكية المشتركة، وكيل الاتحاد، والوكالة</span>
+                            </button>
+                            <button id="btn-input-2" onclick="toggleSelection('digital')" class="p-4 rounded-xl border border-slate-200 bg-slate-50 text-start hover:border-blue-500/50 transition-all focus:outline-none shadow-sm">
+                                <span class="block text-sm font-bold text-slate-900 mb-1" data-i18n="tool.btn2_t">2. الحلول الرقمية</span>
+                                <span class="text-[10px] text-slate-500" data-i18n="tool.btn2_d">التطوير البرمجي وصناعة المحتوى</span>
+                            </button>
+                            <button id="btn-input-3" onclick="toggleSelection('services')" class="p-4 rounded-xl border border-slate-200 bg-slate-50 text-start hover:border-emerald-500/50 transition-all focus:outline-none shadow-sm">
+                                <span class="block text-sm font-bold text-slate-900 mb-1" data-i18n="tool.btn3_t">3. الخدمات الميدانية والرقمية</span>
+                                <span class="text-[10px] text-slate-500" data-i18n="tool.btn3_d">مستخدمين ميدانيين ووسائط رقمية</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Type of Property -->
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-3" data-i18n="tool.label2">نوع العقار، المنشأة، أو المرفق المستهدف:</label>
+                        <select id="property-type" onchange="updateRecommendation()" class="w-full bg-slate-50 border border-slate-200 text-slate-700 rounded-xl px-4 py-3.5 focus:border-amber-500 focus:outline-none transition-all text-sm shadow-sm">
+                            <option value="" data-i18n="tool.opt_default">-- يرجى الاختيار لتحديد نوع المرفق --</option>
+                            <option value="residence" data-i18n="tool.opt_res">مجمع سكني / عمارة ذات ملكية مشتركة (وكيل الاتحاد / السانديك)</option>
+                            <option value="villa" data-i18n="tool.opt_villa">فيلا خاصة أو تجمع سكني مغلق خاص</option>
+                            <option value="office" data-i18n="tool.opt_office">مجمع مكاتب إداري أو منشآت تجارية كبرى</option>
+                            <option value="business" data-i18n="tool.opt_bus">شركة أو جهة مهنية تود الاستعانة بحلول الشركة</option>
+                        </select>
+                    </div>
+
+                    <!-- Output Box (Generated Suggestion) -->
+                    <div id="recommendation-box" class="hidden p-6 rounded-2xl bg-slate-50 border border-slate-200 text-slate-700 mt-6 space-y-3 shadow-md">
+                        <span class="inline-flex items-center gap-1 text-[11px] font-bold text-amber-600 uppercase tracking-widest bg-amber-500/10 px-2 py-0.5 rounded" data-i18n="tool.out_badge">
+                            توصية المستشار المخصص لـ GSDF CLAIR
+                        </span>
+                        <p id="recommendation-text" class="text-sm leading-relaxed text-justify"></p>
+                        <div class="pt-3 flex justify-end">
+                            <button onclick="openModalWithDetails()" class="px-5 py-2.5 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs rounded-lg transition-all flex items-center gap-1.5 shadow-md">
+                                <span data-i18n="tool.out_btn">اطلب تسعيراً دقيقاً واستشارة مبدئية</span>
+                                <svg class="w-4 h-4 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Footer -->
+    <footer class="border-t border-slate-200 bg-slate-900 text-slate-300 py-12 sm:py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 mb-12">
+                <!-- Col 1: Logo & Desc -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="bg-white p-2 rounded-xl">
+                            <img src="assets/gsdf-clair-logo.png" alt="GSDF CLAIR Logo" class="h-8 w-auto object-contain" onerror="this.onerror=null; this.outerHTML='<div class=\'w-8 h-8 rounded bg-amber-500 flex items-center justify-center text-slate-950 shadow\'><span class=\'font-bold text-white\'>G</span></div>';">
+                        </div>
+                        <span class="text-xl font-black text-white tracking-wider">GSDF <span class="text-amber-500">CLAIR</span></span>
+                    </div>
+                    <p class="text-sm leading-relaxed text-slate-400" data-i18n="footer.desc">
+                        شركة مغربية رائدة تقدم منظومة متكاملة في التسيير العقاري، الحلول الرقمية المبتكرة، والخدمات الميدانية الفعالة لرفع جودة المعيشة والأعمال.
+                    </p>
+                </div>
+
+                <!-- Col 2: الأقطاب 3 -->
+                <div>
+                    <h5 class="text-white font-bold mb-5 text-sm uppercase tracking-wider relative inline-block">
+                        <span data-i18n="footer.title1">أقطابنا الثلاثة</span>
+                        <span class="absolute -bottom-2 end-0 w-8 h-1 bg-amber-500 rounded-full"></span>
+                    </h5>
+                    <ul class="space-y-3 text-sm">
+                        <li><button onclick="switchTab('realestate'); window.location.href='#services-explorer';" class="hover:text-amber-500 transition-colors text-start flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span> <span data-i18n="footer.l1">التسيير العقاري</span></button></li>
+                        <li><button onclick="switchTab('digital'); window.location.href='#services-explorer';" class="hover:text-blue-500 transition-colors text-start flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> <span data-i18n="footer.l2">الحلول الرقمية</span></button></li>
+                        <li><button onclick="switchTab('services'); window.location.href='#services-explorer';" class="hover:text-emerald-500 transition-colors text-start flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> <span data-i18n="footer.l3">الخدمات الميدانية والرقمية</span></button></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Links & Platforms -->
+                <div>
+                    <h5 class="text-white font-bold mb-5 text-sm uppercase tracking-wider relative inline-block">
+                        <span data-i18n="footer.title2">منصات وروابط</span>
+                        <span class="absolute -bottom-2 end-0 w-8 h-1 bg-blue-500 rounded-full"></span>
+                    </h5>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="https://iqamati.com" target="_blank" class="hover:text-white transition-colors flex items-center gap-2"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg> IQAMATI.COM</a></li>
+                        <li><a href="https://iqamati.ma" target="_blank" class="hover:text-white transition-colors flex items-center gap-2"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg> IQAMATI.MA</a></li>
+                        <li><a href="https://web.facebook.com/groups/711894451046830" target="_blank" class="hover:text-white transition-colors flex items-center gap-2 text-blue-400"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg> <span data-i18n="footer.l6">منتدى الملكية المشتركة بالمغرب</span></a></li>
+                        <li><button onclick="openModal('community')" class="hover:text-white transition-colors text-start" data-i18n="footer.l4">المركز المعرفي (GSDF CLAIR)</button></li>
+                        <li><button onclick="openModal('legal')" class="hover:text-white transition-colors text-amber-500 font-bold mt-2" data-i18n="footer.l5">المعلومات القانونية</button></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Contact -->
+                <div>
+                    <h5 class="text-white font-bold mb-5 text-sm uppercase tracking-wider relative inline-block">
+                        <span data-i18n="footer.title3">تواصل معنا</span>
+                        <span class="absolute -bottom-2 end-0 w-8 h-1 bg-emerald-500 rounded-full"></span>
+                    </h5>
+                    <div class="space-y-3">
+                        <button onclick="openModal('contact')" class="w-full py-2.5 bg-white/10 border border-white/20 hover:bg-white/20 text-white rounded-lg text-sm font-bold transition-all shadow-sm" data-i18n="footer.btn_contact">
+                            طلب عرض أو استشارة
+                        </button>
+                        <button onclick="window.open('https://wa.me/212680170327', '_blank')" class="w-full py-2.5 bg-[#25D366] hover:bg-[#20bd5a] text-white rounded-lg text-sm font-bold transition-all shadow-sm flex items-center justify-center gap-2">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                            <span data-i18n="footer.btn_wa">تواصل عبر واتساب</span>
+                        </button>
+                        <button onclick="window.open('https://web.facebook.com/profile.php?id=61588691163196', '_blank')" class="w-full py-2.5 bg-[#1877F2] hover:bg-[#166fe5] text-white rounded-lg text-sm font-bold transition-all shadow-sm flex items-center justify-center gap-2">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            <span data-i18n="footer.btn_fb">تابعنا على فيسبوك</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Legal specific line -->
+            <div class="flex flex-col md:flex-row justify-between items-center border-t border-white/10 pt-8 mt-4">
+                <p class="text-[10px] sm:text-xs text-slate-400 font-bold uppercase tracking-widest font-sans text-center md:text-start mb-4 md:mb-0" dir="ltr">
+                    GSDF CLAIR SARL — RC 177621 Rabat — ICE 003510231000038
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 items-center text-xs text-slate-500">
+                    <p data-i18n="footer.copyright">© 2026 GSDF CLAIR. جميع الحقوق محفوظة.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Contact Modal -->
+    <div id="contact-modal" class="fixed inset-0 bg-slate-950/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden transition-opacity duration-300 overflow-y-auto">
+        <div class="bg-white border border-slate-200 max-w-xl w-full rounded-3xl p-6 sm:p-8 relative shadow-2xl my-8">
+            <!-- Close Button -->
+            <button type="button" onclick="closeModal('contact')" class="absolute top-4 start-4 text-slate-500 hover:text-slate-900 p-2 rounded-full bg-slate-100 transition-colors">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+
+            <div class="text-start mb-6 pe-8">
+                <h4 class="text-xl font-black text-slate-900" data-i18n="modal_contact.title">طلب خدمة أو استشارة</h4>
+                <p class="text-sm text-slate-500 mt-1" data-i18n="modal_contact.desc">يرجى ملء الاستمارة وسيتواصل معك فريق GSDF CLAIR في أقرب وقت.</p>
+            </div>
+
+            <form id="contact-form" onsubmit="handleFormSubmit(event)" class="space-y-4 text-start">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1.5" data-i18n="modal_contact.lbl_name">الاسم الكامل / الشركة:</label>
+                        <input required type="text" id="form-name" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:border-amber-500 focus:ring-1 focus:ring-amber-500 focus:outline-none transition-all shadow-sm" data-i18n-placeholder="modal_contact.ph_name" placeholder="أدخل الاسم">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1.5" data-i18n="modal_contact.lbl_type">نوع الزبون:</label>
+                        <select required id="form-customer-type" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:border-amber-500 focus:ring-1 focus:ring-amber-500 focus:outline-none transition-all shadow-sm">
+                            <option value="" data-i18n="modal_contact.opt_default">-- اختر --</option>
+                            <option value="syndic" data-i18n="modal_contact.opt_t1">اتحاد ملاك / وكيل الاتحاد</option>
+                            <option value="owner" data-i18n="modal_contact.opt_t2">مالك عقار خاص</option>
+                            <option value="company" data-i18n="modal_contact.opt_t3">شركة أو مكتب مهني</option>
+                            <option value="individual" data-i18n="modal_contact.opt_t4">فرد باحث عن عقار أو خدمة</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1.5" data-i18n="modal_contact.lbl_phone">رقم الهاتف:</label>
+                        <input required type="tel" id="form-phone" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:border-amber-500 focus:ring-1 focus:ring-amber-500 focus:outline-none transition-all shadow-sm" placeholder="+212 600-000000">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1.5" data-i18n="modal_contact.lbl_city">المدينة:</label>
+                        <input required type="text" id="form-city" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:border-amber-500 focus:ring-1 focus:ring-amber-500 focus:outline-none transition-all shadow-sm" data-i18n-placeholder="modal_contact.ph_city" placeholder="مثال: الرباط، الدار البيضاء...">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1.5" data-i18n="modal_contact.lbl_service">نوع الطلب أو القطب المستهدف:</label>
+                        <select id="form-service" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:border-amber-500 focus:ring-1 focus:ring-amber-500 focus:outline-none transition-all shadow-sm">
+                            <option value="val_p1_syndic" data-i18n="modal_contact.opt_s1">القطب 1 - التسيير العقاري والملكية المشتركة</option>
+                            <option value="val_p1_agency" data-i18n="modal_contact.opt_s2">القطب 1 - الوكالة العقارية والوساطة</option>
+                            <option value="val_p2_dev" data-i18n="modal_contact.opt_s3">القطب 2 - التطوير البرمجي والحلول الرقمية</option>
+                            <option value="val_p2_content" data-i18n="modal_contact.opt_s4">القطب 2 - صناعة المحتوى</option>
+                            <option value="val_p3_services" data-i18n="modal_contact.opt_s5">القطب 3 - الخدمات الميدانية والرقمية</option>
+                            <option value="val_general" data-i18n="modal_contact.opt_s6">طلب استشارة عامة</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1.5" data-i18n="modal_contact.lbl_method">أفضل طريقة للتواصل:</label>
+                        <select required id="form-contact-method" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:border-amber-500 focus:ring-1 focus:ring-amber-500 focus:outline-none transition-all shadow-sm">
+                            <option value="" data-i18n="modal_contact.opt_default">-- اختر --</option>
+                            <option value="phone" data-i18n="modal_contact.opt_m1">الهاتف</option>
+                            <option value="whatsapp" data-i18n="modal_contact.opt_m2">واتساب</option>
+                            <option value="email" data-i18n="modal_contact.opt_m3">البريد الإلكتروني</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 mb-1.5" data-i18n="modal_contact.lbl_details">عدد الشقق / نوع العقار (عند الحاجة):</label>
+                    <input type="text" id="form-details" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:border-amber-500 focus:ring-1 focus:ring-amber-500 focus:outline-none transition-all shadow-sm" data-i18n-placeholder="modal_contact.ph_details" placeholder="مثال: إقامة من 20 شقة، أو فيلا مستقلة...">
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 mb-1.5" data-i18n="modal_contact.lbl_msg">الرسالة أو التفاصيل الإضافية:</label>
+                    <textarea required id="form-message" rows="3" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:border-amber-500 focus:ring-1 focus:ring-amber-500 focus:outline-none transition-all shadow-sm" data-i18n-placeholder="modal_contact.ph_msg" placeholder="اكتب رسالتك أو استفسارك هنا..."></textarea>
+                </div>
+
+                <!-- Custom Alert inside Modal -->
+                <div id="form-alert" class="hidden p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-600 text-sm text-center font-bold" data-i18n="modal_contact.success">
+                    تم استلام طلبك بنجاح! فريق GSDF CLAIR سيتواصل معك قريباً.
+                </div>
+
+                <div class="flex flex-col gap-3 pt-4">
+                    <!-- WhatsApp Button Prominently styled -->
+                    <button type="button" onclick="sendWhatsApp()" class="w-full py-4 bg-[#25D366] hover:bg-[#20bd5a] text-white font-black text-base rounded-xl transition-all shadow-lg shadow-emerald-500/20 flex items-center justify-center gap-2">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        <span data-i18n="modal_contact.btn_wa">إرسال الطلب عبر واتساب</span>
+                    </button>
+                    <!-- Standard Submit Button -->
+                    <button type="submit" class="w-full py-3.5 bg-slate-100 hover:bg-slate-200 border border-slate-300 text-slate-800 font-bold text-sm rounded-xl transition-all" data-i18n="modal_contact.btn_email">
+                        أو إرسال الطلب عبر البريد الإلكتروني
+                    </button>
+                </div>
+                
+                <!-- Privacy Disclaimer -->
+                <p class="text-xs text-slate-500 text-center mt-4">
+                    <svg class="w-4 h-4 inline-block me-1 align-text-bottom" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    <span data-i18n="modal_contact.privacy">سيتم استعمال معلوماتك فقط للتواصل معك بخصوص طلبك.</span>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Knowledge Center Modal -->
+    <div id="community-modal" class="fixed inset-0 bg-slate-950/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden transition-opacity duration-300">
+        <div class="bg-white border border-slate-200 max-w-lg w-full rounded-3xl p-6 sm:p-8 relative shadow-2xl">
+            <!-- Close Button -->
+            <button type="button" onclick="closeModal('community')" class="absolute top-4 start-4 text-slate-500 hover:text-slate-900 p-2 rounded-full bg-slate-100 transition-colors">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+
+            <div class="text-start space-y-4">
+                <span class="text-xs font-bold text-blue-600 bg-blue-500/10 px-3 py-1 rounded-full" data-i18n="modal_comm.badge">المركز المعرفي</span>
+                <h4 class="text-xl font-bold text-slate-900" data-i18n="modal_comm.title">بوابة الإنتاج المعرفي لشركة GSDF CLAIR</h4>
+                <p class="text-sm text-slate-600 leading-relaxed" data-i18n="modal_comm.desc">
+                    من خلال قطب "الحلول الرقمية وصناعة المحتوى"، يمثل المركز المعرفي قسماً تابعاً لشركتنا يهدف لنشر محتوى قانوني، توعوي، وتنظيمي. ندعم من خلاله ثقة الزبناء ونعزز كفاءة خدماتنا عبر شرح التشريعات العقارية، وآليات التعايش الإقامي.
+                </p>
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                    <h5 class="text-xs font-bold text-amber-600 mb-2" data-i18n="modal_comm.list_t">أحدث الإصدارات المعرفية:</h5>
+                    <ul class="space-y-2 text-xs text-slate-500">
+                        <li>• <span data-i18n="modal_comm.l1">دليل القوانين والتدابير القانونية لتدبير متأخرات وكيل الاتحاد / السانديك.</span></li>
+                        <li>• <span data-i18n="modal_comm.l2">أثر التحول الرقمي في أتمتة الإقامات وتخفيض التكاليف.</span></li>
+                        <li>• <span data-i18n="modal_comm.l3">طرق وأسس التواصل البناء في الملكية المشتركة.</span></li>
+                    </ul>
+                </div>
+
+                <div class="pt-4 flex gap-3">
+                    <button type="button" onclick="closeModal('community')" class="flex-1 py-3 bg-slate-100 text-slate-800 font-bold text-xs rounded-xl hover:bg-slate-200 transition-all" data-i18n="modal_comm.btn_close">
+                        إغلاق النافذة
+                    </button>
+                    <button type="button" onclick="openModal('contact'); closeModal('community');" class="flex-1 py-3 bg-blue-600 text-white font-bold text-xs rounded-xl hover:bg-blue-500 transition-all shadow-md shadow-blue-600/10" data-i18n="modal_comm.btn_reg">
+                        سجل لتصلك إصداراتنا
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Legal Mentions Modal -->
+    <div id="legal-modal" class="fixed inset-0 bg-slate-950/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden transition-opacity duration-300">
+        <div class="bg-white border border-slate-200 max-w-md w-full rounded-3xl p-6 sm:p-8 relative shadow-2xl">
+            <!-- Close Button -->
+            <button type="button" onclick="closeModal('legal')" class="absolute top-4 start-4 text-slate-500 hover:text-slate-900 p-2 rounded-full bg-slate-100 transition-colors">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+
+            <div class="text-center space-y-5">
+                <div class="w-16 h-16 rounded-full bg-slate-100 mx-auto flex items-center justify-center">
+                    <svg class="w-8 h-8 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4C10.5 6 8.5 4 6 4a2 2 0 00-2 2v10a2 2 0 002 2c2.5 0 4.5-2 6-4zm0 0l2 2 4-4"></path></svg>
+                </div>
+                <h4 class="text-xl font-black text-slate-900">Mentions légales<br><span class="text-sm text-slate-500 font-bold" data-i18n="modal_legal.title">المعلومات القانونية</span></h4>
+                
+                <div class="text-start bg-slate-50 border border-slate-200 p-5 rounded-2xl space-y-3 font-sans text-sm text-slate-800" dir="ltr">
+                    <p><span class="font-bold text-slate-500 uppercase text-[10px] block mb-0.5">Raison Sociale</span><span class="font-bold">GSDF CLAIR SARL</span></p>
+                    <p><span class="font-bold text-slate-500 uppercase text-[10px] block mb-0.5">RC (Rabat)</span><span class="font-bold">177621</span></p>
+                    <p><span class="font-bold text-slate-500 uppercase text-[10px] block mb-0.5">ICE</span><span class="font-bold">003510231000038</span></p>
+                    <p><span class="font-bold text-slate-500 uppercase text-[10px] block mb-0.5">Capital Social</span><span class="font-bold">10 000 DHS</span></p>
+                    <p><span class="font-bold text-slate-500 uppercase text-[10px] block mb-0.5">Siège social</span><span class="font-bold text-xs">CHEZ DOMICILCOM, RUE DAKAR IMM N 5 APT N 1 OCEAN, RABAT, Maroc</span></p>
+                </div>
+
+                <div class="pt-2">
+                    <button type="button" onclick="closeModal('legal')" class="w-full py-3 bg-slate-900 text-white font-bold text-sm rounded-xl hover:bg-slate-800 transition-all shadow-md" data-i18n="modal_legal.btn_close">
+                        إغلاق النافذة / Fermer
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TRANSLATIONS OBJECT & JS LOGIC -->
+    <script>
+        // --- TRANSLATIONS DATA ---
+        const translations = {
+            ar: {
+                doc_title: "GSDF CLAIR - التسيير العقاري، الحلول الرقمية والخدمات الميدانية",
+                meta_desc: "GSDF CLAIR شركة مغربية متخصصة في التسيير العقاري، الحلول الرقمية، والخدمات الميدانية والرقمية.",
+                header: { logo_desc: "Syndic • Digital • Services" },
+                nav: {
+                    home: "الرئيسية", about: "من نحن", pillars: "أقطاب الشركة", platforms: "المنصات الرقمية",
+                    method: "منهجيتنا", target: "لمن نقدم خدماتنا", legal: "المعلومات القانونية", contact_btn: "اتصل بنا"
+                },
+                hero: {
+                    badge: "مجموعة خدمات متكاملة", subtitle: "شركة مغربية للتسيير العقاري، الحلول الرقمية، والخدمات الميدانية والرقمية",
+                    desc: "نقدم منظومة مهنية متكاملة تجمع بين التسيير العقاري، الخبرة الميدانية، الحلول الرقمية، وصناعة المحتوى، من أجل تسيير أوضح، خدمات أسرع، وتواصل أكثر شفافية مع الملاك، الزبناء، والمهنيين.",
+                    btn_pillars: "تصفح أقطاب الشركة", btn_syndic: "طلب عرض تسيير إقامة", btn_general: "طلب خدمة عامة",
+                    widget_title: "منظومة GSDF CLAIR",
+                    w_p1_t: "1. التسيير العقاري", w_p1_d: "الملكية المشتركة والوساطة الذكية",
+                    w_p2_t: "2. الحلول الرقمية", w_p2_d: "التطوير البرمجي وصناعة المحتوى",
+                    w_p3_t: "3. الخدمات الميدانية والرقمية", w_p3_d: "ميدانياً وعبر الوسائط الرقمية"
+                },
+                about: {
+                    badge: "من نحن", title: "من هي GSDF CLAIR؟", 
+                    desc: "GSDF CLAIR شركة مغربية تعتمد على نموذج متكامل في تقديم الخدمات، يقوم على ثلاثة أقطاب مترابطة: التسيير العقاري، الحلول الرقمية، والخدمات الميدانية والرقمية. لا تشتغل الشركة بمنطق الخدمة المعزولة فقط، بل بمنهجية تجمع بين الإدارة، الميدان، الرقمنة، والتواصل، لتقديم حلول عملية للإقامات، الملاك، العقارات، الزبناء، والمهنيين."
+                },
+                pillars: {
+                    badge: "المنظومة الخدمية الشاملة", title: "الأقطاب الثلاثة لشركة GSDF CLAIR", 
+                    desc: "تنفرد <strong>GSDF CLAIR</strong> بتقديم نموذج متكامل متميز يتيح إدارة استثنائية ورقمنة مرنة وحياة إقامية يسيرة عبر 3 محاور أساسية فقط.",
+                    tab1: "التسيير العقاري", tab2: "الحلول الرقمية", tab3: "الخدمات الميدانية والرقمية",
+                    p1: {
+                        badge: "1. التسيير العقاري", title: "Gestion Immobilière", 
+                        desc: "نهتم بتسيير العقارات والممتلكات وفق مقاربة احترافية تجمع بين الإدارة، المتابعة، والتثمين العقاري المتطور.",
+                        sub1_t: "تسيير الملكية العقارية / وكيل الاتحاد", sub1_d: "خدمات متخصصة ومصممة بدقة لإدارة وتسيير العقارات والإقامات السكنية والتجارية لضمان سلامتها وقيمتها السوقية:",
+                        s1_l1: "تسيير الملكية المشتركة والإقامات السكنية المتكاملة والمغلقة.", s1_l2: "تولي مهام وكيل الاتحاد / السانديك وتدبير وإصلاح الأجزاء والمرافق المشتركة.", s1_l3: "التتبع الإداري والمالي والتقني الشامل بكل وضوح وشفافية.", s1_l4: "أعمال التحصيل الممنهج والتتبع المحاسبي المستمر وإعداد تقارير دورية.", s1_l5: "مواكبة وتيسير عقد الاجتماعات العامة وتأمين قنوات التواصل الدائم مع الملاك.",
+                        sub2_t: "الوكالة العقارية والوساطة الذكية", sub2_d: "نقدم حلول مواكبة ووساطة عقارية شاملة لضمان بيع، كراء وتثمين الأصول بسلاسة تامة وبأفضل الأسعار:",
+                        s2_l1: "الوساطة في بيع وشراء العقارات السكنية، التجارية، والصناعية بجدية واحترافية.", s2_l2: "تدبير كراء الوحدات السكنية والتجارية وضمان صياغة عقود قوية ومحكمة.", s2_l3: "تثمين وتسويق مبتكر ومدروس ومبني على الواقع للممتلكات العقارية لرفع كفاءتها.", s2_l4: "البحث المنهجي واقتناص أفضل الفرص الاستثمارية العقارية التي تحقق أعلى العوائد."
+                    },
+                    p2: {
+                        badge: "2. الحلول الرقمية", title: "Solutions Digitales", 
+                        desc: "نعمل على تطوير حلول تقنية برمجية وإعلامية مبتكرة تعزز التحول الرقمي للأفراد والمهنيين والمجمعات الحديثة.",
+                        sub1_t: "التطوير البرمجي والخدمات الرقمية", sub1_d: "نصمم ونبني برمجيات سريعة وحلول رقمية تضع مجمعك أو أعمالك في طليعة العصر الرقمي الحديث:",
+                        s1_l1: "تصميم وتطوير المنصات وتطبيقات الهواتف الذكية المخصصة.", s1_l2: "تطوير منصات تسيير وكيل الاتحاد / السانديك الحديثة التي ترتقي بإدارة الإقامات.", s1_l3: "حلول أتمتة وتسيير ذكي للإقامات تتيح أداء وتتبع المعاملات عبر الهواتف.", s1_l4: "الرقمنة السريعة وإدارة وتأمين وحماية البيانات والخدمات السحابية.",
+                        sub2_t: "صناعة المحتوى الرقمي والتوعوي", sub2_d: "نعمل على إنتاج محتوى إبداعي يهدف إلى تثقيف الساكنة وترسيخ التزامهم السلوكي والمالي:",
+                        s2_l1: "تصميم المحتوى البصري الفاخر والمنشورات التوعوية التفاعلية الخاصة بالإقامات.", s2_l2: "إنتاج فيديوهات تثقيفية ووسائط مرئية تشرح القوانين وحقوق الساكنة.", s2_l3: "إدارة وتأمين التفاعل بصفحات التواصل الاجتماعي والمجموعات الرقمية السكنية.", s2_l4: "إعداد وهندسة حملات توعية عامة وإشهارية واستهداف مدروس للمهتمين."
+                    },
+                    p3: {
+                        badge: "3. الخدمات الميدانية والرقمية", title: "Services de Terrain & Digitaux",
+                        desc: "نقدم تكاملًا فريداً من نوعه بين السواعد الميدانية على الأرض وأحدث التطبيقات لتوفير بيئة عيش وعمل مريحة وسلسة.",
+                        sub1_t: "خدمات عبر مستخدمين ميدانيين", sub1_d: "نحن لا نوكل المهام فقط، بل نتابعها ميدانياً بدقة عبر كوادر مهنية مدربة ومجهزة بالكامل:",
+                        s1_l1: "خدمات حراسة احترافية منظمة وأعمال نظافة دورية تطال الأركان بانتظام.", s1_l2: "تدخلات تقنية وصيانة سريعة وفورية (الكهرباء، السباكة، أنظمة الضخ والمصاعد).", s1_l3: "تنسيق أعمال البستنة الدورية وتهيئة المساحات الخضراء والمسابح بانتظام.", s1_l4: "مراقبين ميدانيين لتتبع جودة الخدمات والتحقق من التزام العمال بالمعايير.",
+                        sub2_t: "خدمات عبر الوسائط الرقمية", sub2_d: "نوفر حلول تواصل واستشارة متطورة تسهل الوصول للخدمة دون عناء مغادرة منزلك أو مكتبك:",
+                        s2_l1: "تقديم وحجز وتتبع طلبات الصيانة بشكل كامل عبر الهواتف والأنظمة السحابية بنجاح.", s2_l2: "الربط الرقمي الفوري والذكي بين السكان وأفضل مزودي وصناع الخدمات المنزلية المعتمدين.", s2_l3: "مواكبة رقمية وإرشاد وتوجيه قانوني وفني عن بعد عبر موظفين مدربين.", s2_l4: "توفير أحدث قنوات وحلول التدبير الذاتي والتراسل الفوري لإعلان قرارات الإقامة."
+                    }
+                },
+                platforms: {
+                    badge: "الدعم التكنولوجي", title: "منصاتنا الرقمية", desc: "منصات رقمية متطورة تابعة لشركة GSDF CLAIR، تم تصميمها لتدعم أقطابنا الثلاثة وتسهل التفاعل مع محيطنا المهني.",
+                    iqamati_com: "منصة عقارية وخدماتية تابعة لشركة GSDF CLAIR.<br>تخدم بشكل أساسي البيع، الكراء، الخدمات، العارضين العقاريين، المهنيين، وتستقبل مختلف طلبات الزوار.", visit_com: "زيارة IQAMATI.COM", learn_more: "تعرف أكثر",
+                    iqamati_ma: "منصة خاصة بالملكية المشتركة وتسيير الإقامات.<br>تخدم وكيل الاتحاد، اتحاد الملاك، إدارة المحاسبة، عمليات التصويت، تلقي الشكايات والتبليغ، والتواصل المستمر مع الملاك.", visit_ma: "اكتشف IQAMATI.MA", request_offer: "طلب عرض"
+                },
+                method: {
+                    badge: "نظامنا", title: "منهجية GSDF CLAIR في العمل",
+                    s1_t: "الاستماع وفهم الحاجة", s1_d: "نبدأ بالاستماع الدقيق لاحتياجات الإقامة أو الشركة لضمان توافق الخدمات مع المتطلبات.",
+                    s2_t: "تشخيص الوضعية", s2_d: "تقييم ميداني وقانوني ومالي للوضع الحالي للعقار أو المنشأة وتحديد نقاط التدخل.",
+                    s3_t: "اقتراح خطة عمل", s3_d: "صياغة مسار عمل واضح وتحديد المهام بدقة مع ميزانية شفافة للتدخلات المطلوبة.",
+                    s4_t: "تنظيم المتدخلين", s4_d: "توزيع المهام على الفرق الميدانية وتفعيل الوسائط الرقمية الخاصة بكل المتدخلين.",
+                    s5_t: "التتبع الميداني والرقمي", s5_d: "الإشراف الفعلي على التنفيذ مع استخدام المنصات الرقمية لضمان سرعة الاستجابة والجودة.",
+                    s6_t: "التقارير والتحسين المستمر", s6_d: "إصدار تقارير دورية وتقييم مستمر للأداء لضمان الاستدامة وتطوير جودة الخدمات."
+                },
+                target: {
+                    title: "لمن نقدم خدماتنا؟", t1: "اتحاد الملاك المشتركين", t2: "الإقامات السكنية", t3: "ملاك العقارات", t4: "الشركات والمكاتب", t5: "العارضون العقاريون", t6: "المهنيون ومقدمو الخدمات", t7: "الزبناء الباحثون عن عقار أو خدمة"
+                },
+                vision: {
+                    badge: "قيم الشركة", title: "صورة متكاملة تليق بتطلعات المستقبل", desc: "هذا التقسيم الهيكلي المتطور يمنح <span class='text-amber-600 font-bold'>GSDF CLAIR</span> الريادة كمجموعة خدمات مدمجة، تتجاوز المفهوم الكلاسيكي لشركات الإدارة البسيطة، لنقدم رؤية مهنية تنعكس إيجاباً على كل المتعاملين معنا.",
+                    v1_t: "المتابعة الميدانية والمهنية", v1_d: "مواكبة ميدانية مستمرة لضمان انسيابية الحياة اليومية.",
+                    v2_t: "سرعة التحول الرقمي", v2_d: "حلول أتمتة برمجية ذكية وتطبيقات مريحة ومطورة بالكامل.",
+                    v3_t: "الشفافية وحوكمة الميزانيات", v3_d: "تقارير تتبع إداري ومالي واضحة، تتيح مراقبة الإنفاق بشفافية.",
+                    v4_t: "الإنتاج المعرفي", v4_d: "مواد ونشرات توعوية لتثقيف الساكنة وتشجيع الالتزام المالي."
+                },
+                metrics: {
+                    title: "مؤشرات الأداء والجودة", m1_l: "معدل الالتزام المالي وتحصيل الاشتراكات", m1_r: "تتبع دوري ومتابعة منتظمة",
+                    m2_l: "معالجة الطلبات التقنية والتدخل الميداني", m2_r: "تدخلات منظمة وفعالة",
+                    m3_l: "أرشيف السندات والبيانات والتقارير المالية", m3_r: "تقارير واضحة وأرشفة رقمية آمنة", footer: "نحرص على التقييم والتحسين المستمر لضمان الاستمرارية والتميز."
+                },
+                tool: {
+                    badge: "مستشار الاحتياجات الذكي", title: "خصص خطتك المتكاملة مع GSDF CLAIR", desc: "حدد الأقطاب التي تود الاستفادة منها وسيقوم مستشارنا الذكي باقتراح خطة مخصصة.",
+                    label1: "حدد الأقطاب الرئيسية المطلوبة:", btn1_t: "1. التسيير العقاري", btn1_d: "الملكية المشتركة، وكيل الاتحاد، والوكالة", btn2_t: "2. الحلول الرقمية", btn2_d: "التطوير البرمجي وصناعة المحتوى", btn3_t: "3. الخدمات الميدانية والرقمية", btn3_d: "مستخدمين ميدانيين ووسائط رقمية",
+                    label2: "نوع العقار، المنشأة، أو المرفق المستهدف:", opt_default: "-- يرجى الاختيار لتحديد نوع المرفق --", opt_res: "مجمع سكني / عمارة ذات ملكية مشتركة (وكيل الاتحاد / السانديك)", opt_villa: "فيلا خاصة أو تجمع سكني مغلق خاص", opt_office: "مجمع مكاتب إداري أو منشآت تجارية كبرى", opt_bus: "شركة أو جهة مهنية تود الاستعانة بحلول الشركة",
+                    out_badge: "توصية المستشار المخصص لـ GSDF CLAIR", out_btn: "اطلب تسعيراً دقيقاً واستشارة مبدئية",
+                    txt_intro: "تحليل الاحتياجات يشير إلى أنك ", txt_res: "بصفتك ممثلاً لـ <strong>مجمع سكني أو عمارة سكنية مشتركة</strong>، نقترح عليك الاستفادة من ", txt_villa: "لبناء وتأمين وإدارة <strong>الملكية والفيلا الخاصة بك</strong>، فإننا نوصي بـ ", txt_office: "لتطوير وتنسيق <strong>فضاء مكاتبك التجاري أو المنشأة المهنية</strong>، نقترح تخصيص ", txt_bus: "لمشروعك، أعمالك، أو شركتك، الحل الاستراتيجي الأمثل يكمن في دمج ",
+                    txt_p1: "<strong>قطب التسيير العقاري</strong>", txt_p2: "<strong>قطب الحلول الرقمية وصناعة المحتوى</strong>", txt_p3: "<strong>قطب الخدمات الميدانية والرقمية</strong>", txt_join: " بالإضافة إلى ", txt_outro: ". فريق GSDF CLAIR مستعد لتقديم استشارة مفصلة ومواكبة احترافية لاحتياجاتك."
+                },
+                footer: {
+                    desc: "شركة مغربية رائدة تقدم منظومة متكاملة في التسيير العقاري، الحلول الرقمية المبتكرة، والخدمات الميدانية الفعالة لرفع جودة المعيشة والأعمال.",
+                    title1: "أقطابنا الثلاثة", l1: "التسيير العقاري", l2: "الحلول الرقمية", l3: "الخدمات الميدانية والرقمية",
+                    title2: "منصات وروابط", l4: "المركز المعرفي (GSDF CLAIR)", l5: "المعلومات القانونية", l6: "منتدى الملكية المشتركة بالمغرب",
+                    title3: "تواصل معنا", btn_contact: "طلب عرض أو استشارة", btn_wa: "تواصل عبر واتساب", btn_fb: "تابعنا على فيسبوك", copyright: "© 2026 GSDF CLAIR. جميع الحقوق محفوظة."
+                },
+                modal_contact: {
+                    title: "طلب خدمة أو استشارة", desc: "يرجى ملء الاستمارة وسيتواصل معك فريق GSDF CLAIR في أقرب وقت.",
+                    lbl_name: "الاسم الكامل / الشركة:", ph_name: "أدخل الاسم", lbl_type: "نوع الزبون:", opt_default: "-- اختر --", opt_t1: "اتحاد ملاك / وكيل الاتحاد", opt_t2: "مالك عقار خاص", opt_t3: "شركة أو مكتب مهني", opt_t4: "فرد باحث عن عقار أو خدمة",
+                    lbl_phone: "رقم الهاتف:", lbl_city: "المدينة:", ph_city: "مثال: الرباط، الدار البيضاء...",
+                    lbl_service: "نوع الطلب أو القطب المستهدف:", opt_s1: "القطب 1 - التسيير العقاري والملكية المشتركة", opt_s2: "القطب 1 - الوكالة العقارية والوساطة", opt_s3: "القطب 2 - التطوير البرمجي والحلول الرقمية", opt_s4: "القطب 2 - صناعة المحتوى", opt_s5: "القطب 3 - الخدمات الميدانية والرقمية", opt_s6: "طلب استشارة عامة",
+                    lbl_method: "أفضل طريقة للتواصل:", opt_m1: "الهاتف", opt_m2: "واتساب", opt_m3: "البريد الإلكتروني",
+                    lbl_details: "عدد الشقق / نوع العقار (عند الحاجة):", ph_details: "مثال: إقامة من 20 شقة، أو فيلا مستقلة...",
+                    lbl_msg: "الرسالة أو التفاصيل الإضافية:", ph_msg: "اكتب رسالتك أو استفسارك هنا...",
+                    success: "تم استلام طلبك بنجاح! فريق GSDF CLAIR سيتواصل معك قريباً.", btn_wa: "إرسال الطلب عبر واتساب", btn_email: "أو إرسال الطلب عبر البريد الإلكتروني", privacy: "سيتم استعمال معلوماتك فقط للتواصل معك بخصوص طلبك."
+                },
+                modal_comm: {
+                    badge: "المركز المعرفي", title: "بوابة الإنتاج المعرفي لشركة GSDF CLAIR", desc: "من خلال قطب \"الحلول الرقمية وصناعة المحتوى\"، يمثل المركز المعرفي قسماً تابعاً لشركتنا يهدف لنشر محتوى قانوني، توعوي، وتنظيمي. ندعم من خلاله ثقة الزبناء ونعزز كفاءة خدماتنا عبر شرح التشريعات العقارية، وآليات التعايش الإقامي.", list_t: "أحدث الإصدارات المعرفية:", l1: "دليل القوانين والتدابير القانونية لتدبير متأخرات وكيل الاتحاد / السانديك.", l2: "أثر التحول الرقمي في أتمتة الإقامات وتخفيض التكاليف.", l3: "طرق وأسس التواصل البناء في الملكية المشتركة.", btn_close: "إغلاق النافذة", btn_reg: "سجل لتصلك إصداراتنا"
+                },
+                modal_legal: { title: "المعلومات القانونية", btn_close: "إغلاق النافذة / Fermer" },
+                wa: {
+                    greet: "مرحباً فريق GSDF CLAIR، أود التواصل معكم:", name: "👤 الاسم:", type: "👥 نوع الزبون:", phone: "📞 الهاتف:", city: "📍 المدينة:", req: "🎯 نوع الطلب:", det: "🏢 التفاصيل:", met: "📲 طريقة التواصل:", msg: "✉️ الرسالة:"
+                }
+            },
+            fr: {
+                doc_title: "GSDF CLAIR - Gestion Immobilière, Solutions Digitales et Services",
+                meta_desc: "GSDF CLAIR est une société marocaine spécialisée dans la gestion immobilière, les solutions digitales et les services sur le terrain et numériques.",
+                header: { logo_desc: "Syndic • Digital • Services" },
+                nav: {
+                    home: "Accueil", about: "À propos", pillars: "Nos pôles", platforms: "Plateformes",
+                    method: "Méthodologie", target: "Nos cibles", legal: "Mentions légales", contact_btn: "Contactez-nous"
+                },
+                hero: {
+                    badge: "Groupe de Services Intégré", subtitle: "Société marocaine de Gestion Immobilière, Solutions Digitales et Services",
+                    desc: "Nous offrons un système professionnel intégré combinant la gestion immobilière, l'expertise terrain, les solutions numériques et la création de contenu pour une gestion claire et des services plus rapides.",
+                    btn_pillars: "Découvrir nos pôles", btn_syndic: "Demander une offre Syndic", btn_general: "Demander un service",
+                    widget_title: "Système GSDF CLAIR",
+                    w_p1_t: "1. Gestion Immobilière", w_p1_d: "Copropriété et Intermédiation",
+                    w_p2_t: "2. Solutions Digitales", w_p2_d: "Développement et Contenu",
+                    w_p3_t: "3. Services de Terrain & Digitaux", w_p3_d: "Sur le terrain et via le digital"
+                },
+                about: {
+                    badge: "À propos", title: "Qui est GSDF CLAIR ?", 
+                    desc: "GSDF CLAIR est une société marocaine qui s'appuie sur un modèle de services intégré basé sur trois pôles interconnectés : Gestion Immobilière, Solutions Digitales et Services de Terrain & Digitaux. Nous ne travaillons pas avec une logique de service isolé, mais avec une méthodologie combinant gestion, terrain, digitalisation et communication."
+                },
+                pillars: {
+                    badge: "Système de Services Global", title: "Les trois pôles de GSDF CLAIR", 
+                    desc: "<strong>GSDF CLAIR</strong> se distingue par un modèle intégré exceptionnel permettant une gestion optimale et une digitalisation flexible à travers 3 axes fondamentaux.",
+                    tab1: "Gestion Immobilière", tab2: "Solutions Digitales", tab3: "Services de Terrain & Digitaux",
+                    p1: {
+                        badge: "1. Gestion Immobilière", title: "Gestion Immobilière", 
+                        desc: "Nous gérons les biens immobiliers selon une approche professionnelle alliant gestion, suivi et valorisation immobilière.",
+                        sub1_t: "Gestion de Copropriété / Syndic", sub1_d: "Des services spécialisés pour la gestion des résidences et biens immobiliers afin d'assurer leur sécurité et valeur :",
+                        s1_l1: "Gestion des copropriétés et complexes résidentiels fermés.", s1_l2: "Prise en charge des missions du syndic, gestion et réparation des parties communes.", s1_l3: "Suivi administratif, financier et technique global en toute transparence.", s1_l4: "Recouvrement systématique, suivi comptable et rapports périodiques.", s1_l5: "Accompagnement, tenue d'assemblées générales et communication continue avec les propriétaires.",
+                        sub2_t: "Agence Immobilière & Intermédiation", sub2_d: "Solutions complètes d'accompagnement pour garantir la vente, la location et la valorisation de vos actifs au meilleur prix :",
+                        s2_l1: "Intermédiation pour la vente/achat de biens résidentiels et commerciaux avec professionnalisme.", s2_l2: "Gestion locative avec rédaction de contrats solides et précis.", s2_l3: "Valorisation et marketing innovant des biens pour maximiser leur efficacité.", s2_l4: "Recherche systématique des meilleures opportunités d'investissement immobilier."
+                    },
+                    p2: {
+                        badge: "2. Solutions Digitales", title: "Solutions Digitales", 
+                        desc: "Nous développons des solutions logicielles et médiatiques innovantes favorisant la transformation digitale.",
+                        sub1_t: "Développement Logiciel & Services Digitaux", sub1_d: "Conception de logiciels rapides et solutions digitales pour placer votre entreprise à la pointe de l'ère numérique :",
+                        s1_l1: "Conception et développement de plateformes et d'applications mobiles sur mesure.", s1_l2: "Développement de plateformes modernes de gestion de syndic.", s1_l3: "Solutions d'automatisation et de gestion intelligente via smartphone.", s1_l4: "Numérisation rapide, gestion, sécurité des données et services cloud.",
+                        sub2_t: "Création de Contenu Digital & Sensibilisation", sub2_d: "Production de contenus créatifs visant à éduquer les résidents et consolider leur engagement :",
+                        s2_l1: "Conception de contenus visuels de qualité et publications interactives pour les résidences.", s2_l2: "Production de vidéos éducatives expliquant les lois et les droits des résidents.", s2_l3: "Gestion et sécurisation des interactions sur les réseaux sociaux.", s2_l4: "Préparation et ingénierie de campagnes publicitaires ciblées."
+                    },
+                    p3: {
+                        badge: "3. Services de Terrain & Digitaux", title: "Services de Terrain & Digitaux",
+                        desc: "Une intégration unique entre l'action sur le terrain et les applications de pointe pour un environnement de vie confortable.",
+                        sub1_t: "Services via le personnel de terrain", sub1_d: "Nous ne déléguons pas seulement les tâches, nous les suivons sur le terrain grâce à un personnel formé :",
+                        s1_l1: "Services de gardiennage professionnel et nettoyage régulier.", s1_l2: "Interventions techniques et maintenance rapide (électricité, plomberie, ascenseurs).", s1_l3: "Coordination de l'entretien des espaces verts et des piscines.", s1_l4: "Superviseurs sur le terrain pour suivre la qualité des services.",
+                        sub2_t: "Services via les supports digitaux", sub2_d: "Nous offrons des solutions de communication avancées facilitant l'accès aux services depuis chez vous :",
+                        s2_l1: "Soumission et suivi des demandes de maintenance via les smartphones.", s2_l2: "Mise en relation digitale instantanée avec les meilleurs prestataires de services.", s2_l3: "Accompagnement digital, orientation juridique et technique à distance.", s2_l4: "Canaux modernes d'auto-gestion et de messagerie instantanée."
+                    }
+                },
+                platforms: {
+                    badge: "Support Technologique", title: "Nos Plateformes Digitales", desc: "Des plateformes développées par GSDF CLAIR pour soutenir nos pôles et faciliter les interactions.",
+                    iqamati_com: "Plateforme immobilière et de services appartenant à GSDF CLAIR.<br>Elle dessert la vente, la location, les services, les promoteurs et les professionnels.", visit_com: "Visiter IQAMATI.COM", learn_more: "En savoir plus",
+                    iqamati_ma: "Plateforme dédiée à la copropriété et la gestion des résidences.<br>Au service du syndic, du syndicat des copropriétaires, pour le vote, les réclamations et la communication.", visit_ma: "Découvrir IQAMATI.MA", request_offer: "Demander une offre"
+                },
+                method: {
+                    badge: "Notre Système", title: "La Méthodologie GSDF CLAIR",
+                    s1_t: "Écoute et Compréhension", s1_d: "Écoute attentive des besoins pour garantir la conformité des services avec vos exigences.",
+                    s2_t: "Diagnostic de la Situation", s2_d: "Évaluation sur le terrain, juridique et financière de la situation actuelle de l'établissement.",
+                    s3_t: "Proposition d'un Plan d'Action", s3_d: "Élaboration d'une feuille de route claire avec un budget transparent pour les interventions.",
+                    s4_t: "Organisation des Intervenants", s4_d: "Répartition des tâches sur le terrain et activation des supports numériques dédiés.",
+                    s5_t: "Suivi Terrain et Digital", s5_d: "Supervision effective de l'exécution en utilisant des plateformes numériques pour assurer la rapidité.",
+                    s6_t: "Rapports et Amélioration Continue", s6_d: "Émission de rapports périodiques et évaluation continue pour garantir la qualité."
+                },
+                target: {
+                    title: "À qui s'adressent nos services ?", t1: "Syndicat des Copropriétaires", t2: "Résidences et Complexes", t3: "Propriétaires Immobiliers", t4: "Entreprises et Bureaux", t5: "Promoteurs Immobiliers", t6: "Professionnels et Prestataires", t7: "Clients à la recherche d'un bien"
+                },
+                vision: {
+                    badge: "Nos Valeurs", title: "Une image intégrée digne des aspirations futures", desc: "Cette structure avancée confère à <span class='text-amber-600 font-bold'>GSDF CLAIR</span> le leadership en tant que groupe de services intégrés, offrant une vision professionnelle qui se reflète positivement sur tous nos partenaires.",
+                    v1_t: "Suivi Terrain et Professionnel", v1_d: "Accompagnement continu sur le terrain pour garantir la fluidité du quotidien.",
+                    v2_t: "Rapidité de la Transformation Digitale", v2_d: "Solutions logicielles intelligentes et applications confortables et développées.",
+                    v3_t: "Transparence et Gouvernance Budgétaire", v3_d: "Rapports clairs de suivi administratif et financier.",
+                    v4_t: "Production de Connaissances", v4_d: "Matériel éducatif et de sensibilisation pour encourager l'engagement financier."
+                },
+                metrics: {
+                    title: "Indicateurs de Performance", m1_l: "Taux de conformité financière et recouvrement", m1_r: "Suivi périodique",
+                    m2_l: "Traitement des demandes techniques", m2_r: "Interventions efficaces",
+                    m3_l: "Archivage des données et rapports financiers", m3_r: "Rapports clairs et archivage sécurisé", footer: "Nous veillons à l'évaluation et l'amélioration continue pour garantir l'excellence."
+                },
+                tool: {
+                    badge: "Conseiller Intelligent", title: "Personnalisez votre plan avec GSDF CLAIR", desc: "Sélectionnez les pôles et notre conseiller vous proposera un plan adapté.",
+                    label1: "Sélectionnez les pôles requis :", btn1_t: "1. Gestion Immobilière", btn1_d: "Copropriété, syndic et agence", btn2_t: "2. Solutions Digitales", btn2_d: "Développement et contenu", btn3_t: "3. Services Terrain & Digitaux", btn3_d: "Personnel de terrain et digital",
+                    label2: "Type de bien ou d'établissement :", opt_default: "-- Veuillez choisir le type d'établissement --", opt_res: "Complexe résidentiel / Immeuble en copropriété (Syndic)", opt_villa: "Villa privée ou complexe privé fermé", opt_office: "Complexe de bureaux ou grandes installations commerciales", opt_bus: "Entreprise ou entité professionnelle",
+                    out_badge: "Recommandation GSDF CLAIR", out_btn: "Demander un devis détaillé",
+                    txt_intro: "L'analyse de vos besoins indique que ", txt_res: "en tant que représentant d'un <strong>complexe résidentiel</strong>, nous vous suggérons de profiter du ", txt_villa: "pour construire, sécuriser et gérer <strong>votre villa privée</strong>, nous recommandons le ", txt_office: "pour développer et coordonner <strong>vos bureaux ou installations</strong>, nous suggérons d'allouer le ", txt_bus: "pour votre entreprise ou projet, la solution optimale réside dans l'intégration du ",
+                    txt_p1: "<strong>Pôle Gestion Immobilière</strong>", txt_p2: "<strong>Pôle Solutions Digitales et Contenu</strong>", txt_p3: "<strong>Pôle Services de Terrain & Digitaux</strong>", txt_join: " en plus du ", txt_outro: ". L'équipe GSDF CLAIR est prête à vous fournir des conseils détaillés."
+                },
+                footer: {
+                    desc: "Une entreprise marocaine leader offrant un système intégré de gestion immobilière, solutions digitales et services terrain.",
+                    title1: "Nos Trois Pôles", l1: "Gestion Immobilière", l2: "Solutions Digitales", l3: "Services de Terrain & Digitaux",
+                    title2: "Plateformes & Liens", l4: "Centre de Connaissances (GSDF CLAIR)", l5: "Mentions Légales", l6: "Forum de la Copropriété au Maroc",
+                    title3: "Contactez-nous", btn_contact: "Demander une offre ou un conseil", btn_wa: "Contacter via WhatsApp", btn_fb: "Suivez-nous sur Facebook", copyright: "© 2026 GSDF CLAIR. Tous droits réservés."
+                },
+                modal_contact: {
+                    title: "Demande de service", desc: "Veuillez remplir le formulaire et l'équipe GSDF CLAIR vous contactera rapidement.",
+                    lbl_name: "Nom complet / Entreprise :", ph_name: "Entrez le nom", lbl_type: "Type de client :", opt_default: "-- Choisir --", opt_t1: "Syndicat / Syndic", opt_t2: "Propriétaire privé", opt_t3: "Entreprise / Professionnel", opt_t4: "Particulier cherchant un bien",
+                    lbl_phone: "Numéro de téléphone :", lbl_city: "Ville :", ph_city: "Exemple: Rabat, Casablanca...",
+                    lbl_service: "Type de demande ou pôle ciblé :", opt_s1: "Pôle 1 - Gestion Immobilière & Copropriété", opt_s2: "Pôle 1 - Agence Immobilière & Intermédiation", opt_s3: "Pôle 2 - Développement Logiciel & Digital", opt_s4: "Pôle 2 - Création de Contenu", opt_s5: "Pôle 3 - Services Terrain & Digitaux", opt_s6: "Demande de consultation générale",
+                    lbl_method: "Mode de contact préféré :", opt_m1: "Téléphone", opt_m2: "WhatsApp", opt_m3: "E-mail",
+                    lbl_details: "Nombre d'appartements / Type de bien (si besoin) :", ph_details: "Exemple: Résidence de 20 appts, ou villa...",
+                    lbl_msg: "Message ou détails supplémentaires :", ph_msg: "Écrivez votre message ici...",
+                    success: "Votre demande a été reçue avec succès ! L'équipe GSDF CLAIR vous contactera bientôt.", btn_wa: "Envoyer via WhatsApp", btn_email: "Ou envoyer via E-mail", privacy: "Vos informations seront utilisées uniquement pour vous contacter concernant votre demande."
+                },
+                modal_comm: {
+                    badge: "Centre de Connaissances", title: "Portail de Production de Connaissances GSDF CLAIR", desc: "À travers le pôle 'Solutions Digitales', le centre vise à publier des contenus juridiques et organisationnels pour soutenir la confiance des clients et expliquer la législation immobilière.", list_t: "Dernières publications :", l1: "Guide des lois et mesures juridiques pour la gestion des arriérés de syndic.", l2: "L'impact de la transformation numérique sur l'automatisation des résidences.", l3: "Méthodes de communication constructive en copropriété.", btn_close: "Fermer la fenêtre", btn_reg: "S'inscrire à notre newsletter"
+                },
+                modal_legal: { title: "Mentions légales", btn_close: "Fermer / إغلاق النافذة" },
+                wa: {
+                    greet: "Bonjour l'équipe GSDF CLAIR, je souhaite vous contacter :", name: "👤 Nom :", type: "👥 Type client :", phone: "📞 Tél :", city: "📍 Ville :", req: "🎯 Type de demande :", det: "🏢 Détails :", met: "📲 Méthode de contact :", msg: "✉️ Message :"
+                }
+            },
+            en: {
+                doc_title: "GSDF CLAIR - Real Estate Management, Digital Solutions & Services",
+                meta_desc: "GSDF CLAIR is a Moroccan company specializing in real estate management, digital solutions, and field & digital services.",
+                header: { logo_desc: "Syndic • Digital • Services" },
+                nav: {
+                    home: "Home", about: "About Us", pillars: "Our Pillars", platforms: "Platforms",
+                    method: "Methodology", target: "Audience", legal: "Legal Info", contact_btn: "Contact Us"
+                },
+                hero: {
+                    badge: "Integrated Services Group", subtitle: "Moroccan Company for Real Estate Management, Digital Solutions, and Field & Digital Services",
+                    desc: "We offer an integrated professional ecosystem combining real estate management, field expertise, digital solutions, and content creation for clearer management and faster services.",
+                    btn_pillars: "Explore Our Pillars", btn_syndic: "Request Syndic Offer", btn_general: "Request General Service",
+                    widget_title: "GSDF CLAIR Ecosystem",
+                    w_p1_t: "1. Real Estate Management", w_p1_d: "Co-ownership & Brokerage",
+                    w_p2_t: "2. Digital Solutions", w_p2_d: "Software Development & Content",
+                    w_p3_t: "3. Field & Digital Services", w_p3_d: "On-site and via digital platforms"
+                },
+                about: {
+                    badge: "About Us", title: "Who is GSDF CLAIR?", 
+                    desc: "GSDF CLAIR is a Moroccan company that relies on an integrated service delivery model based on three interconnected pillars: Real Estate Management, Digital Solutions, and Field & Digital Services. We operate with a methodology that combines management, fieldwork, digitization, and communication to provide practical solutions."
+                },
+                pillars: {
+                    badge: "Comprehensive Service System", title: "The Three Pillars of GSDF CLAIR", 
+                    desc: "<strong>GSDF CLAIR</strong> stands out by offering an exceptional integrated model that allows for outstanding management and flexible digitalization across 3 fundamental axes.",
+                    tab1: "Real Estate Management", tab2: "Digital Solutions", tab3: "Field & Digital Services",
+                    p1: {
+                        badge: "1. Real Estate Management", title: "Real Estate Management", 
+                        desc: "We manage real estate properties according to a professional approach combining management, monitoring, and advanced property valuation.",
+                        sub1_t: "Co-ownership Management / Syndic", sub1_d: "Specialized services tailored to manage real estate and residential complexes to ensure their safety and market value:",
+                        s1_l1: "Management of co-ownerships and closed residential complexes.", s1_l2: "Assuming syndic duties, managing and repairing common areas.", s1_l3: "Comprehensive administrative, financial, and technical monitoring.", s1_l4: "Systematic collection operations, continuous accounting follow-up, and periodic reports.", s1_l5: "Facilitating general meetings and securing communication channels with owners.",
+                        sub2_t: "Real Estate Agency & Brokerage", sub2_d: "We offer comprehensive real estate brokerage solutions to ensure the sale, rental, and valuation of assets at the best prices:",
+                        s2_l1: "Brokerage in the buying and selling of residential and commercial properties.", s2_l2: "Management of residential and commercial rentals with solid contract drafting.", s2_l3: "Innovative and realistic marketing of real estate properties.", s2_l4: "Systematic research and seizing of the best real estate investment opportunities."
+                    },
+                    p2: {
+                        badge: "2. Digital Solutions", title: "Digital Solutions", 
+                        desc: "We develop innovative software and media solutions that enhance the digital transformation of individuals and modern complexes.",
+                        sub1_t: "Software Development & Digital Services", sub1_d: "We design and build fast software and digital solutions that place your complex or business at the forefront of the digital age:",
+                        s1_l1: "Design and development of custom platforms and mobile applications.", s1_l2: "Development of modern syndic management platforms.", s1_l3: "Smart automation and management solutions via mobile phones.", s1_l4: "Rapid digitalization, data security, and cloud services.",
+                        sub2_t: "Digital Content Creation & Awareness", sub2_d: "We produce creative content aimed at educating residents and establishing their behavioral and financial commitment:",
+                        s2_l1: "Design of premium visual content and interactive awareness posts.", s2_l2: "Production of educational videos explaining laws and resident rights.", s2_l3: "Management and securing of interactions on social media pages.", s2_l4: "Preparation and engineering of targeted public awareness and advertising campaigns."
+                    },
+                    p3: {
+                        badge: "3. Field & Digital Services", title: "Field & Digital Services",
+                        desc: "We offer a unique integration between field workers on the ground and the latest applications to provide a comfortable environment.",
+                        sub1_t: "Services via Field Staff", sub1_d: "We don't just delegate tasks; we monitor them closely on the ground via fully equipped professional staff:",
+                        s1_l1: "Professional security services and regular comprehensive cleaning.", s1_l2: "Technical interventions and rapid maintenance (electricity, plumbing, elevators).", s1_l3: "Coordination of regular gardening and landscaping services.", s1_l4: "Field supervisors to track service quality and compliance.",
+                        sub2_t: "Services via Digital Media", sub2_d: "We provide advanced communication solutions facilitating access to services without leaving your home:",
+                        s2_l1: "Submission, booking, and tracking of maintenance requests entirely via cloud systems.", s2_l2: "Instant smart digital linking between residents and certified home service providers.", s2_l3: "Remote digital support, legal, and technical guidance via trained staff.", s2_l4: "Providing the latest channels for self-management and instant messaging for decisions."
+                    }
+                },
+                platforms: {
+                    badge: "Technological Support", title: "Our Digital Platforms", desc: "Advanced digital platforms owned by GSDF CLAIR, designed to support our three pillars.",
+                    iqamati_com: "A real estate and service platform owned by GSDF CLAIR.<br>Primarily serves sales, rentals, services, real estate exhibitors, and professionals.", visit_com: "Visit IQAMATI.COM", learn_more: "Learn More",
+                    iqamati_ma: "A platform dedicated to co-ownership and residence management.<br>Serves the syndic, owners' association, accounting, voting processes, and complaints.", visit_ma: "Discover IQAMATI.MA", request_offer: "Request Offer"
+                },
+                method: {
+                    badge: "Our System", title: "GSDF CLAIR Methodology",
+                    s1_t: "Listening and Understanding Needs", s1_d: "We start by carefully listening to the needs to ensure services align with requirements.",
+                    s2_t: "Situation Diagnosis", s2_d: "Field, legal, and financial assessment of the current situation of the property.",
+                    s3_t: "Proposing an Action Plan", s3_d: "Drafting a clear roadmap and defining tasks precisely with a transparent budget.",
+                    s4_t: "Organizing Interveners", s4_d: "Distributing tasks to field teams and activating digital media for all stakeholders.",
+                    s5_t: "Field & Digital Tracking", s5_d: "Effective supervision of execution using digital platforms to ensure speed and quality.",
+                    s6_t: "Reporting & Continuous Improvement", s6_d: "Issuing periodic reports and continuously evaluating performance to ensure sustainability."
+                },
+                target: {
+                    title: "Who Do We Serve?", t1: "Co-owners Associations", t2: "Residential Complexes", t3: "Property Owners", t4: "Companies and Offices", t5: "Real Estate Developers", t6: "Professionals & Service Providers", t7: "Clients seeking property or service"
+                },
+                vision: {
+                    badge: "Company Values", title: "An integrated image worthy of future aspirations", desc: "This advanced structural division grants <span class='text-amber-600 font-bold'>GSDF CLAIR</span> leadership as an integrated services group, offering a professional vision that positively reflects on all our partners.",
+                    v1_t: "Field and Professional Follow-up", v1_d: "Continuous field support to ensure smooth daily life.",
+                    v2_t: "Speed of Digital Transformation", v2_d: "Smart software automation solutions and fully developed apps.",
+                    v3_t: "Transparency & Budget Governance", v3_d: "Clear administrative and financial tracking reports.",
+                    v4_t: "Knowledge Production", v4_d: "Awareness materials to educate residents and encourage commitment."
+                },
+                metrics: {
+                    title: "Performance & Quality Indicators", m1_l: "Financial commitment and collection rate", m1_r: "Regular tracking",
+                    m2_l: "Processing technical requests & field intervention", m2_r: "Effective interventions",
+                    m3_l: "Archive of bonds, data, and financial reports", m3_r: "Clear reports & secure digital archiving", footer: "We are committed to continuous evaluation and improvement to ensure excellence."
+                },
+                tool: {
+                    badge: "Smart Needs Advisor", title: "Customize your integrated plan with GSDF CLAIR", desc: "Select the pillars you would like to benefit from and our smart advisor will propose a plan.",
+                    label1: "Select the main required pillars:", btn1_t: "1. Real Estate Management", btn1_d: "Co-ownership, Syndic, & Agency", btn2_t: "2. Digital Solutions", btn2_d: "Software dev & Content", btn3_t: "3. Field & Digital Services", btn3_d: "Field staff & Digital media",
+                    label2: "Type of property or facility:", opt_default: "-- Please select facility type --", opt_res: "Residential Complex / Co-ownership Building (Syndic)", opt_villa: "Private Villa or closed private compound", opt_office: "Office complex or major commercial facilities", opt_bus: "Company or professional entity",
+                    out_badge: "GSDF CLAIR Custom Recommendation", out_btn: "Request exact pricing & consultation",
+                    txt_intro: "The needs analysis indicates that ", txt_res: "as a representative of a <strong>residential complex</strong>, we suggest you benefit from the ", txt_villa: "to build, secure, and manage <strong>your private property</strong>, we recommend the ", txt_office: "to develop and coordinate <strong>your office or commercial facility</strong>, we suggest allocating the ", txt_bus: "for your business or company, the optimal strategic solution lies in integrating the ",
+                    txt_p1: "<strong>Real Estate Management Pillar</strong>", txt_p2: "<strong>Digital Solutions & Content Pillar</strong>", txt_p3: "<strong>Field & Digital Services Pillar</strong>", txt_join: " in addition to the ", txt_outro: ". The GSDF CLAIR team is ready to provide a detailed consultation."
+                },
+                footer: {
+                    desc: "A leading Moroccan company offering an integrated system in real estate management, digital solutions, and field services.",
+                    title1: "Our Three Pillars", l1: "Real Estate Management", l2: "Digital Solutions", l3: "Field & Digital Services",
+                    title2: "Platforms & Links", l4: "Knowledge Center (GSDF CLAIR)", l5: "Legal Information", l6: "Morocco Co-ownership Forum",
+                    title3: "Contact Us", btn_contact: "Request Offer or Consultation", btn_wa: "Contact via WhatsApp", btn_fb: "Follow us on Facebook", copyright: "© 2026 GSDF CLAIR. All rights reserved."
+                },
+                modal_contact: {
+                    title: "Request Service or Consultation", desc: "Please fill out the form and the GSDF CLAIR team will contact you shortly.",
+                    lbl_name: "Full Name / Company:", ph_name: "Enter name", lbl_type: "Customer Type:", opt_default: "-- Select --", opt_t1: "Owners Association / Syndic", opt_t2: "Private Property Owner", opt_t3: "Company / Professional", opt_t4: "Individual seeking property/service",
+                    lbl_phone: "Phone Number:", lbl_city: "City:", ph_city: "Example: Rabat, Casablanca...",
+                    lbl_service: "Type of Request / Target Pillar:", opt_s1: "Pillar 1 - Real Estate Mgt & Co-ownership", opt_s2: "Pillar 1 - Real Estate Agency & Brokerage", opt_s3: "Pillar 2 - Software Dev & Digital Solutions", opt_s4: "Pillar 2 - Content Creation", opt_s5: "Pillar 3 - Field & Digital Services", opt_s6: "General Consultation Request",
+                    lbl_method: "Best Contact Method:", opt_m1: "Phone", opt_m2: "WhatsApp", opt_m3: "Email",
+                    lbl_details: "Number of Apartments / Property Type:", ph_details: "Example: Residence of 20 apts, or Villa...",
+                    lbl_msg: "Message or Additional Details:", ph_msg: "Write your message or inquiry here...",
+                    success: "Your request has been successfully received! The GSDF CLAIR team will contact you soon.", btn_wa: "Send Request via WhatsApp", btn_email: "Or Send Request via Email", privacy: "Your information will only be used to contact you regarding your request."
+                },
+                modal_comm: {
+                    badge: "Knowledge Center", title: "GSDF CLAIR Knowledge Production Portal", desc: "Through the 'Digital Solutions' pillar, the center aims to publish legal and organizational content to support customer trust and explain real estate legislation.", list_t: "Latest Publications:", l1: "Guide to laws and legal measures for managing syndic arrears.", l2: "The impact of digital transformation on residence automation.", l3: "Methods and foundations of constructive communication in co-ownership.", btn_close: "Close Window", btn_reg: "Subscribe to our releases"
+                },
+                modal_legal: { title: "Legal Information", btn_close: "Close / إغلاق النافذة" },
+                wa: {
+                    greet: "Hello GSDF CLAIR team, I would like to contact you:", name: "👤 Name:", type: "👥 Customer Type:", phone: "📞 Phone:", city: "📍 City:", req: "🎯 Request Type:", det: "🏢 Details:", met: "📲 Contact Method:", msg: "✉️ Message:"
+                }
+            },
+            am: {
+                doc_title: "GSDF CLAIR - ⴰⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ, ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ ⴷ ⵜⵏⴰⴼⵓⵜⵉⵏ",
+                meta_desc: "GSDF CLAIR ⵜⴳⴰ ⵜⴰⵎⵙⵙⵓⵔⵜ ⵜⴰⵎⵖⵔⵉⴱⵉⵜ ⵉⵥⵍⵉⵏ ⵙ ⵓⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ, ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ, ⴷ ⵜⵏⴰⴼⵓⵜⵉⵏ ⵏ ⵓⴱⴰⵔⴰⵣ.",
+                header: { logo_desc: "Syndic • Digital • Services" },
+                nav: {
+                    home: "ⴰⵙⵏⵓⴱⴳ", about: "ⵖⴼ ⴰⵏⵖ", pillars: "ⵉⴳⵊⴷⴰ ⵏ ⵜⵎⵙⵙⵓⵔⵜ", platforms: "ⵉⵏⵙⴰⵜⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ",
+                    method: "ⵜⴰⵖⴰⵔⴰⵙⵜ ⵏⵏⵖ", target: "ⵉⵡⵜⵜⴰⵙⵏ", legal: "ⵉⵏⵖⵎⵉⵙⵏ ⵉⵣⵔⴼⴰⵏⵏ", contact_btn: "ⵎⵙⴰⵡⴰⴹ ⴷⵉⴷⵏⵖ"
+                },
+                hero: {
+                    badge: "ⵜⴰⵔⴰⴱⴱⵓⵜ ⵏ ⵜⵏⴰⴼⵓⵜⵉⵏ", subtitle: "ⵜⴰⵎⵙⵙⵓⵔⵜ ⵜⴰⵎⵖⵔⵉⴱⵉⵜ ⵏ ⵓⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ ⴷ ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ",
+                    desc: "ⵏⴰⴽⴽⴰ ⵢⴰⵏ ⵓⵏⴳⵔⴰⵡ ⴰⵎⵙⵜⴳⴳⴰⵔ ⵉⵙⵎⵓⵏⵏ ⴰⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ, ⵜⵉⵔⵎⵉⵜ ⵏ ⵓⴱⴰⵔⴰⵣ, ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ ⴷ ⵓⵙⵏⴼⵍⵓⵍ ⵏ ⵜⵓⵎⴰⵢⵜ.",
+                    btn_pillars: "ⵥⵕ ⵉⴳⵊⴷⴰ ⵏ ⵜⵎⵙⵙⵓⵔⵜ", btn_syndic: "ⵙⵙⵓⵜⵔ ⴰⵙⵡⵓⴷⴷⵓ", btn_general: "ⵙⵙⵓⵜⵔ ⵜⴰⵏⴰⴼⵓⵜ",
+                    widget_title: "ⴰⵏⴳⵔⴰⵡ GSDF CLAIR",
+                    w_p1_t: "1. ⴰⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ", w_p1_d: "ⵜⴰⵎⵍⴰⵍⵉⵜ ⵉⵛⵛⴰⵔⵏ",
+                    w_p2_t: "2. ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ", w_p2_d: "ⴰⵙⴱⵓⵖⵍⵓ ⵏ ⵉⵖⴰⵡⴰⵙⵏ",
+                    w_p3_t: "3. ⵜⵏⴰⴼⵓⵜⵉⵏ ⵏ ⵓⴱⴰⵔⴰⵣ", w_p3_d: "ⴳ ⵓⴱⴰⵔⴰⵣ ⴷ ⵓⵎⵓⵟⵟⵓⵏ"
+                },
+                about: {
+                    badge: "ⵖⴼ ⴰⵏⵖ", title: "ⵎⴰⵏⵡⴰ ⵉⴳⴰⵏ GSDF CLAIR?",
+                    desc: "GSDF CLAIR ⵜⴳⴰ ⵜⴰⵎⵙⵙⵓⵔⵜ ⵜⴰⵎⵖⵔⵉⴱⵉⵜ ⵉⵜⵜⴰⵡⵙⵏ ⵖⴼ ⵢⴰⵏ ⵓⵎⴷⵢⴰ ⵉⵎⵙⴰⵙⴰⵏ ⴳ ⵓⵙⵎⵏⵉⴷ ⵏ ⵜⵏⴰⴼⵓⵜⵉⵏ, ⵉⴱⴷⴷ ⵖⴼ ⴽⵕⴰⴹ ⵉⴳⵊⴷⴰ: ⴰⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ, ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ, ⴷ ⵜⵏⴰⴼⵓⵜⵉⵏ ⵏ ⵓⴱⴰⵔⴰⵣ. ⵏⴰⴽⴽⴰ ⵉⴼⵙⵙⴰⵢⵏ ⵉ ⵜⴳⵎⵎⴰ, ⵉⵎⵍⵍⴰⴽⵏ, ⴷ ⵜⵎⵙⵙⵓⵔⵉⵏ."
+                },
+                pillars: {
+                    badge: "ⴰⵏⴳⵔⴰⵡ ⵏ ⵜⵏⴰⴼⵓⵜⵉⵏ", title: "ⴽⵕⴰⴹ ⵉⴳⵊⴷⴰ ⵏ GSDF CLAIR",
+                    desc: "<strong>GSDF CLAIR</strong> ⵜⴻⵜⵜⵡⴰⵙⵙⵏ ⵙ ⵓⵙⵎⵏⵉⴷ ⵏ ⵢⴰⵏ ⵓⵎⴷⵢⴰ ⵉⵎⵙⴰⵙⴰⵏ ⵉⵜⵜⴰⵊⵊⴰⵏ ⴰⵙⵡⵓⴷⴷⵓ ⵉⴼⵓⵍⴽⵉⵏ ⴷ ⵓⵙⵏⴼⵍ ⴰⵎⵓⵟⵟⵓⵏ ⵉⴼⵙⵙⵓⵙⵏ.",
+                    tab1: "ⴰⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ", tab2: "ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ", tab3: "ⵜⵏⴰⴼⵓⵜⵉⵏ ⵏ ⵓⴱⴰⵔⴰⵣ",
+                    p1: {
+                        badge: "1. ⴰⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ", title: "Gestion Immobilière",
+                        desc: "ⵏⵜⵜⴰⵡⵙ ⴳ ⵓⵙⵡⵓⴷⴷⵓ ⵏ ⵡⴰⴽⴰⵍⵏ ⴷ ⵜⴳⵎⵎⴰ ⵙ ⵢⴰⵜ ⵜⵖⴰⵔⴰⵙⵜ ⵜⴰⵎⵙⵜⴳⴳⴰⵔⵜ.",
+                        sub1_t: "ⴰⵙⵡⵓⴷⴷⵓ ⵏ ⵜⵎⵍⴰⵍⵉⵜ / ⴰⵙⵏⴷⵉⴽ", sub1_d: "ⵜⵏⴰⴼⵓⵜⵉⵏ ⵉⵥⵍⵉⵏ ⵉ ⵓⵙⵡⵓⴷⴷⵓ ⵏ ⵜⴳⵎⵎⴰ:",
+                        s1_l1: "ⴰⵙⵡⵓⴷⴷⵓ ⵏ ⵜⵎⵍⴰⵍⵉⵜ ⵉⵛⵛⴰⵔⵏ.", s1_l2: "ⵜⵉⵎⵙⵜⴳⴳⴰⵔ ⵏ ⵓⵙⵏⴷⵉⴽ ⴷ ⵓⵙⴳⴳⴷ ⵏ ⵉⵏⵙⴰⵜⵏ ⵉⵛⵛⴰⵔⵏ.", s1_l3: "ⴰⴹⴼⵓⵕ ⴰⵎⵙⵙⵓⴳⵓⵔ ⴷ ⵓⵥⵕⴼⴰⵏ ⵉⴼⴰⵡⵏ.", s1_l4: "ⴰⵙⵎⵙⴰⵙⴰ ⵏ ⵓⵙⵉⴹⵏ ⴷ ⵉⵏⵇⵇⵉⵙⵏ.", s1_l5: "ⴰⵎⵢⴰⵡⴰⴹ ⴷ ⵉⵎⵍⵍⴰⴽⵏ.",
+                        sub2_t: "ⵜⴰⵡⴽⴰⵍⵜ ⵜⴰⴽⴰⵍⴰⵏⵜ", sub2_d: "ⵏⴰⴽⴽⴰ ⵉⴼⵙⵙⴰⵢⵏ ⵏ ⵜⵡⴽⴰⵍⵜ ⵉ ⵓⵣⵏⵣⵉ ⴷ ⵓⴽⵔⴰ:",
+                        s2_l1: "ⵜⴰⵡⴽⴰⵍⵜ ⴳ ⵓⵣⵏⵣⵉ ⴷ ⵜⵉⵖⵉ ⵏ ⵡⴰⴽⴰⵍⵏ.", s2_l2: "ⴰⵙⵡⵓⴷⴷⵓ ⵏ ⵓⴽⵔⴰ ⵏ ⵜⴳⵎⵎⴰ.", s2_l3: "ⴰⵙⵙⵓⵜⴳ ⵏ ⵡⴰⴽⴰⵍⵏ ⴷ ⵓⵙⵎⵏⵉⴷ ⵏⵏⵙⵏ.", s2_l4: "ⴰⵔⵣⵣⵓ ⵖⴼ ⵜⵎⵍⴷⴰ ⵏ ⵓⵙⵙⴰⵔու."
+                    },
+                    p2: {
+                        badge: "2. ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ", title: "Solutions Digitales",
+                        desc: "ⵏⵙⴱⵓⵖⵍⵓ ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ ⵉ ⵓⵙⵎⴰⵢⵏⵓ ⴰⵎⵓⵟⵟⵓⵏ.",
+                        sub1_t: "ⴰⵙⴱⵓⵖⵍⵓ ⵏ ⵉⵖⴰⵡⴰⵙⵏ", sub1_d: "ⵏⵙⵏⴼⵍⵓⵍ ⵉⵖⴰⵡⴰⵙⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ ⵉ ⵜⵎⵙⵙⵓⵔⵉⵏ:",
+                        s1_l1: "ⴰⵙⵏⴼⵍⵓⵍ ⵏ ⵉⵏⵙⴰⵜⵏ ⴷ ⵉⵙⵏⵙⵉⵜⵏ ⵏ ⵜⵉⵍⵉⴼⵓⵏ.", s1_l2: "ⴰⵙⴱⵓⵖⵍⵓ ⵏ ⵉⵏⵙⴰⵜⵏ ⵏ ⵓⵙⵏⴷⵉⴽ.", s1_l3: "ⵉⴼⵙⵙⴰⵢⵏ ⵏ ⵓⵙⵡⵓⴷⴷⵓ ⵉⵎⵓⵟⵟⵓⵏⵏ.", s1_l4: "ⴰⵃⵟⵟⵓ ⵏ ⵉⵙⴼⴽⴰ ⴷ ⵜⵏⴰⴼⵓⵜⵉⵏ ⵏ ⵓⵙⴰⴳⵓⵔ.",
+                        sub2_t: "ⴰⵙⵏⴼⵍⵓⵍ ⵏ ⵜⵓⵎⴰⵢⵜ", sub2_d: "ⵏⵙⵏⴼⵍⵓⵍ ⵜⵓⵎⴰⵢⵜ ⵉ ⵓⵙⴼⵔⴽ ⵏ ⵉⵎⵣⴷⴰⵖ:",
+                        s2_l1: "ⴰⵙⵏⴼⵍⵓⵍ ⵏ ⵜⵓⵎⴰⵢⵜ ⵉⵥⵉⵍⵏ.", s2_l2: "ⴰⴼⴰⵔⵙ ⵏ ⵉⴼⵉⴷⵢⵓⵜⵏ ⵏ ⵓⵙⴼⵔⴽ ⵖⴼ ⵉⵣⵔⴼⴰⵏ.", s2_l3: "ⴰⵙⵡⵓⴷⴷⵓ ⵏ ⵉⵥⵟⵡⴰⵏ ⵉⵏⴰⵎⵓⵏⵏ.", s2_l4: "ⴰⵙⵎⵓⵜⵜⴳ ⵏ ⵜⵎⵀⵍⵉⵡⵉⵏ ⵏ ⵓⵙⴼⵔⴽ."
+                    },
+                    p3: {
+                        badge: "3. ⵜⵏⴰⴼⵓⵜⵉⵏ ⵏ ⵓⴱⴰⵔⴰⵣ", title: "Services de Terrain",
+                        desc: "ⵏⴰⴽⴽⴰ ⵢⴰⵏ ⵓⵎⵙⴰⵙⴰ ⴳⵔ ⵜⵡⵓⵔⵉ ⵏ ⵓⴱⴰⵔⴰⵣ ⴷ ⵜⵜⵉⴽⵏⵓⵍⵓⵊⵉⵜ ⵉ ⵢⴰⵜ ⵜⵓⴷⵔⵜ ⵉⴼⵓⵍⴽⵉⵏ.",
+                        sub1_t: "ⵜⵏⴰⴼⵓⵜⵉⵏ ⵙ ⵉⵎⵙⵡⵓⵔⵉⵢⵏ ⵏ ⵓⴱⴰⵔⴰⵣ", sub1_d: "ⵏⴹⴼⴼⴰⵕ ⵜⵉⵡⵓⵔⵉⵡⵉⵏ ⴳ ⵓⴱⴰⵔⴰⵣ ⵙ ⵢⴰⵜ ⵜⴰⵔⴰⴱⴱⵓⵜ ⵉⵜⵜⵓⵙⵎⵓⵜⵜⴳⵏ:",
+                        s1_l1: "ⵜⵏⴰⴼⵓⵜⵉⵏ ⵏ ⵜⴳⴰⵣⵜ ⴷ ⵜⵣⴷⴳⵉ ⵏ ⴽⵓ ⴰⵙⵙ.", s1_l2: "ⵜⵉⵡⵓⵔⵉⵡⵉⵏ ⵏ ⵓⵙⴳⴳⴷ (ⵜⵉⴼⴰⵡⵜ, ⵡⴰⵎⴰⵏ, ⵉⵙⴽⴽⵉⴼⵏ).", s1_l3: "ⴰⵙⵡⵓⴷⴷⵓ ⵏ ⵜⵓⵔⵜⵉⵜⵉⵏ ⴷ ⵉⴳⵍⵎⴰⵎⵏ.", s1_l4: "ⵉⵎⴹⴼⴰⵕⵏ ⵏ ⵓⴱⴰⵔⴰⵣ ⵉ ⵜⵏⴼⵔⵓⵜ ⵏ ⵜⵖⴰⵔⴰ.",
+                        sub2_t: "ⵜⵏⴰⴼⵓⵜⵉⵏ ⵜⵉⵎⵓⵟⵟⵓⵏⵉⵏ", sub2_d: "ⵏⴰⴽⴽⴰ ⵉⴼⵙⵙⴰⵢⵏ ⵏ ⵓⵎⵢⴰⵡⴰⴹ ⴰⴼⴰⴷ ⴰⴷ ⵜⴰⵡⴹⵎ ⵙ ⵜⵏⴰⴼⵓⵜⵉⵏ ⵙ ⵜⵉⵣⵣⵍⴰ:",
+                        s2_l1: "ⴰⴹⴼⵓⵕ ⵏ ⵜⵓⵜⵜⵔⵉⵡⵉⵏ ⵏ ⵓⵙⴳⴳⴷ ⵙ ⵜⵉⵍⵉⴼⵓⵏ.", s2_l2: "ⴰⵎⵢⴰⵡⴰⴹ ⴳⵔ ⵉⵎⵣⴷⴰⵖ ⴷ ⵉⵎⵙⵡⵓⵔⵉⵢⵏ.", s2_l3: "ⴰⵎⵢⴰⵡⴰⵙ ⴰⵎⵓⵟⵟⵓⵏ ⴷ ⵓⵎⵛⵛⵉⵡⵕ ⴰⵣⵔⴼⴰⵏ.", s2_l4: "ⵉⴼⵙⵙⴰⵢⵏ ⵏ ⵓⵎⵢⴰⵡⴰⴹ ⴰⵎⵓⵟⵟⵓⵏ ⵉ ⵜⵖⵜⴰⵙⵉⵏ ⵏ ⵜⴳⵎⵎⵉ."
+                    }
+                },
+                platforms: {
+                    badge: "ⴰⵏⴰⵍ ⴰⵜⵉⴽⵏⵓⵍⵓⵊⵉ", title: "ⵉⵏⵙⴰⵜⵏ ⵏⵏⵖ ⵉⵎⵓⵟⵟⵓⵏⵏ", desc: "ⵉⵏⵙⴰⵜⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ ⵏ ⵜⵎⵙⵙⵓⵔⵜ GSDF CLAIR, ⵜⵜⵓⵙⴽⴰⵔⵏ ⴰⴼⴰⴷ ⴰⴷ ⴰⵡⵙⵏ ⴳ ⵉⴳⵊⴷⴰ ⵏⵏⵖ.",
+                    iqamati_com: "ⴰⵏⵙⴰ ⴰⴽⴰⵍⴰⵏ ⵏ GSDF CLAIR.<br>ⵉ ⵓⵣⵏⵣⵉ ⴷ ⵓⴽⵔⴰ, ⵜⵏⴰⴼⵓⵜⵉⵏ, ⴷ ⵉⵎⵙⵡⵓⵔⵉⵢⵏ.", visit_com: "ⵔⵣⴼ IQAMATI.COM", learn_more: "ⵙⵙⵏ ⵓⴳⴳⴰⵔ",
+                    iqamati_ma: "ⴰⵏⵙⴰ ⵏ ⵜⵎⵍⴰⵍⵉⵜ ⵉⵛⵛⴰⵔⵏ ⴷ ⵓⵙⵡⵓⴷⴷⵓ ⵏ ⵜⴳⵎⵎⴰ.<br>ⵉ ⵓⵙⵏⴷⵉⴽ, ⵉⵎⵍⵍⴰⴽⵏ, ⴰⵙⵉⴹⵏ, ⴷ ⵓⵎⵢⴰⵡⴰⴹ.", visit_ma: "ⵥⵕ IQAMATI.MA", request_offer: "ⵙⵙⵓⵜⵔ ⴰⵙⵎⵏⵉⴷ"
+                },
+                method: {
+                    badge: "ⴰⵏⴳⵔⴰⵡ ⵏⵏⵖ", title: "ⵜⴰⵖⴰⵔⴰⵙⵜ ⵏ GSDF CLAIR",
+                    s1_t: "ⴰⵙⵙⴼⵍⴷ ⴷ ⵓⵔⵎⴰⵙ", s1_d: "ⵏⵙⵙⴼⵍⴷ ⵉ ⵜⵓⵜⵜⵔⵉⵡⵉⵏ ⵏⵏⵓⵏ ⴰⴼⴰⴷ ⴰⴷ ⵏⴰⵡⵙ ⵙ ⵎⴰ ⵉⵔⵡⴰⵙⵏ.",
+                    s2_t: "ⴰⵙⴳⵣⵍ ⵏ ⵜⴰⴷⴷⴰⴷⵜ", s2_d: "ⴰⵙⵙⵓⵜⴳ ⵏ ⵜⴰⴷⴷⴰⴷⵜ ⵏ ⵡⴰⴽⴰⵍ ⵏⵖ ⵜⴰⵎⵙⵙⵓⵔⵜ.",
+                    s3_t: "ⴰⵙⵓⵎⵔ ⵏ ⵓⵖⴰⵡⴰⵙ", s3_d: "ⴰⵙⵎⵓⵜⵜⴳ ⵏ ⵓⵖⴰⵡⴰⵙ ⵏ ⵜⵡⵓⵔⵉ ⵙ ⵜⵉⴼⴰⵡⵜ.",
+                    s4_t: "ⴰⵙⵓⴷⵙ ⵏ ⵉⵎⵙⵡⵓⵔⵉⵢⵏ", s4_d: "ⴰⴱⵟⵟⵓ ⵏ ⵜⵡⵓⵔⵉⵡⵉⵏ ⵖⴼ ⵜⵔⴰⴱⴱⵓⵜ ⵏ ⵓⴱⴰⵔⴰⵣ.",
+                    s5_t: "ⴰⴹⴼⵓⵕ ⴰⵎⵓⵟⵟⵓⵏ ⴷ ⵓⴱⴰⵔⴰⵣ", s5_d: "ⴰⴹⴼⵓⵕ ⵏ ⵜⵡⵓⵔⵉ ⵙ ⵜⵜⵉⴽⵏⵓⵍⵓⵊⵉⵜ ⴰⴼⴰⴷ ⴰⴷ ⵏⵙⵙⵉⵡⴹ ⵙ ⵜⵉⵣⵣⵍⴰ.",
+                    s6_t: "ⵉⵏⵇⵇⵉⵙⵏ ⴷ ⵓⵙⴼⵓⵍⴽⵉ", s6_d: "ⴰⵙⵓⴼⵖ ⵏ ⵉⵏⵇⵇⵉⵙⵏ ⴷ ⵓⵙⴼⵓⵍⴽⵉ ⵉⵎⴷⴷⴰⵏ ⵉ ⵜⵏⴰⴼⵓⵜⵉⵏ."
+                },
+                target: {
+                    title: "ⵎⴰⵎⵓ ⵏⴰⴽⴽⴰ ⵜⵏⴰⴼⵓⵜⵉⵏ?", t1: "ⵉⵎⵍⵍⴰⴽⵏ ⵉⵛⵛⴰⵔⵏ", t2: "ⵜⵉⴳⵎⵎⴰ", t3: "ⵉⵎⵍⵍⴰⴽⵏ ⵏ ⵡⴰⴽⴰⵍⵏ", t4: "ⵜⵉⵎⵙⵙⵓⵔⵉⵏ ⴷ ⵉⵏⵙⴰⵜⵏ", t5: "ⵉⵎⵙⵎⵏⵉⴷⵏ ⵏ ⵡⴰⴽⴰⵍⵏ", t6: "ⵉⵎⵙⵡⵓⵔⵉⵢⵏ ⴷ ⵉⵎⴰⴽⴽⴰⵢⵏ", t7: "ⵉⵎⵙⴰⵖⵏ ⵉⵔⵣⵣⵓⵏ ⵖⴼ ⵡⴰⴽⴰⵍ"
+                },
+                vision: {
+                    badge: "ⴰⵜⵉⴳⵏ ⵏ ⵜⵎⵙⵙⵓⵔⵜ", title: "ⵢⴰⵜ ⵜⵡⵍⴰⴼⵜ ⵉⵎⵙⴰⵙⴰⵏ ⵉ ⵉⵎⴰⵍ", desc: "ⴰⴱⵟⵟⵓ ⴰⴷ ⴰⵎⴰⵢⵏⵓ ⵉⵜⵜⴰⴽⴽⴰ ⵉ <span class='text-amber-600 font-bold'>GSDF CLAIR</span> ⴰⴷⵖⴰⵔ ⴰⵎⵣⵡⴰⵔⵓ ⴰⵎ ⵜⴰⵔⴰⴱⴱⵓⵜ ⵏ ⵜⵏⴰⴼⵓⵜⵉⵏ ⵉⵎⵙⴰⵙⴰⵏ, ⵏⴼⵍ ⵜⴰⵖⴰⵔⴰⵙⵜ ⵜⴰⵇⵇⴱⵓⵔⵜ ⵏ ⵓⵙⵡⵓⴷⴷⵓ ⴰⴼⴰⴷ ⴰⴷ ⵏⴰⴽⴽⴰ ⵢⴰⵜ ⵜⵡⵍⴰⴼⵜ ⵉⴼⵓⵍⴽⵉⵏ ⵉ ⵉⵎⵙⴰⵖⵏ ⵏⵏⵖ.",
+                    v1_t: "ⴰⴹⴼⵓⵕ ⵏ ⵓⴱⴰⵔⴰⵣ", v1_d: "ⴰⴹⴼⵓⵕ ⵉⵎⴷⴷⴰⵏ ⴰⴼⴰⴷ ⴰⴷ ⵜⴼⵓⵍⴽⵉ ⵜⵓⴷⵔⵜ ⵏ ⴽⵓ ⴰⵙⵙ.",
+                    v2_t: "ⵜⵉⵣⵣⵍⴰ ⵏ ⵓⵙⵏⴼⵍ ⴰⵎⵓⵟⵟⵓⵏ", v2_d: "ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ ⴷ ⵉⵙⵏⵙⵉⵜⵏ ⵉⴼⵓⵍⴽⵉⵏ.",
+                    v3_t: "ⵜⴰⵜⵜⵓⵢⵜ ⴷ ⵓⵙⵡⵓⴷⴷⵓ ⵏ ⵉⵥⵕⴼⴰⵏ", v3_d: "ⵉⵏⵇⵇⵉⵙⵏ ⵉⵎⵙⵙⵓⴳⵓⵔⵏ ⴷ ⵉⵥⵕⴼⴰⵏⵏ ⵉⴼⴰⵡⵏ.",
+                    v4_t: "ⴰⴼⴰⵔⵙ ⵏ ⵜⵓⵙⵙⵏⴰ", v4_d: "ⵜⵓⵎⴰⵢⵜ ⵏ ⵓⵙⴼⵔⴽ ⵉ ⵉⵎⵣⴷⴰⵖ ⴰⴼⴰⴷ ⴰⴷ ⵙⵙⵏⵏ ⵉⵣⵔⴼⴰⵏ ⵏⵏⵙⵏ."
+                },
+                metrics: {
+                    title: "ⵉⵎⴰⵜⴰⵔⵏ ⵏ ⵜⵡⵓⵔⵉ ⴷ ⵜⵖⴰⵔⴰ", m1_l: "ⴰⵙⴳⴳⴷ ⴰⵥⵕⴼⴰⵏ ⴷ ⵓⵙⵎⵓⵜⵜⴳ", m1_r: "ⴰⴹⴼⵓⵕ ⵉⵎⴷⴷⴰⵏ",
+                    m2_l: "ⴰⵙⵡⵓⴷⴷⵓ ⵏ ⵜⵓⵜⵜⵔⵉⵡⵉⵏ ⴷ ⵓⴱⴰⵔⴰⵣ", m2_r: "ⵜⵉⵡⵓⵔⵉⵡⵉⵏ ⵉⴼⵓⵍⴽⵉⵏ",
+                    m3_l: "ⴰⵃⵟⵟⵓ ⵏ ⵉⵙفكⴰ ⴷ ⵉⵏⵇⵇⵉⵙⵏ ⵉⵥⵕⴼⴰⵏⵏ", m3_r: "ⵉⵏⵇⵇⵉⵙⵏ ⵉⴼⴰⵡⵏ ⴷ ⵓⵃⵟⵟⵓ ⴰⵎⵓⵟⵟⵓⵏ", footer: "ⵏⴹⴼⴼⴰⵕ ⴰⵙⴼⵓⵍⴽⵉ ⵉⵎⴷⴷⴰⵏ ⴰⴼⴰⴷ ⴰⴷ ⵏⴰⴽⴽⴰ ⵎⴰ ⵉⴼⵓⵍⴽⵉⵏ."
+                },
+                tool: {
+                    badge: "ⴰⵎⵛⵛⵉⵡⵕ ⴰⵎⵓⵟⵟⵓⵏ", title: "ⵙⵎⵓⵜⵜⴳ ⴰⵖⴰⵡⴰⵙ ⵏⵏⴽ ⵉⵎⵙⴰⵙⴰⵏ ⴷ GSDF CLAIR", desc: "ⵙⵜⵉ ⵉⴳⵊⴷⴰ ⵍⵍⵉ ⵜⵔⵉⵜ ⴰⴷ ⵜⵙⵡⵓⵔⵉⵜ ⵙⵉⵙⵏ, ⴰⵎⵛⵛⵉⵡⵕ ⵏⵏⵖ ⵔⴰⴷ ⴰⴽ ⵉⵙⵓⵎⵔ ⴰⵖⴰⵡⴰⵙ ⵉⵎⵙⴰⵙⴰⵏ.",
+                    label1: "ⵙⵜⵉ ⵉⴳⵊⴷⴰ ⵉⴷⵙⵍⴰⵏⵏ:", btn1_t: "1. ⴰⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ", btn1_d: "ⵜⴰⵎⵍⴰⵍⵉⵜ ⵉⵛⵛⴰⵔⵏ, ⴰⵙⵏⴷⵉⴽ, ⴷ ⵜⵡⴽⴰⵍⵜ", btn2_t: "2. ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ", btn2_d: "ⴰⵙⴱⵓⵖⵍⵓ ⵏ ⵉⵖⴰⵡⴰⵙⵏ ⴷ ⵜⵓⵎⴰⵢⵜ", btn3_t: "3. ⵜⵏⴰⴼⵓⵜⵉⵏ ⵏ ⵓⴱⴰⵔⴰⵣ", btn3_d: "ⵉⵎⵙⵡⵓⵔⵉⵢⵏ ⵏ ⵓⴱⴰⵔⴰⵣ ⴷ ⵓⵎⵓⵟⵟⵓⵏ",
+                    label2: "ⴰⵏⴰⵡ ⵏ ⵡⴰⴽⴰⵍ ⵏⵖ ⵜⴰⵎⵙⵙⵓⵔⵜ:", opt_default: "-- ⵎⵇⵇⴰⵔ ⵙⵜⵉ ⴰⵏⴰⵡ ⵏ ⵡⴰⴽⴰⵍ --", opt_res: "ⵜⴰⴳⵎⵎⵉ ⵉⵛⵛⴰⵔⵏ / ⵜⵓⴷⴷⵓⵔⵜ (ⴰⵙⵏⴷⵉⴽ)", opt_villa: "ⵜⴰⴳⵎⵎⵉ ⵉⵥⵍⵉⵏ (Villa) ⵏⵖ ⵜⵓⴷⴷⵓⵔⵜ ⵉⵇⵇⵏⵏ", opt_office: "ⵉⵏⵙⴰⵜⵏ ⵏ ⵜⵡⵓⵔⵉ ⵏⵖ ⵜⵉⵎⵙⵙⵓⵔⵉⵏ ⵜⵉⵎⵇⵔⴰⵏⵉⵏ", opt_bus: "ⵜⴰⵎⵙⵙⵓⵔⵜ ⵉⵔⴰⵏ ⵉⴼⵙⵙⴰⵢⵏ ⵏⵏⵖ",
+                    out_badge: "ⴰⵙⵓⵎⵔ ⵉⵥⵍⵉⵏ ⵏ GSDF CLAIR", out_btn: "ⵙⵙⵓⵜⵔ ⴰⵜⵉⴳ ⴷ ⵓⵎⵛⵛⵉⵡⵕ",
+                    txt_intro: "ⴰⵙⴳⵣⵍ ⵏ ⵜⵓⵜⵜⵔⵉⵡⵉⵏ ⵏⵏⴽ ⵉⵎⵍⴰ ⵉⵙ ", txt_res: "ⴰⵎ ⵓⵎⵙⵜⴳⴳⴰⵔ ⵏ <strong>ⵜⴳⵎⵎⵉ ⵉⵛⵛⴰⵔⵏ ⵏⵖ ⵜⵓⴷⴷⵓⵔⵜ</strong>, ⵏⵙⵓⵎⵔ ⴰⴽ ⴰⴷ ⵜⵙⵡⵓⵔⵉⵜ ⵙ ", txt_villa: "ⵉ ⵓⵙⴽⴰ ⴷ ⵓⵙⵡⵓⴷⴷⵓ ⵏ <strong>ⵜⴳⵎⵎⵉ ⵏⵏⴽ ⵉⵥⵍⵉⵏ</strong>, ⵏⵙⵓⵎⵔ ⴰⴽ ", txt_office: "ⵉ ⵓⵙⴱⵓⵖⵍⵓ ⴷ ⵓⵙⵡⵓⴷⴷⵓ ⵏ <strong>ⵉⵏⵙⴰⵜⵏ ⵏ ⵜⵡⵓⵔⵉ ⵏⵏⴽ</strong>, ⵏⵙⵓⵎⵔ ⴰⴽ ", txt_bus: "ⵉ ⵜⵎⵙⵙⵓⵔⵜ ⵏⵏⴽ ⵏⵖ ⴰⵙⵏⵜⵉ ⵏⵏⴽ, ⵉⴼⵙⵙⴰⵢⵏ ⵉⴼⵓⵍⴽⵉⵏ ⴳⴰⵏ ⴰⵙⵎⵓⵏ ⵏ ",
+                    txt_p1: "<strong>ⵓⴳⵊⴷⵉ ⵏ ⵓⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ</strong>", txt_p2: "<strong>ⵓⴳⵊⴷⵉ ⵏ ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ ⴷ ⵜⵓⵎⴰⵢⵜ</strong>", txt_p3: "<strong>ⵓⴳⵊⴷⵉ ⵏ ⵜⵏⴰⴼⵓⵜⵉⵏ ⵏ ⵓⴱⴰⵔⴰⵣ</strong>", txt_join: " ⴷ ", txt_outro: ". ⵜⴰⵔⴰⴱⴱⵓⵜ ⵏ GSDF CLAIR ⵜⵃⵢⵢⵍ ⴰⴷ ⴰⴽ ⵜⴰⵡⵙ ⵙ ⵓⵎⵛⵛⵉⵡⵕ ⵉⴼⴰⵡⵏ."
+                },
+                footer: {
+                    desc: "ⵜⴰⵎⵙⵙⵓⵔⵜ ⵜⴰⵎⵖⵔⵉⴱⵉⵜ ⵜⴰⵎⵣⵡⴰⵔⵓⵜ ⵉⵜⵜⴰⴽⴽⴰⵏ ⵢⴰⵏ ⵓⵏⴳⵔⴰⵡ ⵉⵎⵙⴰⵙⴰⵏ ⴳ ⵓⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ, ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ, ⴷ ⵜⵏⴰⴼⵓⵜⵉⵏ ⵏ ⵓⴱⴰⵔⴰⵣ ⴰⴼⴰⴷ ⴰⴷ ⵜⴼⵓⵍⴽⵉ ⵜⵓⴷⵔⵜ ⴷ ⵜⵡⵓⵔⵉ.",
+                    title1: "ⴽⵕⴰⴹ ⵉⴳⵊⴷⴰ ⵏⵏⵖ", l1: "ⴰⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ", l2: "ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ", l3: "ⵜⵏⴰⴼⵓⵜⵉⵏ ⵏ ⵓⴱⴰⵔⴰⵣ ⴷ ⵓⵎⵓⵟⵟⵓⵏ",
+                    title2: "ⵉⵏⵙⴰⵜⵏ ⴷ ⵉⵙⵖⵓⵏⵏ", l4: "ⴰⵎⵎⴰⵙ ⵏ ⵜⵓⵙⵙⵏⴰ (GSDF CLAIR)", l5: "ⵉⵏⵖⵎⵉⵙⵏ ⵉⵣⵔⴼⴰⵏⵏ", l6: "ⴰⵎⴳⵔⴰⵡ ⵏ ⵜⵎⵍⴰⵍⵉⵜ ⵉⵛⵛⴰⵔⵏ ⴳ ⵍⵎⵖⵔⵉⴱ",
+                    title3: "ⴰⵡⴹ ⴰⵏⵖ", btn_contact: "ⵙⵙⵓⵜⵔ ⴰⵙⵎⵏⵉⴷ ⵏⵖ ⴰⵎⵛⵛⵉⵡⵕ", btn_wa: "ⵎⵙⴰⵡⴰⴹ ⴳ ⵡⴰⵜⵙⴰⴱ", btn_fb: "ⴹⴼⵕ ⴰⵏⵖ ⴳ ⴼⴰⵢⵙⴱⵓⴽ", copyright: "© 2026 GSDF CLAIR. ⵉⵣⵔⴼⴰⵏ ⵎⴰⵕⵕⴰ ⵜⵜⵓⵃⴹⴰⵏ."
+                },
+                modal_contact: {
+                    title: "ⵙⵙⵓⵜⵔ ⵜⴰⵏⴰⴼⵓⵜ ⵏⵖ ⴰⵎⵛⵛⵉⵡⵕ", desc: "ⵄⵎⵎⵕ ⵜⵉⴼⵔⵜ ⴰⴷ, ⵔⴰⴷ ⴰⴽ ⵜⴰⵡⴹ ⵜⵔⴰⴱⴱⵓⵜ ⵏ GSDF CLAIR ⵙ ⵜⵉⵣⵣⵍⴰ.",
+                    lbl_name: "ⵉⵙⵎ ⵉⵎⴷⴷⴰⵏ / ⵜⴰⵎⵙⵙⵓⵔⵜ:", ph_name: "ⴰⵔⴰ ⵉⵙⵎ ⵏⵏⴽ", lbl_type: "ⴰⵏⴰⵡ ⵏ ⵓⵎⵙⴰⵖ:", opt_default: "-- ⵙⵜⵉ --", opt_t1: "ⴰⵙⵏⴷⵉⴽ / ⵉⵎⵍⵍⴰⴽⵏ ⵉⵛⵛⴰⵔⵏ", opt_t2: "ⴰⵎⵍⵍⴰⴽ ⵉⵥⵍⵉⵏ", opt_t3: "ⵜⴰⵎⵙⵙⵓⵔⵜ ⵏⵖ ⴰⵎⴰⴽⴽⴰⵢ", opt_t4: "ⴰⵎⴷⴰⵏ ⵉⵔⵣⵣⵓⵏ ⵖⴼ ⵡⴰⴽⴰⵍ",
+                    lbl_phone: "ⴰⵟⵟⵓⵏ ⵏ ⵜⵉⵍⵉⴼⵓⵏ:", lbl_city: "ⵜⵉⵖⵔⵎⵜ:", ph_city: "ⴰⵎⴷⵢⴰ: ⵕⵕⴱⴰⵟ, ⴰⵏⴼⴰ...",
+                    lbl_service: "ⴰⵏⴰⵡ ⵏ ⵜⵓⵜⵜⵔⴰ ⵏⵖ ⴰⴳⵊⴷⵉ:", opt_s1: "ⴰⴳⵊⴷⵉ 1 - ⴰⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ ⴷ ⵜⵎⵍⴰⵍⵉⵜ", opt_s2: "ⴰⴳⵊⴷⵉ 1 - ⵜⴰⵡⴽⴰⵍⵜ ⵜⴰⴽⴰⵍⴰⵏⵜ", opt_s3: "ⴰⴳⵊⴷⵉ 2 - ⴰⵙⴱⵓⵖⵍⵓ ⵏ ⵉⵖⴰⵡⴰⵙⵏ", opt_s4: "ⴰⴳⵊⴷⵉ 2 - ⴰⵙⵏⴼⵍⵓⵍ ⵏ ⵜⵓⵎⴰⵢⵜ", opt_s5: "ⴰⴳⵊⴷⵉ 3 - ⵜⵏⴰⴼⵓⵜⵉⵏ ⵏ ⵓⴱⴰⵔⴰⵣ", opt_s6: "ⵜⵓⵜⵜⵔⴰ ⵏ ⵓⵎⵛⵛⵉⵡⵕ ⴰⵎⴰⵜⴰⵢ",
+                    lbl_method: "ⵜⴰⵖⴰⵔⴰⵙⵜ ⵉⴼⵓⵍⴽⵉⵏ ⵏ ⵓⵎⵢⴰⵡⴰⴹ:", opt_m1: "ⵜⵉⵍⵉⴼⵓⵏ", opt_m2: "ⵡⴰⵜⵙⴰⴱ", opt_m3: "ⴰⵏⵙⴰ ⴰⵍⵉⴽⵟⵕⵓⵏⵉ (Email)",
+                    lbl_details: "ⵎⵏⵛⴽ ⵏ ⵜⴳⵎⵎⴰ / ⴰⵏⴰⵡ ⵏ ⵡⴰⴽⴰⵍ (ⵉⴳ ⵜⵔⵉⵜ):", ph_details: "ⴰⵎⴷⵢⴰ: ⵜⵓⴷⴷⵓⵔⵜ ⵏ 20 ⵜⴳⵎⵎⴰ...",
+                    lbl_msg: "ⵜⴰⴱⵔⴰⵜ ⵏⵖ ⵉⵏⵖⵎⵉⵙⵏ ⵢⴰⴹⵏ:", ph_msg: "ⴰⵔⴰ ⵜⴰⴱⵔⴰⵜ ⵏⵏⴽ ⴷⴰ...",
+                    success: "ⵜⴰⵡⴹ ⴰⵏⵖ ⵜⵓⵜⵜⵔⴰ ⵏⵏⴽ ⵙ ⵓⵏⵏⵔⴰ! ⵔⴰⴷ ⴰⴽ ⵜⴰⵡⴹ ⵜⵔⴰⴱⴱⵓⵜ ⵏ GSDF CLAIR ⵙ ⵜⵉⵣⵣⵍⴰ.", btn_wa: "ⴰⵣⵏ ⵜⵓⵜⵜⵔⴰ ⴳ ⵡⴰⵜⵙⴰⴱ", btn_email: "ⵏⵖ ⴰⵣⵏ ⵜⵓⵜⵜⵔⴰ ⴳ ⵓⵏⵙⴰ ⴰⵍⵉⴽⵟⵕⵓⵏⵉ", privacy: "ⵉⵏⵖⵎⵉⵙⵏ ⵏⵏⴽ ⵔⴰⴷ ⵜⵜⵓⵙⵎⵔⵙⵏ ⵖⴰⵙ ⵉ ⵓⵎⵢⴰⵡⴰⴹ ⴷⵉⴷⴽ ⵖⴼ ⵜⵓⵜⵜⵔⴰ ⵏⵏⴽ."
+                },
+                modal_comm: {
+                    badge: "ⴰⵎⵎⴰⵙ ⵏ ⵜⵓⵙⵙⵏⴰ", title: "ⴰⵏⵙⴰ ⵏ ⵓⴼⴰⵔⵙ ⵏ ⵜⵓⵙⵙⵏⴰ ⵏ GSDF CLAIR", desc: "ⵙ ⵓⴳⵊⴷⵉ ⵏ 'ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ ⴷ ⵜⵓⵎⴰⵢⵜ', ⴰⵎⵎⴰⵙ ⴰⴷ ⵉⵜⵜⴰⵡⵙ ⴳ ⵓⵙⴼⵔⴽ ⵏ ⵉⵎⵣⴷⴰⵖ ⴷ ⵓⵙⴼⵔⵓ ⵏ ⵉⵣⵔⴼⴰⵏ ⵉⴽⴰⵍⴰⵏⵏ ⴰⴼⴰⴷ ⴰⴷ ⵏⵙⴱⵓⵖⵍⵓ ⵜⴰⴼⵍⵙⵜ ⵏ ⵉⵎⵙⴰⵖⵏ.", list_t: "ⵉⵏⵇⵇⵉⵙⵏ ⵉⵎⴰⵢⵏⵓⵜⵏ:", l1: "ⴰⵎⴰⵡⴰⵍ ⵏ ⵉⵣⵔⴼⴰⵏ ⴷ ⵉⵙⵓⵔⴰⴼ ⵉⵣⵔⴼⴰⵏⵏ ⵉ ⵓⵙⵡⵓⴷⴷⵓ ⵏ ⵓⵙⵏⴷⵉⴽ.", l2: "ⴰⴹⴼⵓⵕ ⵏ ⵓⵙⵏⴼⵍ ⴰⵎⵓⵟⵟⵓⵏ ⴳ ⵓⵙⵡⵓⴷⴷⵓ ⵏ ⵜⴳⵎⵎⴰ ⴷ ⵓⵙⴳⵣⵍ ⵏ ⵡⴰⵜⵉⴳⵏ.", l3: "ⵜⵉⵖⴰⵔⴰⵙⵉⵏ ⴷ ⵉⵙⵔⵙⵍⵏ ⵏ ⵓⵎⵢⴰⵡⴰⴹ ⵉⴼⵓⵍⴽⵉⵏ ⴳ ⵜⵎⵍⴰⵍⵉⵜ ⵉⵛⵛⴰⵔⵏ.", btn_close: "ⵇⵇⵏ ⵜⴰⵙⴽⵯⵜⵉⵜ", btn_reg: "ⵣⵎⵎⴻⵎ ⴰⴼⴰⴷ ⴰⴽ ⴷ ⴰⵡⴹⵏ ⵉⵏⵇⵇⵉⵙⵏ ⵏⵏⵖ"
+                },
+                modal_legal: { title: "ⵉⵏⵖⵎⵉⵙⵏ ⵉⵣⵔⴼⴰⵏⵏ", btn_close: "ⵇⵇⵏ / Fermer" },
+                wa: {
+                    greet: "ⴰⵣⵓⵍ ⵜⴰⵔⴰⴱⴱⵓⵜ ⵏ GSDF CLAIR, ⵔⵉⵖ ⴰⴷ ⵎⵙⴰⵡⴰⴹⵖ ⴷⵉⴷⵡⵏ:", name: "👤 ⵉⵙⵎ:", type: "👥 ⴰⵏⴰⵡ ⵏ ⵓⵎⵙⴰⵖ:", phone: "📞 ⵜⵉⵍⵉⴼⵓⵏ:", city: "📍 ⵜⵉⵖⵔⵎⵜ:", req: "🎯 ⴰⵏⴰⵡ ⵏ ⵜⵓⵜⵜⵔⴰ:", det: "🏢 ⵉⵏⵖⵎⵉⵙⵏ ⵢⴰⴹⵏ:", met: "📲 ⵜⴰⵖⴰⵔⴰⵙⵜ ⵏ ⵓⵎⵢⴰⵡⴰⴹ:", msg: "✉️ ⵜⴰⴱⵔⴰⵜ:"
+                }
+            }
+        };
+
+        // --- GLOBAL STATE ---
+        let currentLang = 'ar';
+        let selectedInputs = {
+            realestate: false,
+            digital: false,
+            services: false
+        };
+
+        // --- INIT & LANGUAGE LOGIC ---
+        function changeLanguage(lang) {
+            currentLang = lang;
+            localStorage.setItem('lang', lang);
+            
+            // HTML Attributes
+            document.documentElement.lang = lang;
+            document.documentElement.dir = (lang === 'ar') ? 'rtl' : 'ltr';
+
+            // Update Title and Meta
+            document.title = translations[lang].doc_title;
+            document.getElementById('meta-description').content = translations[lang].meta_desc;
+
+            // Highlight Active Language Button
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                if(btn.dataset.lang === lang) {
+                    btn.classList.add('text-amber-500');
+                    btn.classList.remove('text-slate-500', 'text-slate-400');
+                } else {
+                    btn.classList.remove('text-amber-500');
+                    // Header vs Mobile nav styling diff
+                    if(btn.closest('#mobile-menu')) {
+                        btn.classList.add('text-slate-400');
+                    } else {
+                        btn.classList.add('text-slate-400');
+                    }
+                }
+            });
+
+            // Translate Text Elements
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                const translation = getNestedTranslation(translations[lang], key);
+                if (translation) {
+                    el.innerHTML = translation;
+                }
+            });
+
+            // Translate Placeholders
+            document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+                const key = el.getAttribute('data-i18n-placeholder');
+                const translation = getNestedTranslation(translations[lang], key);
+                if (translation) {
+                    el.placeholder = translation;
+                }
+            });
+
+            // Re-run recommendation logic if active
+            updateRecommendation();
+        }
+
+        function getNestedTranslation(obj, path) {
+            return path.split('.').reduce((acc, part) => acc && acc[part], obj);
+        }
+
+        // Initialize Language on Load
+        window.onload = () => {
+            const savedLang = localStorage.getItem('lang') || 'ar';
+            changeLanguage(savedLang);
+        };
+
+        // --- EXISTING JS LOGIC (UPDATED FOR LTR/RTL AND TRANSLATION COMPATIBILITY) ---
+
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        }
+
+        function switchTab(tabId) {
+            document.getElementById('tab-content-realestate').classList.add('hidden');
+            document.getElementById('tab-content-digital').classList.add('hidden');
+            document.getElementById('tab-content-services').classList.add('hidden');
+
+            const btnRealestate = document.getElementById('tab-btn-realestate');
+            const btnDigital = document.getElementById('tab-btn-digital');
+            const btnServices = document.getElementById('tab-btn-services');
+
+            const baseClasses = "flex-1 min-w-[150px] py-3.5 px-6 rounded-xl text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2.5 text-slate-600 hover:text-slate-900 hover:bg-slate-100";
+            
+            btnRealestate.className = baseClasses;
+            btnDigital.className = baseClasses;
+            btnServices.className = baseClasses;
+
+            if (tabId === 'realestate') {
+                document.getElementById('tab-content-realestate').classList.remove('hidden');
+                btnRealestate.className = "flex-1 min-w-[150px] py-3.5 px-6 rounded-xl text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2.5 bg-amber-500 text-slate-950 shadow-md shadow-amber-500/10";
+            } else if (tabId === 'digital') {
+                document.getElementById('tab-content-digital').classList.remove('hidden');
+                btnDigital.className = "flex-1 min-w-[150px] py-3.5 px-6 rounded-xl text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2.5 bg-blue-600 text-white shadow-md shadow-blue-600/10";
+            } else if (tabId === 'services') {
+                document.getElementById('tab-content-services').classList.remove('hidden');
+                btnServices.className = "flex-1 min-w-[150px] py-3.5 px-6 rounded-xl text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2.5 bg-emerald-600 text-white shadow-md shadow-emerald-600/10";
+            }
+        }
+
+        function toggleSelection(type) {
+            selectedInputs[type] = !selectedInputs[type];
+            
+            const btn1 = document.getElementById('btn-input-1');
+            const btn2 = document.getElementById('btn-input-2');
+            const btn3 = document.getElementById('btn-input-3');
+
+            if (type === 'realestate') {
+                btn1.className = selectedInputs.realestate 
+                    ? 'p-4 rounded-xl border-2 border-amber-500 bg-amber-500/10 text-start focus:outline-none transition-all shadow-sm'
+                    : 'p-4 rounded-xl border border-slate-200 bg-slate-50 text-start hover:border-amber-500/50 focus:outline-none transition-all shadow-sm';
+            } else if (type === 'digital') {
+                btn2.className = selectedInputs.digital 
+                    ? 'p-4 rounded-xl border-2 border-blue-500 bg-blue-500/10 text-start focus:outline-none transition-all shadow-sm'
+                    : 'p-4 rounded-xl border border-slate-200 bg-slate-50 text-start hover:border-blue-500/50 focus:outline-none transition-all shadow-sm';
+            } else if (type === 'services') {
+                btn3.className = selectedInputs.services 
+                    ? 'p-4 rounded-xl border-2 border-emerald-500 bg-emerald-500/10 text-start focus:outline-none transition-all shadow-sm'
+                    : 'p-4 rounded-xl border border-slate-200 bg-slate-50 text-start hover:border-emerald-500/50 focus:outline-none transition-all shadow-sm';
+            }
+
+            updateRecommendation();
+        }
+
+        function updateRecommendation() {
+            const property = document.getElementById('property-type').value;
+            const recBox = document.getElementById('recommendation-box');
+            const recText = document.getElementById('recommendation-text');
+
+            if (!property || (!selectedInputs.realestate && !selectedInputs.digital && !selectedInputs.services)) {
+                recBox.classList.add('hidden');
+                return;
+            }
+
+            recBox.classList.remove('hidden');
+            const t = translations[currentLang].tool;
+
+            let text = t.txt_intro;
+
+            if (property === 'residence') text += t.txt_res;
+            else if (property === 'villa') text += t.txt_villa;
+            else if (property === 'office') text += t.txt_office;
+            else text += t.txt_bus;
+
+            let selections = [];
+            if (selectedInputs.realestate) selections.push(t.txt_p1);
+            if (selectedInputs.digital) selections.push(t.txt_p2);
+            if (selectedInputs.services) selections.push(t.txt_p3);
+
+            text += selections.join(t.txt_join);
+            text += t.txt_outro;
+
+            recText.innerHTML = text;
+        }
+
+        function openModal(modalId) {
+            const modal = document.getElementById(`${modalId}-modal`);
+            if (modal) modal.classList.remove('hidden');
+        }
+
+        function closeModal(modalId) {
+            const modal = document.getElementById(`${modalId}-modal`);
+            if (modal) modal.classList.add('hidden');
+        }
+
+        function openModalWithService(serviceVal) {
+            const selectElement = document.getElementById('form-service');
+            if(selectElement) selectElement.value = serviceVal;
+            openModal('contact');
+        }
+
+        function openModalWithDetails() {
+            const recText = document.getElementById('recommendation-text').innerText;
+            const messageArea = document.getElementById('form-message');
+            // Basic translation fallback for the pre-filled message
+            const msgPre = currentLang === 'en' ? "I am interested in the GSDF CLAIR package recommendation generated: \n" : 
+                           currentLang === 'fr' ? "Je suis intéressé(e) par la recommandation GSDF CLAIR générée : \n" : 
+                           currentLang === 'am' ? "ⵔⵉⵖ ⴰⴷ ⵙⵙⵏⵖ ⵓⴳⴳⴰⵔ ⵖⴼ ⵓⵙⵓⵎⵔ ⵏ GSDF CLAIR: \n" :
+                           "أنا مهتم بتوصية باقة GSDF CLAIR التي تولدت لدي عبر الموقع: \n";
+            messageArea.value = `"${msgPre}${recText}"`;
+            
+            openModal('contact');
+        }
+
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            const alertBox = document.getElementById('form-alert');
+            alertBox.classList.remove('hidden');
+
+            setTimeout(() => {
+                document.getElementById('contact-form').reset();
+                alertBox.classList.add('hidden');
+                closeModal('contact');
+            }, 3000);
+        }
+
+        function getSelectLabel(selectId) {
+            const sel = document.getElementById(selectId);
+            if(sel.selectedIndex === -1 || sel.value === "") return "";
+            return sel.options[sel.selectedIndex].text;
+        }
+
+        function sendWhatsApp() {
+            const form = document.getElementById('contact-form');
+            if (!form.checkValidity()) {
+                form.reportValidity();
+                return;
+            }
+
+            const t = translations[currentLang].wa;
+            
+            const name = document.getElementById('form-name').value;
+            const customerType = getSelectLabel('form-customer-type');
+            const phone = document.getElementById('form-phone').value;
+            const city = document.getElementById('form-city').value;
+            const service = getSelectLabel('form-service');
+            const details = document.getElementById('form-details').value;
+            const method = getSelectLabel('form-contact-method');
+            const message = document.getElementById('form-message').value;
+
+            let waText = `${t.greet}\n\n`;
+            waText += `${t.name} ${name}\n`;
+            if (customerType) waText += `${t.type} ${customerType}\n`;
+            waText += `${t.phone} ${phone}\n`;
+            if (city) waText += `${t.city} ${city}\n`;
+            if (service) waText += `${t.req} ${service}\n`;
+            if (details) waText += `${t.det} ${details}\n`;
+            if (method) waText += `${t.met} ${method}\n`;
+            if (message) waText += `\n${t.msg}\n${message}\n`;
+
+            const encodedText = encodeURIComponent(waText);
+            window.open(`https://wa.me/212680170327?text=${encodedText}`, '_blank');
+        }
+    </script>
+</body>
+</html>
