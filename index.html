@@ -49,7 +49,7 @@
         html[lang="en"] body, html[lang="fr"] body {
             font-family: 'Tajawal', 'Noto Sans Tifinagh', sans-serif; 
         }
-        html[lang="am"] body {
+        html[lang="zgh"] body {
             font-family: 'Noto Sans Tifinagh', 'Tajawal', sans-serif;
         }
         .hero-gradient {
@@ -91,11 +91,32 @@
                 <div class="hidden lg:flex items-center gap-2 text-xs font-bold text-slate-400 border-e border-slate-200 pe-3 me-1">
                     <button onclick="changeLanguage('ar')" class="lang-btn hover:text-amber-500 transition-colors text-amber-500" data-lang="ar">AR</button>
                     <span>|</span>
-                    <button onclick="changeLanguage('am')" class="lang-btn hover:text-amber-500 transition-colors" data-lang="am">AM</button>
+                    <button onclick="changeLanguage('zgh')" class="lang-btn hover:text-amber-500 transition-colors" data-lang="zgh">AM</button>
                     <span>|</span>
                     <button onclick="changeLanguage('fr')" class="lang-btn hover:text-amber-500 transition-colors" data-lang="fr">FR</button>
                     <span>|</span>
                     <button onclick="changeLanguage('en')" class="lang-btn hover:text-amber-500 transition-colors" data-lang="en">EN</button>
+                </div>
+
+                <!-- Header Social & Platform Icons (Desktop) -->
+                <div class="hidden lg:flex items-center gap-2 border-e border-slate-200 pe-3 me-1">
+                    <a href="https://iqamati.com" target="_blank" rel="noopener noreferrer" title="IQAMATI.COM" aria-label="IQAMATI.COM" class="w-8 h-8 rounded-full bg-emerald-50 text-emerald-600 hover:bg-emerald-600 hover:text-white flex items-center justify-center transition-colors">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                    </a>
+                    <a href="https://iqamati.ma" target="_blank" rel="noopener noreferrer" title="IQAMATI.MA" aria-label="IQAMATI.MA" class="w-8 h-8 rounded-full bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-white flex items-center justify-center transition-colors">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                    </a>
+                    <!-- ضع رابط صفحة فيسبوك هنا -->
+                    <a href="https://www.facebook.com/61588691163196" target="_blank" rel="noopener noreferrer" title="Facebook" aria-label="Facebook" class="w-8 h-8 rounded-full bg-[#1877F2]/10 text-[#1877F2] hover:bg-[#1877F2] hover:text-white flex items-center justify-center transition-colors">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <!-- ضع رابط مجموعة منتدى الملكية المشتركة بالمغرب هنا -->
+                    <a href="https://web.facebook.com/groups/937276602266371" target="_blank" rel="noopener noreferrer" title="منتدى الملكية المشتركة بالمغرب" aria-label="منتدى الملكية المشتركة بالمغرب" class="w-8 h-8 rounded-full bg-blue-50 text-blue-700 hover:bg-blue-700 hover:text-white flex items-center justify-center transition-colors">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </a>
+                    <a href="https://wa.me/212680170327" target="_blank" rel="noopener noreferrer" title="WhatsApp" aria-label="WhatsApp" class="w-8 h-8 rounded-full bg-[#25D366]/10 text-[#25D366] hover:bg-[#25D366] hover:text-white flex items-center justify-center transition-colors">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </a>
                 </div>
 
                 <button onclick="openModal('contact')" class="hidden sm:inline-flex items-center px-5 py-2.5 text-xs font-bold text-white bg-emerald-600 hover:bg-emerald-500 rounded-full shadow-md shadow-emerald-600/20 transition-all transform hover:-translate-y-0.5" data-i18n="nav.contact_btn">
@@ -115,11 +136,32 @@
                 <div class="flex items-center justify-center gap-2 sm:gap-4 py-4 bg-slate-50 border-b border-slate-100 text-xs">
                     <button onclick="changeLanguage('ar'); toggleMobileMenu()" class="lang-btn hover:text-amber-500 text-amber-500" data-lang="ar">العربية (AR)</button>
                     <span class="text-slate-300">|</span>
-                    <button onclick="changeLanguage('am'); toggleMobileMenu()" class="lang-btn hover:text-amber-500 text-slate-400" data-lang="am">ⵜⴰⵎⴰⵣⵉⵖⵜ (AM)</button>
+                    <button onclick="changeLanguage('zgh'); toggleMobileMenu()" class="lang-btn hover:text-amber-500 text-slate-400" data-lang="zgh">ⵜⴰⵎⴰⵣⵉⵖⵜ (AM)</button>
                     <span class="text-slate-300">|</span>
                     <button onclick="changeLanguage('fr'); toggleMobileMenu()" class="lang-btn hover:text-amber-500 text-slate-400" data-lang="fr">Français (FR)</button>
                     <span class="text-slate-300">|</span>
                     <button onclick="changeLanguage('en'); toggleMobileMenu()" class="lang-btn hover:text-amber-500 text-slate-400" data-lang="en">English (EN)</button>
+                </div>
+
+                <!-- Header Social & Platform Icons (Mobile) -->
+                <div class="flex items-center justify-center gap-4 py-4 border-b border-slate-100 bg-white">
+                    <a href="https://iqamati.com" target="_blank" rel="noopener noreferrer" title="IQAMATI.COM" aria-label="IQAMATI.COM" class="w-9 h-9 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center hover:bg-emerald-100 transition-colors">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                    </a>
+                    <a href="https://iqamati.ma" target="_blank" rel="noopener noreferrer" title="IQAMATI.MA" aria-label="IQAMATI.MA" class="w-9 h-9 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center hover:bg-blue-100 transition-colors">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                    </a>
+                    <!-- ضع رابط صفحة فيسبوك هنا -->
+                    <a href="https://www.facebook.com/61588691163196" target="_blank" rel="noopener noreferrer" title="Facebook" aria-label="Facebook" class="w-9 h-9 rounded-full bg-[#1877F2]/10 text-[#1877F2] flex items-center justify-center hover:bg-[#1877F2]/20 transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <!-- ضع رابط مجموعة منتدى الملكية المشتركة بالمغرب هنا -->
+                    <a href="https://web.facebook.com/groups/937276602266371" target="_blank" rel="noopener noreferrer" title="منتدى الملكية المشتركة بالمغرب" aria-label="منتدى الملكية المشتركة بالمغرب" class="w-9 h-9 rounded-full bg-blue-50 text-blue-700 flex items-center justify-center hover:bg-blue-100 transition-colors">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </a>
+                    <a href="https://wa.me/212680170327" target="_blank" rel="noopener noreferrer" title="WhatsApp" aria-label="WhatsApp" class="w-9 h-9 rounded-full bg-[#25D366]/10 text-[#25D366] flex items-center justify-center hover:bg-[#25D366]/20 transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </a>
                 </div>
 
                 <a href="#hero" onclick="toggleMobileMenu()" class="px-6 py-4 border-b border-slate-100 text-slate-700 hover:bg-slate-50 hover:text-amber-500" data-i18n="nav.home">الرئيسية</a>
@@ -512,17 +554,17 @@
                 <!-- Card 1 -->
                 <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-lg hover:-translate-y-1 transition-transform duration-300 flex flex-col justify-between">
                     <div>
-                        <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-amber-400 to-amber-600 flex items-center justify-center text-white mb-6 shadow-md">
+                        <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-emerald-400 to-emerald-600 flex items-center justify-center text-white mb-6 shadow-md">
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
                         </div>
-                        <h3 class="text-2xl font-black text-slate-900 mb-3 tracking-wide">IQAMATI<span class="text-amber-500">.COM</span></h3>
+                        <h3 class="text-2xl font-black text-slate-900 mb-3 tracking-wide">IQAMATI<span class="text-emerald-500">.COM</span></h3>
                         <p class="text-slate-600 leading-relaxed text-sm mb-6" data-i18n="platforms.iqamati_com">
                             منصة عقارية وخدماتية تابعة لشركة GSDF CLAIR.<br>
                             تخدم بشكل أساسي البيع، الكراء، الخدمات، العارضين العقاريين، المهنيين، وتستقبل مختلف طلبات الزوار.
                         </p>
                     </div>
                     <div class="flex flex-wrap gap-3">
-                        <a href="https://iqamati.com" target="_blank" class="px-5 py-2.5 bg-amber-500 hover:bg-amber-400 text-slate-900 font-bold text-xs rounded-xl transition-all shadow-md" data-i18n="platforms.visit_com">
+                        <a href="https://iqamati.com" target="_blank" class="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-white font-bold text-xs rounded-xl transition-all shadow-md" data-i18n="platforms.visit_com">
                             زيارة IQAMATI.COM
                         </a>
                         <button onclick="openModal('contact')" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200 font-bold text-xs rounded-xl transition-all" data-i18n="platforms.learn_more">
@@ -1367,7 +1409,7 @@
                     greet: "Hello GSDF CLAIR team, I would like to contact you:", name: "👤 Name:", type: "👥 Customer Type:", phone: "📞 Phone:", city: "📍 City:", req: "🎯 Request Type:", det: "🏢 Details:", met: "📲 Contact Method:", msg: "✉️ Message:"
                 }
             },
-            am: {
+            zgh: {
                 doc_title: "GSDF CLAIR - ⴰⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ, ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ ⴷ ⵜⵏⴰⴼⵓⵜⵉⵏ",
                 meta_desc: "GSDF CLAIR ⵜⴳⴰ ⵜⴰⵎⵙⵙⵓⵔⵜ ⵜⴰⵎⵖⵔⵉⴱⵉⵜ ⵉⵥⵍⵉⵏ ⵙ ⵓⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ, ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ, ⴷ ⵜⵏⴰⴼⵓⵜⵉⵏ ⵏ ⵓⴱⴰⵔⴰⵣ.",
                 header: { logo_desc: "Syndic • Digital • Services" },
@@ -1664,7 +1706,7 @@
             // Basic translation fallback for the pre-filled message
             const msgPre = currentLang === 'en' ? "I am interested in the GSDF CLAIR package recommendation generated: \n" : 
                            currentLang === 'fr' ? "Je suis intéressé(e) par la recommandation GSDF CLAIR générée : \n" : 
-                           currentLang === 'am' ? "ⵔⵉⵖ ⴰⴷ ⵙⵙⵏⵖ ⵓⴳⴳⴰⵔ ⵖⴼ ⵓⵙⵓⵎⵔ ⵏ GSDF CLAIR: \n" :
+                           currentLang === 'zgh' ? "ⵔⵉⵖ ⴰⴷ ⵙⵙⵏⵖ ⵓⴳⴳⴰⵔ ⵖⴼ ⵓⵙⵓⵎⵔ ⵏ GSDF CLAIR: \n" :
                            "أنا مهتم بتوصية باقة GSDF CLAIR التي تولدت لدي عبر الموقع: \n";
             messageArea.value = `"${msgPre}${recText}"`;
             
@@ -1680,46 +1722,4 @@
                 document.getElementById('contact-form').reset();
                 alertBox.classList.add('hidden');
                 closeModal('contact');
-            }, 3000);
-        }
-
-        function getSelectLabel(selectId) {
-            const sel = document.getElementById(selectId);
-            if(sel.selectedIndex === -1 || sel.value === "") return "";
-            return sel.options[sel.selectedIndex].text;
-        }
-
-        function sendWhatsApp() {
-            const form = document.getElementById('contact-form');
-            if (!form.checkValidity()) {
-                form.reportValidity();
-                return;
-            }
-
-            const t = translations[currentLang].wa;
-            
-            const name = document.getElementById('form-name').value;
-            const customerType = getSelectLabel('form-customer-type');
-            const phone = document.getElementById('form-phone').value;
-            const city = document.getElementById('form-city').value;
-            const service = getSelectLabel('form-service');
-            const details = document.getElementById('form-details').value;
-            const method = getSelectLabel('form-contact-method');
-            const message = document.getElementById('form-message').value;
-
-            let waText = `${t.greet}\n\n`;
-            waText += `${t.name} ${name}\n`;
-            if (customerType) waText += `${t.type} ${customerType}\n`;
-            waText += `${t.phone} ${phone}\n`;
-            if (city) waText += `${t.city} ${city}\n`;
-            if (service) waText += `${t.req} ${service}\n`;
-            if (details) waText += `${t.det} ${details}\n`;
-            if (method) waText += `${t.met} ${method}\n`;
-            if (message) waText += `\n${t.msg}\n${message}\n`;
-
-            const encodedText = encodeURIComponent(waText);
-            window.open(`https://wa.me/212680170327?text=${encodedText}`, '_blank');
-        }
-    </script>
-</body>
-</html>
+       
