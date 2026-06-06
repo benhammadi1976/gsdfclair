@@ -75,10 +75,11 @@
             </div>
 
             <!-- Desktop Nav Menu -->
-            <nav class="hidden lg:flex flex-1 items-center justify-center gap-4 xl:gap-6 text-[13px] font-bold">
+            <nav class="hidden lg:flex flex-1 items-center justify-center gap-2 xl:gap-4 text-[12px] xl:text-[13px] font-bold">
                 <a href="#hero" class="text-slate-600 hover:text-amber-500 transition-colors whitespace-nowrap" data-i18n="nav.home">الرئيسية</a>
                 <a href="#about-us" class="text-slate-600 hover:text-amber-500 transition-colors whitespace-nowrap" data-i18n="nav.about">من نحن</a>
                 <a href="#services-explorer" class="text-slate-600 hover:text-amber-500 transition-colors whitespace-nowrap" data-i18n="nav.pillars">أقطاب الشركة</a>
+                <a href="#copropriete-workflow" class="text-slate-600 hover:text-amber-500 transition-colors whitespace-nowrap" data-i18n="nav.copropriete">الملكية المشتركة</a>
                 <a href="#digital-platforms" class="text-slate-600 hover:text-amber-500 transition-colors whitespace-nowrap" data-i18n="nav.platforms">المنصات الرقمية</a>
                 <a href="#methodology" class="text-slate-600 hover:text-amber-500 transition-colors whitespace-nowrap" data-i18n="nav.method">منهجيتنا</a>
                 <a href="#target-audience" class="text-slate-600 hover:text-amber-500 transition-colors whitespace-nowrap" data-i18n="nav.target">لمن نقدم خدماتنا</a>
@@ -117,8 +118,9 @@
                     </a>
                 </div>
 
-                <button onclick="openModal('contact')" class="hidden sm:inline-flex items-center px-4 xl:px-5 py-2 text-[12px] xl:text-[13px] font-bold text-white bg-emerald-600 hover:bg-emerald-500 rounded-full shadow-md shadow-emerald-600/20 transition-all transform hover:-translate-y-0.5 whitespace-nowrap" data-i18n="nav.contact_btn">
-                    اتصل بنا
+                <button onclick="openModal('contact')" class="hidden md:inline-flex items-center px-3 xl:px-5 py-2 text-[12px] xl:text-[13px] font-bold text-white bg-emerald-600 hover:bg-emerald-500 rounded-full shadow-md shadow-emerald-600/20 transition-all transform hover:-translate-y-0.5 whitespace-nowrap shrink-0">
+                    <span class="xl:hidden" data-i18n="nav.contact_short">اتصل</span>
+                    <span class="hidden xl:inline" data-i18n="nav.contact_btn">اتصل بنا</span>
                 </button>
                 <!-- Mobile Menu Button -->
                 <button onclick="toggleMobileMenu()" class="lg:hidden p-2 text-slate-600 hover:text-slate-900 focus:outline-none bg-slate-100 rounded-lg shrink-0 ms-2">
@@ -163,6 +165,7 @@
                 <a href="#hero" onclick="toggleMobileMenu()" class="px-6 py-4 border-b border-slate-100 text-slate-700 hover:bg-slate-50 hover:text-amber-500" data-i18n="nav.home">الرئيسية</a>
                 <a href="#about-us" onclick="toggleMobileMenu()" class="px-6 py-4 border-b border-slate-100 text-slate-700 hover:bg-slate-50 hover:text-amber-500" data-i18n="nav.about">من نحن</a>
                 <a href="#services-explorer" onclick="toggleMobileMenu()" class="px-6 py-4 border-b border-slate-100 text-slate-700 hover:bg-slate-50 hover:text-amber-500" data-i18n="nav.pillars">أقطاب الشركة</a>
+                <a href="#copropriete-workflow" onclick="toggleMobileMenu()" class="px-6 py-4 border-b border-slate-100 text-slate-700 hover:bg-slate-50 hover:text-amber-500" data-i18n="nav.copropriete">الملكية المشتركة</a>
                 <a href="#digital-platforms" onclick="toggleMobileMenu()" class="px-6 py-4 border-b border-slate-100 text-slate-700 hover:bg-slate-50 hover:text-amber-500" data-i18n="nav.platforms">المنصات الرقمية</a>
                 <a href="#methodology" onclick="toggleMobileMenu()" class="px-6 py-4 border-b border-slate-100 text-slate-700 hover:bg-slate-50 hover:text-amber-500" data-i18n="nav.method">منهجيتنا</a>
                 <a href="#target-audience" onclick="toggleMobileMenu()" class="px-6 py-4 border-b border-slate-100 text-slate-700 hover:bg-slate-50 hover:text-amber-500" data-i18n="nav.target">لمن نقدم خدماتنا</a>
@@ -206,10 +209,10 @@
                         <a href="#services-explorer" class="px-6 py-3.5 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold rounded-xl shadow-lg shadow-amber-500/20 transition-all transform hover:-translate-y-1" data-i18n="hero.btn_pillars">
                             تصفح أقطاب الشركة
                         </a>
-                        <button onclick="openModalWithService('val_p1_syndic')" class="px-6 py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl shadow-lg shadow-emerald-600/20 transition-all transform hover:-translate-y-1 flex items-center gap-2">
-                            <span data-i18n="hero.btn_syndic">طلب عرض تسيير إقامة</span>
+                        <a href="#copropriete-workflow" class="px-6 py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl shadow-lg shadow-emerald-600/20 transition-all transform hover:-translate-y-1 flex items-center gap-2">
+                            <span data-i18n="hero.btn_syndic">اتحاد ملاك</span>
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
-                        </button>
+                        </a>
                         <button onclick="openModal('contact')" class="px-6 py-3.5 bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold rounded-xl transition-all transform hover:-translate-y-1" data-i18n="hero.btn_general">
                             طلب خدمة عامة
                         </button>
@@ -531,6 +534,95 @@
 
             </div>
 
+        </div>
+    </section>
+
+
+
+    <!-- Copropriete Workflow Section -->
+    <section id="copropriete-workflow" class="py-24 bg-white border-b border-slate-200 relative overflow-hidden">
+        <div class="absolute top-0 start-0 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-0 end-0 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-xs font-extrabold text-amber-600 uppercase tracking-widest bg-amber-500/10 px-3 py-1 rounded-full" data-i18n="copro.badge">الملكية المشتركة</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-slate-900" data-i18n="copro.title">طريقة اشتغالنا في تسيير الملكية المشتركة</h2>
+                <div class="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
+                <p class="text-slate-600 text-sm sm:text-base leading-relaxed" data-i18n="copro.desc">
+                    نعتمد في GSDF CLAIR على منهجية واضحة تجمع بين التشخيص، التنظيم، التواصل، التتبع الميداني، والتقارير الدورية، حتى يعرف الملاك والجمع العام كيف تُسيّر الملكية المشتركة، أين تُصرف المساهمات، وما هي التدخلات المنجزة.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-amber-500/30 hover:-translate-y-1 transition-all">
+                    <div class="flex items-center gap-3 mb-4"><span class="w-9 h-9 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-600 font-black text-sm">1</span><h3 class="text-lg font-bold text-slate-900" data-i18n="copro.step1_title">زيارة وتشخيص أولي للاتحاد</h3></div>
+                    <p class="text-sm text-slate-600 leading-relaxed" data-i18n="copro.step1_desc">نعاين الأجزاء المشتركة، الحراسة، النظافة، الإنارة، المصاعد، المرآب، الحديقة، والمشاكل المتكررة.</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-amber-500/30 hover:-translate-y-1 transition-all">
+                    <div class="flex items-center gap-3 mb-4"><span class="w-9 h-9 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-600 font-black text-sm">2</span><h3 class="text-lg font-bold text-slate-900" data-i18n="copro.step2_title">دراسة الوثائق والوضعية المالية</h3></div>
+                    <p class="text-sm text-slate-600 leading-relaxed" data-i18n="copro.step2_desc">مراجعة لائحة الملاك، المساهمات، المتأخرات، العقود، المحاضر، نظام الملكية المشتركة، والمصاريف الجارية.</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-amber-500/30 hover:-translate-y-1 transition-all">
+                    <div class="flex items-center gap-3 mb-4"><span class="w-9 h-9 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-600 font-black text-sm">3</span><h3 class="text-lg font-bold text-slate-900" data-i18n="copro.step3_title">إعداد عرض تسيير واضح</h3></div>
+                    <p class="text-sm text-slate-600 leading-relaxed" data-i18n="copro.step3_desc">نقترح طريقة العمل، المهام، الأتعاب، الخدمات المطلوبة، وبرنامج الانطلاق حسب وضعية الاتحاد.</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-amber-500/30 hover:-translate-y-1 transition-all">
+                    <div class="flex items-center gap-3 mb-4"><span class="w-9 h-9 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-600 font-black text-sm">4</span><h3 class="text-lg font-bold text-slate-900" data-i18n="copro.step4_title">تنظيم التواصل مع الملاك</h3></div>
+                    <p class="text-sm text-slate-600 leading-relaxed" data-i18n="copro.step4_desc">فتح قنوات تواصل رسمية، استقبال الشكايات، تتبع الطلبات، وتوجيه الملاك بطريقة منظمة.</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-amber-500/30 hover:-translate-y-1 transition-all">
+                    <div class="flex items-center gap-3 mb-4"><span class="w-9 h-9 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-600 font-black text-sm">5</span><h3 class="text-lg font-bold text-slate-900" data-i18n="copro.step5_title">التتبع الميداني والخدمات اليومية</h3></div>
+                    <p class="text-sm text-slate-600 leading-relaxed" data-i18n="copro.step5_desc">مراقبة النظافة، الحراسة، الصيانة، الأعطاب، الشركات المتدخلة، وجودة الخدمات داخل الاتحاد.</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-amber-500/30 hover:-translate-y-1 transition-all">
+                    <div class="flex items-center gap-3 mb-4"><span class="w-9 h-9 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-600 font-black text-sm">6</span><h3 class="text-lg font-bold text-slate-900" data-i18n="copro.step6_title">التحصيل والتقارير المالية</h3></div>
+                    <p class="text-sm text-slate-600 leading-relaxed" data-i18n="copro.step6_desc">تتبع المساهمات، التذكير بالأداء، إعداد كشوفات دورية، وتقديم تقارير مفهومة حول المداخيل والمصاريف.</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-amber-500/30 hover:-translate-y-1 transition-all">
+                    <div class="flex items-center gap-3 mb-4"><span class="w-9 h-9 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-600 font-black text-sm">7</span><h3 class="text-lg font-bold text-slate-900" data-i18n="copro.step7_title">المواكبة القانونية والجمع العام</h3></div>
+                    <p class="text-sm text-slate-600 leading-relaxed" data-i18n="copro.step7_desc">المساعدة في إعداد الاستدعاءات، جداول الأعمال، محاضر الجموع العامة، وتتبع القرارات وفق القانون.</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-amber-500/30 hover:-translate-y-1 transition-all">
+                    <div class="flex items-center gap-3 mb-4"><span class="w-9 h-9 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-600 font-black text-sm">8</span><h3 class="text-lg font-bold text-slate-900" data-i18n="copro.step8_title">تنظيم المصاريف داخل الاتحادات متعددة العمارات</h3></div>
+                    <p class="text-sm text-slate-600 leading-relaxed" data-i18n="copro.step8_desc">في الاتحادات المكوّنة من عدة عمارات، يمكن تنظيم المصاريف داخل الاتحاد الواحد عبر ميزانية عامة وحسابات فرعية لكل عمارة عند الحاجة، مع التمييز بين المصاريف العامة والمصاريف الخاصة حسب الاستفادة الفعلية، دون إنشاء اتحادات مستقلة.</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-amber-500/30 hover:-translate-y-1 transition-all">
+                    <div class="flex items-center gap-3 mb-4"><span class="w-9 h-9 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-600 font-black text-sm">9</span><h3 class="text-lg font-bold text-slate-900" data-i18n="copro.step9_title">ملحوظة توعوية: التسيير القانوني له كلفة</h3></div>
+                    <p class="text-sm text-slate-600 leading-relaxed" data-i18n="copro.step9_desc">كثير من الملاك يحسبون فقط المصاريف الظاهرة مثل الحراسة، النظافة، الماء، الكهرباء أو صيانة المصعد. لكن تسيير اتحاد الملاك بطريقة منظمة يتطلب أيضاً كلفة إدارية وقانونية مرتبطة بالوثائق، الجموع العامة، التبليغات، المحاضر، المحاسبة والتحصيل. لذلك يجب أن تُبنى المساهمات على ميزانية واقعية، لا على المصاريف اليومية فقط.</p>
+                </div>
+            </div>
+
+            <div class="mt-8 bg-gradient-to-br from-blue-50 to-slate-50 border border-blue-200 p-6 sm:p-8 rounded-3xl shadow-sm">
+                <div class="flex flex-col lg:flex-row gap-6 lg:items-center lg:justify-between">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="w-11 h-11 rounded-2xl bg-blue-600 text-white flex items-center justify-center shadow-md">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            </span>
+                            <h3 class="text-xl font-black text-slate-900" data-i18n="copro.iqamati_title">التسيير المدعوم بمنصة IQAMATI.MA</h3>
+                        </div>
+                        <p class="text-sm text-slate-600 leading-relaxed mb-4" data-i18n="copro.iqamati_desc">تعتمد GSDF CLAIR على العمل الميداني والإداري والقانوني، ويمكن دعم هذا العمل رقمياً عبر منصة IQAMATI.MA. تساعد المنصة على تنظيم التواصل مع الملاك، تتبع المساهمات، استقبال الشكايات، حفظ الوثائق، مواكبة الجموع العامة، وتتبع القرارات والتدخلات، حسب الصلاحيات المحددة لكل طرف.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-xs text-slate-600 font-bold">
+                            <span data-i18n="copro.iqamati_b1">• فضاء رقمي خاص بالاتحاد</span>
+                            <span data-i18n="copro.iqamati_b2">• تتبع المساهمات والمتأخرات</span>
+                            <span data-i18n="copro.iqamati_b3">• استقبال الشكايات والطلبات</span>
+                            <span data-i18n="copro.iqamati_b4">• حفظ الوثائق والمحاضر</span>
+                            <span data-i18n="copro.iqamati_b5">• تنظيم التبليغات والتواصل</span>
+                            <span data-i18n="copro.iqamati_b6">• دعم الجموع العامة والتقارير</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col sm:flex-row lg:flex-col gap-3 shrink-0">
+                        <a href="https://iqamati.ma" target="_blank" rel="noopener noreferrer" class="px-5 py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs rounded-xl text-center shadow-md transition-all" data-i18n="copro.iqamati_visit">اكتشف IQAMATI.MA</a>
+                        <button onclick="openModalWithService('val_p1_syndic')" class="px-5 py-3 bg-white hover:bg-slate-50 text-blue-700 border border-blue-200 font-bold text-xs rounded-xl shadow-sm transition-all" data-i18n="copro.iqamati_request">طلب ربط الاتحاد بالمنصة</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-10 flex flex-wrap justify-center gap-3">
+                <button onclick="openModalWithService('val_p1_syndic')" class="px-6 py-3.5 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold rounded-xl shadow-lg shadow-amber-500/20 transition-all" data-i18n="copro.cta_quote">طلب عرض تسيير اتحاد ملاك</button>
+                <a href="https://wa.me/212680170327" target="_blank" rel="noopener noreferrer" class="px-6 py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl shadow-lg shadow-emerald-600/20 transition-all" data-i18n="copro.cta_whatsapp">التواصل عبر واتساب</a>
+            </div>
         </div>
     </section>
 
@@ -1077,13 +1169,13 @@
                 meta_desc: "GSDF CLAIR شركة مغربية متخصصة في التسيير العقاري، الحلول الرقمية، والخدمات الميدانية والرقمية.",
                 header: { logo_desc: "Syndic • Digital • Services" },
                 nav: {
-                    home: "الرئيسية", about: "من نحن", pillars: "أقطاب الشركة", platforms: "المنصات الرقمية",
-                    method: "منهجيتنا", target: "لمن نقدم خدماتنا", legal: "المعلومات القانونية", contact_btn: "اتصل بنا"
+                    home: "الرئيسية", about: "من نحن", pillars: "أقطاب الشركة", copropriete: "الملكية المشتركة", platforms: "المنصات الرقمية",
+                    method: "منهجيتنا", target: "لمن نقدم خدماتنا", legal: "المعلومات القانونية", contact_btn: "اتصل بنا", contact_short: "اتصل"
                 },
                 hero: {
                     badge: "مجموعة خدمات متكاملة", subtitle: "شركة مغربية للتسيير العقاري، الحلول الرقمية، والخدمات الميدانية والرقمية",
                     desc: "نقدم منظومة مهنية متكاملة تجمع بين التسيير العقاري، الخبرة الميدانية، الحلول الرقمية، وصناعة المحتوى، من أجل تسيير أوضح، خدمات أسرع، وتواصل أكثر شفافية مع الملاك، الزبناء، والمهنيين.",
-                    btn_pillars: "تصفح أقطاب الشركة", btn_syndic: "طلب عرض تسيير إقامة", btn_general: "طلب خدمة عامة",
+                    btn_pillars: "تصفح أقطاب الشركة", btn_syndic: "اتحاد ملاك", btn_general: "طلب خدمة عامة",
                     widget_title: "منظومة GSDF CLAIR",
                     w_p1_t: "1. التسيير العقاري", w_p1_d: "الملكية المشتركة والوساطة الذكية",
                     w_p2_t: "2. الحلول الرقمية", w_p2_d: "التطوير البرمجي وصناعة المحتوى",
@@ -1121,6 +1213,21 @@
                         sub2_t: "خدمات عبر الوسائط الرقمية", sub2_d: "نوفر حلول تواصل واستشارة متطورة تسهل الوصول للخدمة دون عناء مغادرة منزلك أو مكتبك:",
                         s2_l1: "تقديم وحجز وتتبع طلبات الصيانة بشكل كامل عبر الهواتف والأنظمة السحابية بنجاح.", s2_l2: "الربط الرقمي الفوري والذكي بين السكان وأفضل مزودي وصناع الخدمات المنزلية المعتمدين.", s2_l3: "مواكبة رقمية وإرشاد وتوجيه قانوني وفني عن بعد عبر موظفين مدربين.", s2_l4: "توفير أحدث قنوات وحلول التدبير الذاتي والتراسل الفوري لإعلان قرارات الإقامة."
                     }
+                },
+                copro: {
+                    badge: "الملكية المشتركة", title: "طريقة اشتغالنا في تسيير الملكية المشتركة",
+                    desc: "نعتمد في GSDF CLAIR على منهجية واضحة تجمع بين التشخيص، التنظيم، التواصل، التتبع الميداني، والتقارير الدورية، حتى يعرف الملاك والجمع العام كيف تُسيّر الملكية المشتركة، أين تُصرف المساهمات، وما هي التدخلات المنجزة.",
+                    step1_title: "زيارة وتشخيص أولي للاتحاد", step1_desc: "نعاين الأجزاء المشتركة، الحراسة، النظافة، الإنارة، المصاعد، المرآب، الحديقة، والمشاكل المتكررة.",
+                    step2_title: "دراسة الوثائق والوضعية المالية", step2_desc: "مراجعة لائحة الملاك، المساهمات، المتأخرات، العقود، المحاضر، نظام الملكية المشتركة، والمصاريف الجارية.",
+                    step3_title: "إعداد عرض تسيير واضح", step3_desc: "نقترح طريقة العمل، المهام، الأتعاب، الخدمات المطلوبة، وبرنامج الانطلاق حسب وضعية الاتحاد.",
+                    step4_title: "تنظيم التواصل مع الملاك", step4_desc: "فتح قنوات تواصل رسمية، استقبال الشكايات، تتبع الطلبات، وتوجيه الملاك بطريقة منظمة.",
+                    step5_title: "التتبع الميداني والخدمات اليومية", step5_desc: "مراقبة النظافة، الحراسة، الصيانة، الأعطاب، الشركات المتدخلة، وجودة الخدمات داخل الاتحاد.",
+                    step6_title: "التحصيل والتقارير المالية", step6_desc: "تتبع المساهمات، التذكير بالأداء، إعداد كشوفات دورية، وتقديم تقارير مفهومة حول المداخيل والمصاريف.",
+                    step7_title: "المواكبة القانونية والجمع العام", step7_desc: "المساعدة في إعداد الاستدعاءات، جداول الأعمال، محاضر الجموع العامة، وتتبع القرارات وفق القانون.",
+                    step8_title: "تنظيم المصاريف داخل الاتحادات متعددة العمارات", step8_desc: "في الاتحادات المكوّنة من عدة عمارات، يمكن تنظيم المصاريف داخل الاتحاد الواحد عبر ميزانية عامة وحسابات فرعية لكل عمارة عند الحاجة، مع التمييز بين المصاريف العامة والمصاريف الخاصة حسب الاستفادة الفعلية، دون إنشاء اتحادات مستقلة.",
+                    step9_title: "ملحوظة توعوية: التسيير القانوني له كلفة", step9_desc: "كثير من الملاك يحسبون فقط المصاريف الظاهرة مثل الحراسة، النظافة، الماء، الكهرباء أو صيانة المصعد. لكن تسيير اتحاد الملاك بطريقة منظمة يتطلب أيضاً كلفة إدارية وقانونية مرتبطة بالوثائق، الجموع العامة، التبليغات، المحاضر، المحاسبة والتحصيل. لذلك يجب أن تُبنى المساهمات على ميزانية واقعية، لا على المصاريف اليومية فقط.",
+                    iqamati_title: "التسيير المدعوم بمنصة IQAMATI.MA", iqamati_desc: "تعتمد GSDF CLAIR على العمل الميداني والإداري والقانوني، ويمكن دعم هذا العمل رقمياً عبر منصة IQAMATI.MA. تساعد المنصة على تنظيم التواصل مع الملاك، تتبع المساهمات، استقبال الشكايات، حفظ الوثائق، مواكبة الجموع العامة، وتتبع القرارات والتدخلات، حسب الصلاحيات المحددة لكل طرف.",
+                    iqamati_b1: "• فضاء رقمي خاص بالاتحاد", iqamati_b2: "• تتبع المساهمات والمتأخرات", iqamati_b3: "• استقبال الشكايات والطلبات", iqamati_b4: "• حفظ الوثائق والمحاضر", iqamati_b5: "• تنظيم التبليغات والتواصل", iqamati_b6: "• دعم الجموع العامة والتقارير", iqamati_visit: "اكتشف IQAMATI.MA", iqamati_request: "طلب ربط الاتحاد بالمنصة", cta_quote: "طلب عرض تسيير اتحاد ملاك", cta_whatsapp: "التواصل عبر واتساب"
                 },
                 platforms: {
                     badge: "الدعم التكنولوجي", title: "منصاتنا الرقمية", desc: "منصات رقمية متطورة تابعة لشركة GSDF CLAIR، تم تصميمها لتدعم أقطابنا الثلاثة وتسهل التفاعل مع محيطنا المهني.",
@@ -1189,12 +1296,12 @@
                 header: { logo_desc: "Syndic • Digital • Services" },
                 nav: {
                     home: "Accueil", about: "À propos", pillars: "Nos pôles", platforms: "Plateformes",
-                    method: "Méthodologie", target: "Nos cibles", legal: "Mentions légales", contact_btn: "Contactez-nous"
+                    method: "Méthodologie", target: "Nos cibles", legal: "Mentions légales", contact_btn: "Contactez-nous", contact_short: "Contact"
                 },
                 hero: {
                     badge: "Groupe de Services Intégré", subtitle: "Société marocaine de Gestion Immobilière, Solutions Digitales et Services",
                     desc: "Nous offrons un système professionnel intégré combinant la gestion immobilière, l'expertise terrain, les solutions numériques et la création de contenu pour une gestion claire et des services plus rapides.",
-                    btn_pillars: "Découvrir nos pôles", btn_syndic: "Demander une offre Syndic", btn_general: "Demander un service",
+                    btn_pillars: "Découvrir nos pôles", btn_syndic: "Syndicat des copropriétaires", btn_general: "Demander un service",
                     widget_title: "Système GSDF CLAIR",
                     w_p1_t: "1. Gestion Immobilière", w_p1_d: "Copropriété et Intermédiation",
                     w_p2_t: "2. Solutions Digitales", w_p2_d: "Développement et Contenu",
@@ -1232,6 +1339,9 @@
                         sub2_t: "Services via les supports digitaux", sub2_d: "Nous offrons des solutions de communication avancées facilitant l'accès aux services depuis chez vous :",
                         s2_l1: "Soumission et suivi des demandes de maintenance via les smartphones.", s2_l2: "Mise en relation digitale instantanée avec les meilleurs prestataires de services.", s2_l3: "Accompagnement digital, orientation juridique et technique à distance.", s2_l4: "Canaux modernes d'auto-gestion et de messagerie instantanée."
                     }
+                },
+                copro: {
+                    badge: "Copropriété", title: "Notre méthode de gestion de la copropriété", desc: "GSDF CLAIR applique une méthode claire combinant diagnostic, organisation, communication, suivi de terrain et rapports périodiques.", step1_title: "Visite et diagnostic", step1_desc: "Évaluation des parties communes, services, équipements et problèmes récurrents.", step2_title: "Étude des documents", step2_desc: "Vérification des documents, contributions, arriérés, contrats, procès-verbaux et charges.", step3_title: "Offre de gestion claire", step3_desc: "Proposition d'une méthode de travail, des missions, honoraires et programme de démarrage.", step4_title: "Organisation de la communication", step4_desc: "Canaux officiels, réclamations, demandes et orientation organisée des copropriétaires.", step5_title: "Suivi terrain quotidien", step5_desc: "Suivi du nettoyage, gardiennage, maintenance, pannes et prestataires.", step6_title: "Recouvrement et rapports", step6_desc: "Suivi des contributions, relances et rapports financiers lisibles.", step7_title: "Accompagnement légal et AG", step7_desc: "Préparation des convocations, ordres du jour, PV et suivi des décisions.", step8_title: "Charges des syndicats multi-immeubles", step8_desc: "Dans les syndicats composés de plusieurs immeubles, les charges peuvent être organisées par budget général et comptes analytiques par immeuble selon l'usage réel, sans créer de syndicats séparés.", step9_title: "Note: la gestion légale a un coût", step9_desc: "Beaucoup de copropriétaires ne voient que les charges visibles, mais une gestion organisée exige aussi des frais administratifs et juridiques liés aux documents, AG, notifications, PV, comptabilité et recouvrement.", iqamati_title: "Gestion appuyée par IQAMATI.MA", iqamati_desc: "Le travail de terrain, administratif et juridique peut être renforcé par IQAMATI.MA pour organiser la communication, les contributions, les réclamations, les documents et les assemblées.", iqamati_b1: "• Espace numérique du syndicat", iqamati_b2: "• Contributions et arriérés", iqamati_b3: "• Réclamations et demandes", iqamati_b4: "• Documents et PV", iqamati_b5: "• Notifications", iqamati_b6: "• Assemblées et rapports", iqamati_visit: "Découvrir IQAMATI.MA", iqamati_request: "Demander le raccordement", cta_quote: "Demander une offre de gestion", cta_whatsapp: "Contacter via WhatsApp"
                 },
                 platforms: {
                     badge: "Support Technologique", title: "Nos Plateformes Digitales", desc: "Des plateformes développées par GSDF CLAIR pour soutenir nos pôles et faciliter les interactions.",
@@ -1300,12 +1410,12 @@
                 header: { logo_desc: "Syndic • Digital • Services" },
                 nav: {
                     home: "Home", about: "About Us", pillars: "Our Pillars", platforms: "Platforms",
-                    method: "Methodology", target: "Audience", legal: "Legal Info", contact_btn: "Contact Us"
+                    method: "Methodology", target: "Audience", legal: "Legal Info", contact_btn: "Contact Us", contact_short: "Contact"
                 },
                 hero: {
                     badge: "Integrated Services Group", subtitle: "Moroccan Company for Real Estate Management, Digital Solutions, and Field & Digital Services",
                     desc: "We offer an integrated professional ecosystem combining real estate management, field expertise, digital solutions, and content creation for clearer management and faster services.",
-                    btn_pillars: "Explore Our Pillars", btn_syndic: "Request Syndic Offer", btn_general: "Request General Service",
+                    btn_pillars: "Explore Our Pillars", btn_syndic: "Co-owners Association", btn_general: "Request General Service",
                     widget_title: "GSDF CLAIR Ecosystem",
                     w_p1_t: "1. Real Estate Management", w_p1_d: "Co-ownership & Brokerage",
                     w_p2_t: "2. Digital Solutions", w_p2_d: "Software Development & Content",
@@ -1343,6 +1453,9 @@
                         sub2_t: "Services via Digital Media", sub2_d: "We provide advanced communication solutions facilitating access to services without leaving your home:",
                         s2_l1: "Submission, booking, and tracking of maintenance requests entirely via cloud systems.", s2_l2: "Instant smart digital linking between residents and certified home service providers.", s2_l3: "Remote digital support, legal, and technical guidance via trained staff.", s2_l4: "Providing the latest channels for self-management and instant messaging for decisions."
                     }
+                },
+                copro: {
+                    badge: "Co-ownership", title: "How we manage co-ownership", desc: "GSDF CLAIR follows a clear method combining diagnosis, organization, communication, field monitoring and periodic reporting.", step1_title: "Initial visit and diagnosis", step1_desc: "Review of common areas, services, equipment and recurring issues.", step2_title: "Documents and financial review", step2_desc: "Review of owners, contributions, arrears, contracts, minutes, regulations and expenses.", step3_title: "Clear management offer", step3_desc: "We propose the work method, tasks, fees, required services and launch plan.", step4_title: "Organized communication", step4_desc: "Official channels, complaints, requests and organized guidance for owners.", step5_title: "Daily field monitoring", step5_desc: "Monitoring cleaning, security, maintenance, breakdowns, providers and service quality.", step6_title: "Collection and reports", step6_desc: "Tracking contributions, reminders and clear income/expense reports.", step7_title: "Legal and AG support", step7_desc: "Support for notices, agendas, minutes and follow-up of decisions.", step8_title: "Expenses in multi-building syndicates", step8_desc: "In syndicates with several buildings, expenses can be organized through a general budget and sub-accounts per building when needed, according to actual use, without creating separate syndicates.", step9_title: "Awareness note: legal management has a cost", step9_desc: "Many owners only count visible costs, but organized management also requires administrative and legal costs for documents, meetings, notices, minutes, accounting and collection.", iqamati_title: "Management supported by IQAMATI.MA", iqamati_desc: "Field, administrative and legal work can be supported digitally through IQAMATI.MA to organize communication, contributions, complaints, documents and assemblies.", iqamati_b1: "• Digital syndicate space", iqamati_b2: "• Contributions and arrears", iqamati_b3: "• Complaints and requests", iqamati_b4: "• Documents and minutes", iqamati_b5: "• Notifications", iqamati_b6: "• Assemblies and reports", iqamati_visit: "Discover IQAMATI.MA", iqamati_request: "Request platform link", cta_quote: "Request management offer", cta_whatsapp: "Contact via WhatsApp"
                 },
                 platforms: {
                     badge: "Technological Support", title: "Our Digital Platforms", desc: "Advanced digital platforms owned by GSDF CLAIR, designed to support our three pillars.",
@@ -1411,12 +1524,12 @@
                 header: { logo_desc: "Syndic • Digital • Services" },
                 nav: {
                     home: "ⴰⵙⵏⵓⴱⴳ", about: "ⵖⴼ ⴰⵏⵖ", pillars: "ⵉⴳⵊⴷⴰ ⵏ ⵜⵎⵙⵙⵓⵔⵜ", platforms: "ⵉⵏⵙⴰⵜⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ",
-                    method: "ⵜⴰⵖⴰⵔⴰⵙⵜ ⵏⵏⵖ", target: "ⵉⵡⵜⵜⴰⵙⵏ", legal: "ⵉⵏⵖⵎⵉⵙⵏ ⵉⵣⵔⴼⴰⵏⵏ", contact_btn: "ⵎⵙⴰⵡⴰⴹ ⴷⵉⴷⵏⵖ"
+                    method: "ⵜⴰⵖⴰⵔⴰⵙⵜ ⵏⵏⵖ", target: "ⵉⵡⵜⵜⴰⵙⵏ", legal: "ⵉⵏⵖⵎⵉⵙⵏ ⵉⵣⵔⴼⴰⵏⵏ", contact_btn: "ⵎⵙⴰⵡⴰⴹ ⴷⵉⴷⵏⵖ", contact_short: "ⵎⵙⴰⵡⴰⴹ"
                 },
                 hero: {
                     badge: "ⵜⴰⵔⴰⴱⴱⵓⵜ ⵏ ⵜⵏⴰⴼⵓⵜⵉⵏ", subtitle: "ⵜⴰⵎⵙⵙⵓⵔⵜ ⵜⴰⵎⵖⵔⵉⴱⵉⵜ ⵏ ⵓⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ ⴷ ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ",
                     desc: "ⵏⴰⴽⴽⴰ ⵢⴰⵏ ⵓⵏⴳⵔⴰⵡ ⴰⵎⵙⵜⴳⴳⴰⵔ ⵉⵙⵎⵓⵏⵏ ⴰⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ, ⵜⵉⵔⵎⵉⵜ ⵏ ⵓⴱⴰⵔⴰⵣ, ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ ⴷ ⵓⵙⵏⴼⵍⵓⵍ ⵏ ⵜⵓⵎⴰⵢⵜ.",
-                    btn_pillars: "ⵥⵕ ⵉⴳⵊⴷⴰ ⵏ ⵜⵎⵙⵙⵓⵔⵜ", btn_syndic: "ⵙⵙⵓⵜⵔ ⴰⵙⵡⵓⴷⴷⵓ", btn_general: "ⵙⵙⵓⵜⵔ ⵜⴰⵏⴰⴼⵓⵜ",
+                    btn_pillars: "ⵥⵕ ⵉⴳⵊⴷⴰ ⵏ ⵜⵎⵙⵙⵓⵔⵜ", btn_syndic: "ⴰⵎⵓⵏ ⵏ ⵉⵎⴰⵍⴽⴰⵏ", btn_general: "ⵙⵙⵓⵜⵔ ⵜⴰⵏⴰⴼⵓⵜ",
                     widget_title: "ⴰⵏⴳⵔⴰⵡ GSDF CLAIR",
                     w_p1_t: "1. ⴰⵙⵡⵓⴷⴷⵓ ⴰⴽⴰⵍⴰⵏ", w_p1_d: "ⵜⴰⵎⵍⴰⵍⵉⵜ ⵉⵛⵛⴰⵔⵏ",
                     w_p2_t: "2. ⵉⴼⵙⵙⴰⵢⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ", w_p2_d: "ⴰⵙⴱⵓⵖⵍⵓ ⵏ ⵉⵖⴰⵡⴰⵙⵏ",
@@ -1454,6 +1567,9 @@
                         sub2_t: "ⵜⵏⴰⴼⵓⵜⵉⵏ ⵜⵉⵎⵓⵟⵟⵓⵏⵉⵏ", sub2_d: "ⵏⴰⴽⴽⴰ ⵉⴼⵙⵙⴰⵢⵏ ⵏ ⵓⵎⵢⴰⵡⴰⴹ ⴰⴼⴰⴷ ⴰⴷ ⵜⴰⵡⴹⵎ ⵙ ⵜⵏⴰⴼⵓⵜⵉⵏ ⵙ ⵜⵉⵣⵣⵍⴰ:",
                         s2_l1: "ⴰⴹⴼⵓⵕ ⵏ ⵜⵓⵜⵜⵔⵉⵡⵉⵏ ⵏ ⵓⵙⴳⴳⴷ ⵙ ⵜⵉⵍⵉⴼⵓⵏ.", s2_l2: "ⴰⵎⵢⴰⵡⴰⴹ ⴳⵔ ⵉⵎⵣⴷⴰⵖ ⴷ ⵉⵎⵙⵡⵓⵔⵉⵢⵏ.", s2_l3: "ⴰⵎⵢⴰⵡⴰⵙ ⴰⵎⵓⵟⵟⵓⵏ ⴷ ⵓⵎⵛⵛⵉⵡⵕ ⴰⵣⵔⴼⴰⵏ.", s2_l4: "ⵉⴼⵙⵙⴰⵢⵏ ⵏ ⵓⵎⵢⴰⵡⴰⴹ ⴰⵎⵓⵟⵟⵓⵏ ⵉ ⵜⵖⵜⴰⵙⵉⵏ ⵏ ⵜⴳⵎⵎⵉ."
                     }
+                },
+                copro: {
+                    badge: "Copropriété", title: "Notre méthode de gestion de la copropriété", desc: "GSDF CLAIR applique une méthode claire combinant diagnostic, organisation, communication, suivi de terrain et rapports périodiques.", step1_title: "Visite et diagnostic", step1_desc: "Évaluation des parties communes, services, équipements et problèmes récurrents.", step2_title: "Étude des documents", step2_desc: "Vérification des documents, contributions, arriérés, contrats, procès-verbaux et charges.", step3_title: "Offre de gestion claire", step3_desc: "Proposition d'une méthode de travail, des missions, honoraires et programme de démarrage.", step4_title: "Organisation de la communication", step4_desc: "Canaux officiels, réclamations, demandes et orientation organisée des copropriétaires.", step5_title: "Suivi terrain quotidien", step5_desc: "Suivi du nettoyage, gardiennage, maintenance, pannes et prestataires.", step6_title: "Recouvrement et rapports", step6_desc: "Suivi des contributions, relances et rapports financiers lisibles.", step7_title: "Accompagnement légal et AG", step7_desc: "Préparation des convocations, ordres du jour, PV et suivi des décisions.", step8_title: "Charges des syndicats multi-immeubles", step8_desc: "Dans les syndicats composés de plusieurs immeubles, les charges peuvent être organisées par budget général et comptes analytiques par immeuble selon l'usage réel, sans créer de syndicats séparés.", step9_title: "Note: la gestion légale a un coût", step9_desc: "Beaucoup de copropriétaires ne voient que les charges visibles, mais une gestion organisée exige aussi des frais administratifs et juridiques liés aux documents, AG, notifications, PV, comptabilité et recouvrement.", iqamati_title: "Gestion appuyée par IQAMATI.MA", iqamati_desc: "Le travail de terrain, administratif et juridique peut être renforcé par IQAMATI.MA pour organiser la communication, les contributions, les réclamations, les documents et les assemblées.", iqamati_b1: "• Espace numérique du syndicat", iqamati_b2: "• Contributions et arriérés", iqamati_b3: "• Réclamations et demandes", iqamati_b4: "• Documents et PV", iqamati_b5: "• Notifications", iqamati_b6: "• Assemblées et rapports", iqamati_visit: "Découvrir IQAMATI.MA", iqamati_request: "Demander le raccordement", cta_quote: "Demander une offre de gestion", cta_whatsapp: "Contacter via WhatsApp"
                 },
                 platforms: {
                     badge: "ⴰⵏⴰⵍ ⴰⵜⵉⴽⵏⵓⵍⵓⵊⵉ", title: "ⵉⵏⵙⴰⵜⵏ ⵏⵏⵖ ⵉⵎⵓⵟⵟⵓⵏⵏ", desc: "ⵉⵏⵙⴰⵜⵏ ⵉⵎⵓⵟⵟⵓⵏⵏ ⵏ ⵜⵎⵙⵙⵓⵔⵜ GSDF CLAIR, ⵜⵜⵓⵙⴽⴰⵔⵏ ⴰⴼⴰⴷ ⴰⴷ ⴰⵡⵙⵏ ⴳ ⵉⴳⵊⴷⴰ ⵏⵏⵖ.",
